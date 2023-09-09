@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion del 30%</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="menu">
+                <aside>
+                    <ul>
+                        <li>
+                            
+                            <a href="#"> Conversion </a>
+                            <a href=""> Simulador de Cuotas </a>
+                            <a href=""> Gastos  </a>
+                        </li>
+                    </ul>
+                    
+                </aside>
+            </div>
+            </header>
+        </div>
+        
+        <div class="grid">
+            <section class="conteiner">
+                <h2> Conversion del 30%</h2>
+                <form id="porcentaje" class="formulario">
+                    
+                <div class="valor">
+                    <label for="numero">Ingresar un valor</label>
+                        <input id="numero"  class="valores">
+                </div>
+                <div class="botones">
+                    <button class="boton" type="button" onclick="CalculosProcentaje()">Calcular</button>
+                </div>
+                
+                <div class="resultado">
+                    <label for="numero">Resultado</label>
+                        <input id="resultado"  class="valores" >
+                </div>
+                    </form>
+        </section>
+    
+            <section class="conteiner">
+                <h2> Division por Kg</h2>
+                <form id="porcentaje" class="formulario">
+                    
+                <div class="valor">
+                    <label for="numero">Ingresar un valor</label>
+                        <input id="kilos" class="valores" >
+                </div>
+                <div class="botones">
+                    <button class="boton" type="button" onclick="CalculosXkilos(20)">20 kg</button>
+                    <button class="boton" type="button" onclick="CalculosXkilos(15)">15 kg</button>
+                    <button class="boton" type="button" onclick="CalculosXkilos(7.5)">7.5 kg</button>
+                </div>
+                
+                <div class="resultado">
+                    <label for="numero">Resultado</label>
+                        <input id="result" class="valores" >
+                </div>
+                    </form>
+
+                    <div class="btn2">
+                        <button class="boton2" type="button" onclick="Limpiar()"> Limpiar</button>
+                        
+                    </div>
+                    
+            </section>
+
+            
+            
+            <section class="conteiner">
+                <h2>Multiplicacion por Kg </h2>
+                <form id="porcentaje" class="formulario">
+                    
+                <div class="valor">
+                    <label for="numero">Ingresar un valor</label>
+                        <input id="kg" class="valores" >
+                </div>
+                <div class="botones">
+                    <button class="boton" type="button" onclick="MultiplicacionXkg(20)">20 kg</button>
+                    <button class="boton" type="button" onclick="MultiplicacionXkg(15)">15 kg</button>
+                    <button class="boton" type="button" onclick="MultiplicacionXkg(7.5)">7.5 kg</button>
+                </div>
+                
+                <div class="resultado">
+                    <label for="numero">Resultado</label>
+                        <input id="results" class="valores" >
+                </div>
+                    </form>
+            </section>
+        </div>
+
+    <div class="volver">
+            <a href="../Lista-Bambina/index.html" class="volver" target="_blank"> 
+            <i class="fa-solid fa-arrow-rotate-left" id="volver"></i> </a>
+    </div>
+    
+<script src="convertidor.js"></script>
+</body>
+</html>

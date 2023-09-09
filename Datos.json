@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "marca": "Agility",
+        "mascota": "Perro",
+        "kg": 1,
+        "precio": 3000
+        },
+    {
+        "id": 1,
+        "Marca": "Adulto",
+        "Mascota": 3500,
+        "Kg": 1,
+        "Precio": 2500
+        }
+        
+]
