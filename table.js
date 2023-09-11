@@ -24,11 +24,11 @@ class Datos {
         this.agregarProductos(14,"Excellent","Adulto Small",15,"24800");
         this.agregarProductos(15,"Excellent","Adulto Grande",1,"1700");
         this.agregarProductos(16,"Excellent","Adulto Grande",15,"24000");
-        this.agregarProductos(17,"Agility","Adulto Grande",20,"1900");
+        this.agregarProductos(17,"Agility","Adulto Grande",20,"19000");
         this.agregarProductos(18,"Biopet","Adulto",1,"600");
         this.agregarProductos(19,"Biopet","Adulto",20,"9000");
-        this.agregarProductos(20,"Old Prince","Adulto Small",1,"1200");
-        this.agregarProductos(21,"Old Prince","Adulto Small",15,"16000");
+        this.agregarProductos(20,"Old Prince","Adulto Small",1,"1500");
+        this.agregarProductos(21,"Old Prince","Adulto Small",15,"18000");
         this.agregarProductos(22,"Old Prince","Derma Small",1,"1600");
         this.agregarProductos(23,"Old Prince","Derma Small",15,"23000");
         this.agregarProductos(24,"Old Prince ","Cachorro Small",1,"1300");
@@ -59,10 +59,10 @@ class Datos {
         this.agregarProductos(38,"Sieger","Derma",1,"2200");
         this.agregarProductos(39,"Sieger","Criadores",1,"29500");
         this.agregarProductos(40,"Sieger ","Adulto Small",3,"2900");
-        this.agregarProductos(41,"Catchow","Adulto ",1,"1400");
-        this.agregarProductos(42,"Catchow","Adulto ",15,"21000");
-        this.agregarProductos(43,"Catchow","Kitten ",1,"1600");
-        this.agregarProductos(44,"Catchow","Kitten ",15,"23000");
+        this.agregarProductos(41,"Cat Chow","Adulto ",1,"1400");
+        this.agregarProductos(42,"Cat Chow","Adulto ",15,"21000");
+        this.agregarProductos(43,"Cat Chow","Kitten ",1,"1600");
+        this.agregarProductos(44,"Cat Chow","Kitten ",15,"23000");
         this.agregarProductos(45,"Gati","Adulto ",1,"800");
         this.agregarProductos(46,"Gati","Adulto ",15,"12000");
         this.agregarProductos(47,"Infinity","Adulto Small",1,"1100");
@@ -84,10 +84,10 @@ class Datos {
         this.agregarProductos(59,"Optimun","Adulto Small",1,"1400");
         this.agregarProductos(60,"Pedigree","Adulto Small",1,"6500");
         this.agregarProductos(61,"Pedigree","Adulto Small",15,"6500");
-        this.agregarProductos(62,"Dogchow","Adulto Small",1,"6500");
-        this.agregarProductos(63,"Dogchow","Adulto Small",20,"6500");
-        this.agregarProductos(64,"Dogchow","Adulto Light",1,"6500");
-        this.agregarProductos(65,"Dogchow","Adulto Light",20,"6500");
+        this.agregarProductos(62,"Dog Chow","Adulto Small",1,"6500");
+        this.agregarProductos(63,"Dog Chow","Adulto Small",20,"6500");
+        this.agregarProductos(64,"Dog Chow","Adulto Light",1,"6500");
+        this.agregarProductos(65,"Dog Chow","Adulto Light",20,"6500");
         this.agregarProductos(66,"Agility","Adulto Grande",1,"1000");
         this.agregarProductos(67,"Agility","Adulto Small",1,"1200");
         this.agregarProductos(68,"Agility","Adulto Small",15,"18000");
@@ -170,7 +170,7 @@ class Datos {
         return this.productos.filter((producto)=> producto.edad == edad);
     }
 
-    registrosPorCategoria(marca) {
+    registrosPorMarca(marca) {
         return this.productos.filter((producto) => producto.marca == marca);
     }
 
@@ -235,4 +235,56 @@ Buscador.addEventListener("keyup",(event) =>{
     const productos = bd.BuscadorDeNombre(palabra); /*se llama a la variable ya declarada anteriormente */
     cargarProductos(productos);
 })
+
+
+
+// Menu de filtros
+
+const abrir = document.querySelector('.filtro');
+const cerrar = document.querySelector('.cerrar');
+const contenido = document.querySelector('.contenido');
+
+abrir.addEventListener('click', function(){
+    contenido.classList.add ('show');
+});
+
+cerrar.addEventListener('click', function(){
+    contenido.classList.remove('show');
+})
+
+// Filtros para productos
+
+const botonesCategorias = document.querySelectorAll(".btnCategoria");
+const botonMarca = document.querySelectorAll (".btnMarca");
+const botonEdad = document.querySelectorAll (".btnEdad");
+const check = document.querySelectorAll(".btnCategoria, .btnMarca, .btnEdad");
+const closebtn = document.querySelector (".close");
+const TodosProductos = document.getElementById("Todos");
+
+TodosProductos.addEventListener("click", (event) => {
+    event.preventDefault;
+    quitarClase();
+    TodosProductos.classList.add("seleccionado");
+
+    cargarProductos (bd.productos);
+
+})
+
+function quitarClase() {
+    const botonSeleccionado = document.querySelector(".seleccionado");
+    if (botonSeleccionado) {
+    botonSeleccionado.classList.remove("seleccionado");
+    }
+}
+
+
+botonMarca.forEach((boton) => {
+    boton.addEventListener("click", (event) => {
+        event.preventDefault();
+        boton.classList.add("seleccionado");
+        const marcaSeleccionada = boton.innerText;
+        const productosPorMarca = bd.registrosPorMarca(marcaSeleccionada);
+        cargarProductos(productosPorMarca);
+    });
+});
 
