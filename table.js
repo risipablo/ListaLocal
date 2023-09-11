@@ -163,7 +163,13 @@ class Datos {
     }
 
     BuscadorDeNombre(palabra){
-        return this.productos.filter((producto) => producto.marca.toLowerCase().includes(palabra));
+        const palabras = palabra.toLowerCase().split(" ");
+        return this.productos.filter((producto) => {
+            return palabras.every((p) => 
+                producto.marca.toLowerCase().includes(p) ||
+                producto.edad.toLowerCase().includes(p) 
+            );
+        });
     }
 
     registroPorEdad(edad){
