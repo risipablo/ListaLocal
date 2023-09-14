@@ -185,7 +185,9 @@ class Datos {
         return this.productos.filter((producto) => {
             return palabras.every((p) => 
                 producto.nombre.toLowerCase().includes(p) ||
-                producto.tamaño.toLowerCase().includes(p)
+                producto.tamaño.toLowerCase().includes(p) ||
+                producto.mascota.toLowerCase().includes(p) ||
+                producto.precio.toLowerCase().includes (p)
             );
         });
     }
