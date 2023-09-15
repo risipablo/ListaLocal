@@ -79,7 +79,7 @@ class Datos {
         this.agregarProductos(58,"Bocato","Adulto ",10,"6500","Gato","Bocato","Adulto");
         this.agregarProductos(59,"Optimun","Adulto",1,"2300","Gato","Optimun","Adulto");
         this.agregarProductos(60,"Optimun","Adulto ",10,"23000","Gato","Optimun","Adulto");
-        this.agregarProductos(59,"Optimun","Adulto",3,"3200","Gato","Optimun","Adulto");
+        this.agregarProductos(59,"Optimun","Adulto",3,"8300","Gato","Optimun","Adulto");
         this.agregarProductos(60,"Optimun","Adulto Small ",15,"19000","Perro","Optimun","Adulto");
         this.agregarProductos(59,"Optimun","Adulto Small",1,"1400","Perro","Optimun","Adulto");
         this.agregarProductos(60,"Pedigree","Adulto Small",1,"900","Perro","Pedigree","Adulto");
@@ -165,10 +165,14 @@ class Datos {
         this.agregarProductos(140,"Osspret Shampoo","Duo","1","2500","Perro","Shampoo","Adulto");
         this.agregarProductos(141,"Osspret Shampoo","Extra Brillo","1","2900","Perro","Shampoo","Adulto");
         this.agregarProductos(142,"Agility","Lata Gato",1,"1200","Gato", "Agility","Adulto");
+        this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","8000","Perro","Kro Line","Adulto");
+        this.agregarProductos(144,"Stone Cat","Adulto","4","1900","Gato","Piedras","Adulto");
+        this.agregarProductos(145,"Pellcats","Adulto","4","1100","Gato","Piedras","Adulto");
+        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1200","Gato","Piedras","Adulto");
+        this.agregarProductos(147,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
+        this.agregarProductos(147,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
         
 }
-    
-
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */
         this.productos.push(producto); 

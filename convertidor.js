@@ -12,6 +12,9 @@
     }
     //llamar a la funcion onclick de html
 
+    CalculosProcentaje(30); 
+    CalculosProcentaje(30);
+
     function CalculosProcentaje() { 
 
     const numero = Number(document.getElementById("numero").value);
