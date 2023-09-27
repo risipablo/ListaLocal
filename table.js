@@ -26,7 +26,7 @@ class Datos {
         this.agregarProductos(16,"Excellent","Adulto Grande",15,"24000","Perro","Excellent","Adulto");
         this.agregarProductos(17,"Agility","Adulto Grande",20,"19000","Perro","Excellent","Adulto");
         this.agregarProductos(18,"Biopet","Adulto",1,"600","Perro","Biopet","Adulto");
-        this.agregarProductos(19,"Biopet","Adulto",20,"9000","Perro","Biopet","Adulto");
+        this.agregarProductos(19,"Biopet","Adulto",20,"9200","Perro","Biopet","Adulto");
         this.agregarProductos(20,"Old Prince","Mini Adulto",1,"1500","Perro","Old Prince","Adulto");
         this.agregarProductos(21,"Old Prince","Mini Adulto",15,"18000","Perro","Old Prince","Adulto");
         this.agregarProductos(22,"Old Prince","Derma Small",1,"1600","Perro","Old Prince","Adulto");
@@ -170,7 +170,12 @@ class Datos {
         this.agregarProductos(145,"Pellcats","Adulto","4","1100","Gato","Piedras","Adulto");
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1200","Gato","Piedras","Adulto");
         this.agregarProductos(147,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
-        this.agregarProductos(147,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
+        this.agregarProductos(148,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
+        this.agregarProductos(149,"Arroz","Adulto",1,"650","Perro","Arroz","Adulto");
+        this.agregarProductos(150,"Arroz","Adulto",15,"8200","Perro","Arroz","Adulto");
+        this.agregarProductos(151,"Biopet","Mini Small",1,"700","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(152,"Biopet","Mini Small",15,"8000","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(153,"Excellent","Adulto",15,"21500","Gato","Excellent","Adulto");
         
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
@@ -191,7 +196,8 @@ class Datos {
                 producto.nombre.toLowerCase().includes(p) ||
                 producto.tamaño.toLowerCase().includes(p) ||
                 producto.mascota.toLowerCase().includes(p) ||
-                producto.precio.toLowerCase().includes (p)
+                producto.precio.toLowerCase().includes(p) ||
+                producto.kg.toString().toLowerCase(). includes(p)
             );
         });
     }
