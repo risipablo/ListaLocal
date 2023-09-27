@@ -227,7 +227,7 @@ class Producto{
 }
 
 const bd = new Datos (); 
-const divProductos = document.querySelector(".productos");
+const divProductos = document.querySelector (".productos");
 
 
 cargarProductos(bd.productos);
@@ -291,8 +291,6 @@ cerrar.addEventListener('click', function(){
 const botonCategoria = document.querySelectorAll(".btnCategoria");
 const botonMarca = document.querySelectorAll (".btnMarca");
 const botonEdad = document.querySelectorAll (".btnEdad");
-const check = document.querySelectorAll(".btnCategoria, .btnMarca, .btnEdad");
-const closebtn = document.querySelector (".close");
 const TodosProductos = document.getElementById("Todos");
 const Limpiar = document.getElementById("limpiar");
 

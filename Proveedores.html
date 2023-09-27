@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+    <title>Proveedores</title>
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="menu">
+                <aside>
+                    <ul>
+                        <li>
+                            <a href="./Convertidor.html"> Conversion </a>
+                            <a href=""> Simulador de Cuotas </a>
+                            <a href="./Proveedores.html"> Proveedores  </a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+                <div class="buscar">
+                    <input type="text" class="buscar_texto" id="inputBusqueda"  placeholder="¿Que estas buscando?">
+                            <i class="fa-solid fa-magnifying-glass" id="buscador"></i>
+                </div>
+
+                <section class="ocultar" id="ocultar">  
+                    <h3> 
+                        <span id="cantidadProductos">0</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                    </h3>
+
+                    <div id="scroll">
+                        <div id="carrito">
+                        </div>
+                    </div>
+
+                    <h4>Total: $<span id="totalCarrito">0</span></h4>
+
+                        <a href="#" id="botonComprar" class="btn btnComprar oculto">Borrar</a>
+                        
+
+
+                    <div class="close">
+                    <i class="fa-solid fa-close">
+                        <p> Productos agregados </p>
+                    </i>
+                    </div>
+
+                </section> 
+            </header>
+        </div>
+
+
+        <div class="filtros">
+
+            <div class="filtro">
+                    <p>Filtrar</p>
+            </div>
+
+            <div class="contenido">
+                <div class="cerrar" id="cerrar">
+                    <i class="fa-solid fa-close"> </i>
+                    <p id="Todos"> Limpiar </p>
+                </div>
+    
+            <ul >
+                <h3>Proovedores</h3>
+                <li>
+                <input type="radio"> 
+                    
+                <a href="#" class="btnprovedor" >
+                        Amadeo
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#" class="btnprovedor">
+                        Forastero
+                    </a>
+                </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Nutrisur
+                        </a>
+                    </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Can Cid
+                        </a>
+                    </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Nutripet
+                        </a>
+                    </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Chubutin
+                        </a>
+                    </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Don Tomas
+                        </a>
+                    </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Popy
+                        </a>
+                    </input>
+                </li>
+
+                <li>
+                    <input type="radio">
+                        <a href="#" class="btnprovedor">
+                            Kro Line
+                        </a>
+                    </input>
+                </li>
+            </ul>
+                
+            <ul >
+                <h3>Marcas</h3>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Royal Canin
+                    </a>
+                </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Nutricare
+                        </a>
+                    </input>
+                    </li>
+                        <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Sieger
+                    </a>
+                </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Infinity
+                        </a>
+                    </input>
+                    </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Cat Chow
+                        </a>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Wishka
+                        </a>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Bocato
+                        </a>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Pedigree
+                        </a>
+                    </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Dog Chow
+                        </a>
+                    </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Eukanuba
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Agility
+                    </a>
+                </input>
+                </li>
+                <li>
+                    <input type="radio">
+                        <a href="#"  class="btnMarca">
+                            Kro Line
+                        </a>
+                    </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Biopet
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Excellent
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Optimun
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Balanced
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="#"  class="btnMarca">
+                        Old Prince
+                    </a>
+                </input>
+                </li>
+                <li>
+                <input type="radio">
+                    <a href="# " class="btnMarca">
+                        Gati
+                    </a>
+                </input>
+                </li>
+            </ul>
+            
+            
+            </div>
+        </div>
+
+        <div class="lista" id="lista">
+
+        </div>
+
+    <div class="volver">
+            <a href="./index.html" class="volver"> 
+            <i class="fa-solid fa-arrow-rotate-left" id="volver"></i> </a>
+        </div>
+
+
+        <script src="./proevedor.js"></script>
+</body>
+</html>
