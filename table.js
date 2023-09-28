@@ -63,14 +63,14 @@ class Datos {
         this.agregarProductos(42,"Cat Chow","Adulto ",15,"26000","Gato","Catchow","Adulto");
         this.agregarProductos(43,"Cat Chow","Kitten ",1,"1600","Gato","Catchow","Cachorro");
         this.agregarProductos(44,"Cat Chow","Kitten ",15,"23000","Gato","Catchow","Cachorro");
-        this.agregarProductos(45,"Gati","Adulto ",1,"800","Gato","Gati","Adulto");
-        this.agregarProductos(46,"Gati","Adulto ",15,"12000","Gato","Gati","Adulto");
+        this.agregarProductos(45,"Gati","Adulto ",1,"1100","Gato","Gati","Adulto");
+        this.agregarProductos(46,"Gati","Adulto ",15,"16000","Gato","Gati","Adulto");
         this.agregarProductos(47,"Infinity","Mini Adulto",1,"1100","Perro","Infinity","Adulto");
         this.agregarProductos(48,"Infinity","Mini Adulto ",15,"15700","Perro","Infinity","Adulto");
         this.agregarProductos(49,"Nutricare","Mini Adulto",1,"950","Perro","Nutricare","Adulto");
-        this.agregarProductos(50,"Nutricare","Mini Adulto ",15,"14000","Perro","Nutricare","Adulto");
+        this.agregarProductos(50,"Nutricare","Mini Adulto ",20,"14000","Perro","Nutricare","Adulto");
         this.agregarProductos(51,"Nutricare","Adulto Grande",1,"950","Perro","Nutricare","Adulto");
-        this.agregarProductos(52,"Nutricare","Adulto Grande ",15,"14000","Perro","Nutricare","Adulto");
+        this.agregarProductos(52,"Nutricare","Adulto Grande ",20,"14000","Perro","Nutricare","Adulto");
         this.agregarProductos(53,"Nutricare","Cachorro ",1,"1200","Perro","Nutricare","Cachorro");
         this.agregarProductos(54,"Nutricare","Cachorro",7.5,"9000","Perro","Nutricare","Cachorro");
         this.agregarProductos(55,"Wishka","Adulto ",1,"1400","Gato","Wishka","Adulto");
@@ -199,6 +199,11 @@ class Datos {
         this.agregarProductos(174,"Pro Plan","Adulto ",1,"3400","Perro","Pro Plan","Adulto");
         this.agregarProductos(175,"Pro Plan","Adulto ",3,"13800","Perro","Pro Plan","Adulto");
         this.agregarProductos(176,"Pro Plan","Adulto ",7.5,"25500","Perro","Pro Plan","Adulto");
+        this.agregarProductos(177,"Piedras Blancas","Adulto","2","400","Gato","Piedras","Adulto")
+        this.agregarProductos(178,"Nutricare","Adulto Grande ",7.5,"5000","Perro","Nutricare","Adulto");
+        this.agregarProductos(179,"Nutricare","Mini Adulto ",7.5,"5000","Perro","Nutricare","Adulto");
+        this.agregarProductos(180,"Nutricare","Adulto ",1,"1200","Gato","Nutricare","Adulto");
+        this.agregarProductos(181,"Nutricare","Adulto ",7.5,"8500","Gato","Nutricare","Adulto");
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */
