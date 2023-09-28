@@ -204,6 +204,9 @@ class Datos {
         this.agregarProductos(179,"Nutricare","Mini Adulto ",7.5,"5000","Perro","Nutricare","Adulto");
         this.agregarProductos(180,"Nutricare","Adulto ",1,"1200","Gato","Nutricare","Adulto");
         this.agregarProductos(181,"Nutricare","Adulto ",7.5,"8500","Gato","Nutricare","Adulto");
+        this.agregarProductos(182,"Collar Antipulgas","Cachorro ",1,"4800","Perro","Pipetas","Cachorro");
+        this.agregarProductos(183,"Collar Antipulgas","Mini Adulto ",1,"4800","Perro","Pipetas","Adulto");
+        this.agregarProductos(184,"Collar Antipulgas","Adulto Grande ",1,"4800","Perro","Pipetas","Adulto");
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */
