@@ -30,6 +30,7 @@
     CalculosXkilos(20);
     CalculosXkilos(15);
     CalculosXkilos(7.5);
+    CalculosXkilos(10);
 
 
     function CalculosXkilos(Kg) { // en el () se le coloca nombre al array
@@ -44,6 +45,7 @@
     MultiplicacionXkg(20);
     MultiplicacionXkg(15);
     MultiplicacionXkg(7.5);
+    MultiplicacionXkg(10);
 
     function MultiplicacionXkg(kg) {
         const kgs = Number(document.getElementById("kg").value);
