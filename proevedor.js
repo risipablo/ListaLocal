@@ -42,8 +42,8 @@ class Datos2 {
         this.agregarProductos(38,"Sieger","Adulto Grande","15","20668","Perro","Sieger","Nutrisur");
         this.agregarProductos(39,"Sieger","Mini Adulto","1","2359","Perro","Sieger","Nutrisur");
         this.agregarProductos(40,"Sieger ","Mini Adulto","3","5548","Perro","Sieger","Nutrisur");
-        this.agregarProductos(152,"Sieger ","Mini Adulto","12","18000","Perro","Sieger","Nutrisur");
-        this.agregarProductos(153,"Sieger ","Reduce Calorie","3","5655","Perro","Sieger","Nutrisur");
+        this.agregarProductos(155,"Sieger ","Mini Adulto","12","18000","Perro","Sieger","Nutrisur");
+        this.agregarProductos(156,"Sieger ","Reduce Calorie","3","5655","Perro","Sieger","Nutrisur");
         this.agregarProductos(73,"Sieger ","Derma","12","20526","Perro","Sieger","Nutrisur");
         this.agregarProductos(76,"Sieger ","Derma","3","6385","Perro","Sieger","Nutrisur");
         this.agregarProductos(79,"Sieger ","Criadores","20","22859","Perro","Sieger","Nutrisur");
@@ -73,7 +73,7 @@ class Datos2 {
         this.agregarProductos(59,"Optimun","Mini Adulto","3","3470","Perro","Optimun","Nutripet");
         this.agregarProductos(60,"Pedigree","Mini Adulto","1","900","Perro","Pedigree","Don Tomas");
         this.agregarProductos(61,"Pedigree","Mini Adulto","15","12145","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(63,"Dog Chow","Adulto Senior","8","9118","Perro","Dog Chow","Forastero");
+        this.agregarProductos(62,"Dog Chow","Adulto Senior","8","9118","Perro","Dog Chow","Forastero");
         this.agregarProductos(63,"Dog Chow","Mini Adulto","21","21696","Perro","Dog Chow","Forastero");
         this.agregarProductos(64,"Dog Chow","Adulto Light","8","9507","Perro","Dog Chow","Forastero");
         this.agregarProductos(65,"Dog Chow","Adulto Light","21","22800","Perro","Dog Chow","Forastero");
