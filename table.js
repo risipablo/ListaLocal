@@ -213,6 +213,13 @@ class Datos {
         this.agregarProductos(188,"Balanced","Mini Senior",1,"2200","Perro","Balanced","Senior");
         this.agregarProductos(189,"Balanced","Mini Senior",3,"7800","Perro","Balanced","Senior");
         this.agregarProductos(190,"Balanced","Mini Senior",15,"29000","Perro","Balanced","Senior");
+        this.agregarProductos(191,"Kro Line","Correa Ancha","4","4500","Perro","Kro Line","Adulto");
+        this.agregarProductos(193,"Kro Line","Pretal Solo","1.5","2200","Perro","Kro Line","Adulto");
+        this.agregarProductos(194,"Kro Line","Pretal Solo","2","2400","Perro","Kro Line","Adulto");
+        this.agregarProductos(195,"Kro Line","Pretal Solo","2.5","2500","Perro","Kro Line","Adulto");
+        this.agregarProductos(196,"Kro Line","Pretal Solo","3","2600","Perro","Kro Line","Adulto");
+        this.agregarProductos(197,"Kro Line","Collar Pitbull","4","3800","Perro","Kro Line","Adulto");
+        this.agregarProductos(192,"Kro Line","Collar Pitbull","5","4000","Perro","Kro Line","Adulto");
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */

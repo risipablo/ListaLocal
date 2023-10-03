@@ -123,14 +123,14 @@ class Datos2 {
         this.agregarProductos(113,"Eukanuba","Adulto Senior","3","7700","Perro","Eukanuba","Nutripet");
         this.agregarProductos(114,"Eukanuba","Weight Control","3","7490","Perro","Eukanuba","Nutripet");
         this.agregarProductos(115,"Felix","Pouch","15","5570","Gato","Catchow","Chubutin");
-        this.agregarProductos(116,"Kro Line","Pretal Completo","1.5","3075","Perro","Kro Line","Kro Line");
-        this.agregarProductos(117,"Kro Line","Pretal Completo","2","3380","Perro","Kro Line","Kro Line");
-        this.agregarProductos(118,"Kro Line","Pretal Completo","2.5","3538","Perro","Kro Line","Kro Line");
-        this.agregarProductos(119,"Kro Line","Pretal Completo","3","4307","Perro","Kro Line","Kro Line");
-        this.agregarProductos(120,"Kro Line","Correa Sola","1.5","1460","Perro","Kro Line","Kro Line");
-        this.agregarProductos(121,"Kro Line","Correa Sola","2","1538","Perro","Kro Line","Kro Line");
-        this.agregarProductos(122,"Kro Line","Correa Sola","2.5","1770","Perro","Kro Line","Kro Line");
-        this.agregarProductos(123,"Kro Line","Correa Sola","3","1923","Perro","Kro Line","Kro Line");
+        this.agregarProductos(116,"Kro Line","Pretal Completo","1.5","2035","Perro","Kro Line","Kro Line");
+        this.agregarProductos(117,"Kro Line","Pretal Completo","2","2200","Perro","Kro Line","Kro Line");
+        this.agregarProductos(118,"Kro Line","Pretal Completo","2.5","2680","Perro","Kro Line","Kro Line");
+        this.agregarProductos(119,"Kro Line","Pretal Completo","3","2830","Perro","Kro Line","Kro Line");
+        this.agregarProductos(120,"Kro Line","Correa Sola","1.5","920","Perro","Kro Line","Kro Line");
+        this.agregarProductos(121,"Kro Line","Correa Sola","2","975","Perro","Kro Line","Kro Line");
+        this.agregarProductos(122,"Kro Line","Correa Sola","2.5","1135","Perro","Kro Line","Kro Line");
+        this.agregarProductos(123,"Kro Line","Correa Sola","3","1225","Perro","Kro Line","Kro Line");
         this.agregarProductos(124,"Hueso","Corbata","6 cm" ,"225","Perro","Hueso","Hueso");
         this.agregarProductos(125,"Hueso","Corbata","13 cm","538","Perro","Hueso","Hueso");
         this.agregarProductos(126,"Hueso","Hueso Grande","34 cm","2530","Perro","Hueso","Hueso");
@@ -166,6 +166,14 @@ class Datos2 {
         this.agregarProductos(158,"Balanced","Mini Senior","7.5","13890","Perro","Balanced","Amadeo");
         this.agregarProductos(159,"Balanced","Grande Senior","3","6079","Perro","Balanced","Amadeo");
         this.agregarProductos(160,"Balanced","Grande Senior","15","22699","Perro","Balanced","Amadeo");
+        this.agregarProductos(161,"Kro Line","Correa Ancha","4","2670","Perro","Kro Line","Kro Line");
+        this.agregarProductos(162,"Kro Line","Pretal Solo","3","1250","Perro","Kro Line","Kro Line");
+        this.agregarProductos(163,"Kro Line","Pretal Solo","1.5","1185","Perro","Kro Line","Kro Line");
+        this.agregarProductos(164,"Kro Line","Pretal Solo","2","1275","Perro","Kro Line","Kro Line");
+        this.agregarProductos(165,"Kro Line","Pretal Solo","2.5","1485","Perro","Kro Line","Kro Line");
+        this.agregarProductos(166,"Kro Line","Pretal Solo","3","1680","Perro","Kro Line","Kro Line");
+        this.agregarProductos(167,"Kro Line","Collar Pitbull","4","1900","Perro","Kro Line","Kro Line");
+        this.agregarProductos(168,"Kro Line","Collar Pitbull","5","2150","Perro","Kro Line","Kro Line");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
