@@ -122,7 +122,7 @@ class Datos2 {
         this.agregarProductos(112,"Eukanuba","Adulto Mg/lg","15","24590","Perro","Eukanuba","Nutripet");
         this.agregarProductos(113,"Eukanuba","Adulto Senior","3","7700","Perro","Eukanuba","Nutripet");
         this.agregarProductos(114,"Eukanuba","Weight Control","3","7490","Perro","Eukanuba","Nutripet");
-        this.agregarProductos(115,"Felix","Pouch","1","417","Gato","Catchow","Forastero");
+        this.agregarProductos(115,"Felix","Pouch","15","5570","Gato","Catchow","Chubutin");
         this.agregarProductos(116,"Kro Line","Pretal Completo","1.5","3075","Perro","Kro Line","Kro Line");
         this.agregarProductos(117,"Kro Line","Pretal Completo","2","3380","Perro","Kro Line","Kro Line");
         this.agregarProductos(118,"Kro Line","Pretal Completo","2.5","3538","Perro","Kro Line","Kro Line");
