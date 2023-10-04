@@ -111,11 +111,11 @@ class Datos {
         this.agregarProductos(86,"Royal Canin","Mini Puppy",1,"4400","Perro","Royal Canin","Cachorro");
         this.agregarProductos(87,"Royal Canin","Mini Puppy",3,"12000","Perro","Royal Canin","Cachorro");
         this.agregarProductos(88,"Royal Canin","Mini Puppy",7.5,"23000","Perro","Royal Canin","Cachorro");
-        this.agregarProductos(89,"Royal Canin","Mini Puppy",1,"3000","Perro","Royal Canin","Cachorro");
-        this.agregarProductos(90,"Royal Canin","Mini Adulto",1,"4000","Perro","Royal Canin","Adulto");
+        this.agregarProductos(89,"Royal Canin","Mini Puppy",1,"3500","Perro","Royal Canin","Cachorro");
+        this.agregarProductos(90,"Royal Canin","Mini Adulto",1,"3500","Perro","Royal Canin","Adulto");
         this.agregarProductos(91,"Royal Canin","Mini Adulto",3,"11000","Perro","Royal Canin","Aduto");
         this.agregarProductos(92,"Royal Canin","Mini Adulto",7.5,"23000","Perro","Royal Canin","Adulto");
-        this.agregarProductos(93,"Royal Canin","Mini Adulto",1,"30000","Perro","Royal Canin","Adulto");
+        this.agregarProductos(93,"Royal Canin","Mini Adulto",1,"4100","Perro","Royal Canin","Adulto");
         this.agregarProductos(94,"Royal Canin","X-small Adulto",1,"4300","Perro","Royal Canin","Adulto");
         this.agregarProductos(95,"Royal Canin","X-small Junior",1,"4800","Perro","Royal Canin","Cachorro");
         this.agregarProductos(96,"Royal Canin","Pocuh Mini Adulto",1,"600","Perro","Royal Canin","Adulto");
