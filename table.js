@@ -219,7 +219,12 @@ class Datos {
         this.agregarProductos(195,"Kro Line","Pretal Solo","2.5","2500","Perro","Kro Line","Adulto");
         this.agregarProductos(196,"Kro Line","Pretal Solo","3","2600","Perro","Kro Line","Adulto");
         this.agregarProductos(197,"Kro Line","Collar Pitbull","4","3800","Perro","Kro Line","Adulto");
-        this.agregarProductos(192,"Kro Line","Collar Pitbull","5","4000","Perro","Kro Line","Adulto");
+        this.agregarProductos(192,"Mom Ami","Bocaditos","5","900","Perro","Mom Ami","Adulto");
+        this.agregarProductos(198,"Pechera","Pechera","XS","4500","Perro","Accesorios","Adulto");
+        this.agregarProductos(199,"Pechera","Pechera","S","4900","Perro","Accesorios","Adulto");
+        this.agregarProductos(200,"Pechera","Pechera","M","5300","Perro","Accesorios","Adulto");
+        this.agregarProductos(201,"Pechera","Pechera","L","5900","Perro","Accesorios","Adulto");
+        this.agregarProductos(202,"Pechera","Pechera","XL","6400","Perro","Accesorios","Adulto");
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */
