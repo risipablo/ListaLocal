@@ -166,11 +166,11 @@ class Datos {
         this.agregarProductos(141,"Osspret Shampoo","Extra Brillo","1","2900","Perro","Shampoo","Adulto");
         this.agregarProductos(142,"Agility","Lata Gato",1,"1200","Gato", "Agility","Adulto");
         this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","8000","Perro","Kro Line","Adulto");
-        this.agregarProductos(144,"Stone Cat","Adulto","4","1900","Gato","Piedras","Adulto");
-        this.agregarProductos(145,"Pellcats","Adulto","4","1100","Gato","Piedras","Adulto");
-        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1200","Gato","Piedras","Adulto");
-        this.agregarProductos(147,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
-        this.agregarProductos(148,"Mom Ami","Adulto","1","450","Gato","Bocaditos","Adulto");
+        this.agregarProductos(144,"Stone Cat","Adulto","4","2400","Gato","Piedras","Adulto");
+        this.agregarProductos(145,"Pellcats","Adulto","4","1200","Gato","Piedras","Adulto");
+        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1200","Gato","Accesorios","Adulto");
+        this.agregarProductos(147,"Golocan","Bocaditos","1","650","Perro","Bocados","Adulto");
+        this.agregarProductos(148,"Golocan","Galletas","1","650","Perro","Bocados","Adulto");
         this.agregarProductos(149,"Arroz","Adulto",1,"700","Perro","Arroz","Adulto");
         this.agregarProductos(150,"Arroz","Adulto",15,"9500","Perro","Arroz","Adulto");
         this.agregarProductos(151,"Biopet","Mini Small",1,"800","Perro","Biopet","Mini Adulto");
@@ -219,12 +219,16 @@ class Datos {
         this.agregarProductos(195,"Kro Line","Pretal Solo","2.5","2500","Perro","Kro Line","Adulto");
         this.agregarProductos(196,"Kro Line","Pretal Solo","3","2600","Perro","Kro Line","Adulto");
         this.agregarProductos(197,"Kro Line","Collar Pitbull","4","3800","Perro","Kro Line","Adulto");
-        this.agregarProductos(192,"Mom Ami","Bocaditos","5","900","Perro","Mom Ami","Adulto");
+        this.agregarProductos(192,"Mom Ami","Bocaditos","1","900","Perro","Bocados","Adulto");
         this.agregarProductos(198,"Pechera","Pechera","XS","4500","Perro","Accesorios","Adulto");
         this.agregarProductos(199,"Pechera","Pechera","S","4900","Perro","Accesorios","Adulto");
         this.agregarProductos(200,"Pechera","Pechera","M","5300","Perro","Accesorios","Adulto");
         this.agregarProductos(201,"Pechera","Pechera","L","5900","Perro","Accesorios","Adulto");
         this.agregarProductos(202,"Pechera","Pechera","XL","6400","Perro","Accesorios","Adulto");
+        this.agregarProductos(203,"Cardina","Chica","1","1500","Perro","Accesorios","Adulto");
+        this.agregarProductos(204,"Cardina","Mediana","1","1800","Perro","Accesorios","Adulto");
+        this.agregarProductos(205,"Cardina","Grande","1","2000","Perro","Accesorios","Adulto");
+        this.agregarProductos(306,"Piedras Blancas","Adulto",4,"1100","Gato","Accesorios","Adulto");
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */

@@ -62,7 +62,7 @@ class Datos2 {
         this.agregarProductos(52,"Nutricare","Adulto Grande ","20","12200","Perro","Nutricare","Chubutin");
         this.agregarProductos(53,"Optimun ","Pouch ","12","4230","Gato/Perro","Optimun","Chubutin");
         this.agregarProductos(54,"Nutricare","Cachorro","15","10640","Perro","Nutricare","Chubutin");
-        this.agregarProductos(55,"Piedras Blancas","Adulto","4","3350","Gato","-","Popy");
+        this.agregarProductos(55,"Piedras Blancas","Adulto","Pack x 4","3600","Gato","-","Popy");
         this.agregarProductos(56,"Wishka","Adulto ","10","12415","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","7705","Perro","Bocato","Chubutin");
         this.agregarProductos(58,"Bocato","Adulto ","10","5600","Gato","Bocato","Chubutin");
@@ -151,10 +151,10 @@ class Datos2 {
         this.agregarProductos(141,"Osspret Shampoo","Extra Brillo","1","1870","Perro","Shampoo","Amadeo");
         this.agregarProductos(142,"Agility","Lata Gato",1,"923","Gato", "Agility","Nutrisur");
         this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","6150","Perro","Kro Line","Kro Line");
-        this.agregarProductos(144,"Stone Cat","Adulto","4","1460","Gato","Piedras","Can Cid");
-        this.agregarProductos(145,"Pellcats","Adulto","4","845","Gato","Piedras","Can Cid");
+        this.agregarProductos(144,"Stone Cat","Adulto","1","1899","Gato","Piedras","Can Cid");
+        this.agregarProductos(145,"Pellcats","Adulto","1","793","Gato","Piedras","Can Cid");
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","920","Gato","Piedras","Can Cid");
-        this.agregarProductos(147,"Mom Ami","Adulto","1","345","Perro","Bocaditos","Can Cid");
+        this.agregarProductos(147,"Golocan","Adulto","1","479","Perro","Bocados","Can Cid");
         this.agregarProductos(148,"Excellent","Adulto","15","35696","Gato","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","22495","Perro","Excellent","Forastero");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","7965","Gato","Nutricare","Chubutin");
@@ -174,6 +174,9 @@ class Datos2 {
         this.agregarProductos(166,"Kro Line","Pretal Solo","3","1680","Perro","Kro Line","Kro Line");
         this.agregarProductos(167,"Kro Line","Collar Pitbull","4","1900","Perro","Kro Line","Kro Line");
         this.agregarProductos(168,"Kro Line","Collar Pitbull","5","2150","Perro","Kro Line","Kro Line");
+        this.agregarProductos(169,"Stone Cat","Adulto","5","9498","Gato","Piedras","Can Cid");
+        this.agregarProductos(170,"Pellcats","Adulto","5","3965","Gato","Piedras","Can Cid");
+        this.agregarProductos(171,"Golocan","Adulto","20","9571","Perro","Bocados","Can Cid");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
