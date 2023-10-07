@@ -36,10 +36,10 @@ header {
 
 /* Convertidor */
 .menu {
-  background-color: rgba(21, 31, 170, 0.7);
   width: 100%;
   justify-content: center;
   text-align: center;
+  background-color: rgba(21, 31, 170, 0.7);
 }
 
 aside {

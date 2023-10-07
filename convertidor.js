@@ -12,15 +12,13 @@
     }
     //llamar a la funcion onclick de html
 
-    CalculosProcentaje(30); 
-    CalculosProcentaje(30);
-
-    function CalculosProcentaje() { 
-
-    const numero = Number(document.getElementById("numero").value);
-
-    const result = numero * 1.3;
-
+    function calcular(operation){
+        const numero = Number(document.getElementById("numero").value);
+        if (operation === 'multiplicar'){
+            result = numero * 1.3;
+        } else if ( operation ==='dividir'){
+            result = numero / 1.3;
+        }
         document.getElementById("resultado").value = result;
     }
 
@@ -54,4 +52,6 @@
 
         document.getElementById("results").value = resutadokg;
     }
+
+
 

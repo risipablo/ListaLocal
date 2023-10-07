@@ -8,14 +8,14 @@
 class Datos {
     constructor() {
         this.productos = [];
-        this.agregarProductos(1,"Excellent","Adulto",1,"3000","Gato","Excellent","Adulto");
-        this.agregarProductos(2,"Excellent","Adulto",7.5,"21500","Gato","Excellent","Adulto");
+        this.agregarProductos(1,"Excellent","Adulto",1,"3200","Gato","Excellent","Adulto");
+        this.agregarProductos(2,"Excellent","Adulto",7.5,"23000","Gato","Excellent","Adulto");
         this.agregarProductos(3,"Excellent","Kitten",1,"3500","Gato","Excellent","Cachorro");
-        this.agregarProductos(4,"Excellent","Kitten",7.5,"26000","Gato","Excellent","Cachorro");
+        this.agregarProductos(4,"Excellent","Kitten",7.5,"25000","Gato","Excellent","Cachorro");
         this.agregarProductos(5,"Excellent","Sterilized",1,"3500","Gato","Excellent","Adulto");
         this.agregarProductos(6,"Excellent","Sterilized",7.5,"27000","Gato","Excellent","Adulto");
         this.agregarProductos(7,"Excellent","Urinary",1,"3500","Gato","Excellent","Adulto");
-        this.agregarProductos(8,"Excellent","Urinary",7.5,"27000","Gato","Excellent","Adulto");
+        this.agregarProductos(8,"Excellent","Urinary",7.5,"26000","Gato","Excellent","Adulto");
         this.agregarProductos(9,"Excellent","Puppy Small",1,"2000","Perro","Excellent","Cachorro");
         this.agregarProductos(10,"Excellent","Puppy Small",15,"29000","Perro","Excellent","Cachorro");
         this.agregarProductos(11,"Excellent","Puppy Grande",1,"2000","Perro","Excellent","Cachorro");
@@ -100,7 +100,7 @@ class Datos {
         this.agregarProductos(75,"Agility","Adulto",10,"19000","Gato", "Agility","Adulto");
         this.agregarProductos(76,"Agility","Kitten",1,"2100","Gato", "Agility","Cachorro");
         this.agregarProductos(77,"Agility","Kitten",1.5,"4100","Gato", "Agility","Cachorro");
-        this.agregarProductos(78,"Agility","Kitten",10,"2000","Gato", "Agility","Cachoro");
+        this.agregarProductos(78,"Agility","Kitten",10,"20000","Gato", "Agility","Cachoro");
         this.agregarProductos(79,"Agility","Urinary",1,"2100","Gato", "Agility","Adulto");
         this.agregarProductos(80,"Agility","Urinary",1.5,"4100","Gato", "Agility","Adulto");
         this.agregarProductos(81,"Agility","Urinary",10,"20000","Gato", "Agility","Adulto");

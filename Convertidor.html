@@ -32,23 +32,22 @@
         </div>
         
         <div class="grid">
-            <div class="conteiner">
-                <h2> Conversion del 30%</h2>
-                <form id="porcentaje" class="formulario">
-                    
+        <div class="conteiner">
+            <h2>Conversion del 30%</h2>
+            <form id="porcentaje" class="formulario">
                 <div class="valor">
                     <label for="numero">Ingresar un valor</label>
-                        <input id="numero"  class="valores">
+                    <input id="numero" class="valores">
                 </div>
                 <div class="botones">
-                    <button class="boton" type="button" onclick="CalculosProcentaje()"> Calcular </button>
+                    <button class="boton" type="button" onclick="calcular('multiplicar')"> * </button>
+                    <button class="boton" type="button" onclick="calcular('dividir')"> / </button>
                 </div>
-                
                 <div class="resultado">
-                    <label for="numero">Resultado</label>
-                        <input id="resultado"  class="valores" >
+                    <label for="resultado">Resultado</label>
+                    <input id="resultado" class="valores">
                 </div>
-                    </form>
+            </form>
         </div>
     
             <div class="conteiner">
@@ -102,7 +101,6 @@
                 </div>
                     </form>
             </div>
-            
         </div>
 
     <div class="volver">
