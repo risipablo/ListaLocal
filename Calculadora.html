@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="menu">
+                <aside>
+                    <ul>
+                        <li>
+                            
+                            <a href="./Convertidor.html"> Conversion </a>
+                            <a href="./Calculadora.html"> Calculadora </a>
+                            <a href="./Proveedores.html"> Proveedores  </a>
+                        </li>
+                    </ul>
+                    
+                </aside>
+            </div>
+            </header>
+        </div>
+
+        
+        
+        <div class="calculadora">
+            <div class="output">
+                <div data-previous-operand class="previous"></div>
+                <div data-current-operand class="current"></div>
+            </div>
+
+                <button data-all-clear class="AC">AC</button>
+                <button data-delete class="DEL">DEL</button>
+                <button data-operation>/</button>
+                <button data-number >7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation>*</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation>+</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation>-</button>
+                <button data-number>.</button>
+                <button data-number >0</button>
+                <button data-equals class="span-two">=</button>
+        </div>
+
+        
+    <div class="volver">
+        <a href="./index.html" class="volver"> 
+        <i class="fa-solid fa-arrow-rotate-left" id="volver"></i> </a>
+    </div>
+
+        <script src="calculadora.js"></script>
+</body>
+</html>

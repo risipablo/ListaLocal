@@ -228,7 +228,7 @@ class Datos {
         this.agregarProductos(203,"Cardina","Chica","1","1500","Perro","Accesorios","Adulto");
         this.agregarProductos(204,"Cardina","Mediana","1","1800","Perro","Accesorios","Adulto");
         this.agregarProductos(205,"Cardina","Grande","1","2000","Perro","Accesorios","Adulto");
-        this.agregarProductos(306,"Piedras Blancas","Adulto",4,"1100","Gato","Accesorios","Adulto");
+        this.agregarProductos(206,"Piedras Blancas","Adulto",4,"1100","Gato","Accesorios","Adulto");
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */

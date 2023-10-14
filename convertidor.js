@@ -12,16 +12,16 @@
     }
     //llamar a la funcion onclick de html
 
-    function calcular(operation){
+
+    function calcular(porcentaje){
         const numero = Number(document.getElementById("numero").value);
-        if (operation === 'multiplicar'){
+        if (porcentaje === 'multiplicar'){
             result = numero * 1.3;
-        } else if ( operation ==='dividir'){
+        } else if (porcentaje === 'dividir'){
             result = numero / 1.3;
         }
         document.getElementById("resultado").value = result;
     }
-
 
     /* variables de kilos */
 

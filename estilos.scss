@@ -1,12 +1,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
 
-*{
-    box-sizing: border-box; 
-    margin:0;
-    padding:0;
-}
 
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+    
 
 
 body{
@@ -15,6 +16,7 @@ body{
     scroll-behavior:smooth;
     font-family: "Montserrat", sans-serif;
     cursor: pointer;
+
 }
 
 a{
@@ -50,7 +52,8 @@ header{
     width: 100%;
     justify-content: center;
     text-align: center;
-    background-color: rgba(21, 31, 170, 0.7);
+    //background-color: rgba(21, 31, 170, 0.7);
+    background: linear-gradient(to right, #00AAFF, #a919ece1);
 }
 
 aside{
@@ -514,6 +517,85 @@ button:hover{
 }
 
 
+/* Calculadora */
+.calculadora{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 120vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5,100px);
+    
+
+    button{
+        font-family: "Montserrat", sans-serif;
+        cursor: pointer;
+        font-size: 1.8rem;
+        outline: none;
+        background-color: rgba(8, 98, 158, 0.89);
+        border-radius: 30px 30px;
+        margin: 2px 4px;
+        color: white;
+        font-weight: 700;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+        &:hover{
+            background-color: #c4bebe;
+            transition: .3s;
+        }
+    }
+
+    
+    .AC{
+        background-color: rgb(248, 49, 49);
+        grid-column: span 2;
+    }
+
+    .DEL{
+        background-color: #7c19eecb;
+        
+    }
+
+
+    .span-two {
+        grid-column: span 2;
+        background-color: #807878;
+    }
+    
+    
+
+    .output{
+        grid-column: 1 / -1;
+        background-color: rgba(39, 38, 38, 0.767);
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 18px 0px;
+        margin: 8px 0px;
+        word-wrap: break-word;
+        word-break: break-all;
+        
+        .previous{
+            color: rgba(255, 255, 255, .75);
+            font-size: 1.5rem;
+        }
+
+        .current{
+            color: white;
+            font-size: 2.5rem;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
 .volver{
     position: fixed;
     width: 50px;
@@ -531,11 +613,6 @@ button:hover{
         margin: 0 auto;
         padding: 8px 0px;
         color: #0b0b0b;
-    }
-
-    footer{
-        background-color: rgba(21, 31, 170, 0.7);
-        margin: 20px 0px;
     }
 
 @media only screen and (max-width: 800px) {
