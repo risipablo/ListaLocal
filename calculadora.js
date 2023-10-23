@@ -133,3 +133,28 @@ deleteButton.addEventListener('click', button => {
 });
 
 
+// Función para manejar eventos de teclado
+    function handleKeyboardInput(event) {
+        const key = event.key;
+        if (/^[0-9]$/.test(key)) {
+        // Si se presiona una tecla numérica, la agregamos a la calculadora
+        calculator.appendNumber(key);
+        calculator.updateDisplay();
+        } else if (key === '.' && !calculator.currentOperand.includes('.')) {
+        // Si se presiona el punto decimal y no está presente en el número actual, lo agregamos
+        calculator.appendNumber(key);
+        calculator.updateDisplay();
+        } else if (key === 'Enter') {
+        // Si se presiona la tecla Enter (Intro), calculamos el resultado
+        calculator.compute();
+        calculator.updateDisplay();
+        } else if (key === 'Escape') {
+        // Si se presiona la tecla Escape, borramos todo
+        calculator.clear();
+        calculator.updateDisplay();
+        }
+    }
+    
+    // Agregar un oyente de eventos al documento para escuchar las teclas
+    document.addEventListener('keydown', handleKeyboardInput);
+    
