@@ -144,14 +144,18 @@ deleteButton.addEventListener('click', button => {
         // Si se presiona el punto decimal y no está presente en el número actual, lo agregamos
         calculator.appendNumber(key);
         calculator.updateDisplay();
+        } else if (key === '+' || key === '-'|| key === '*'|| key === '/'){
+        calculator.chooseOperation(key);
+        calculator.updateDisplay();
         } else if (key === 'Enter') {
-        // Si se presiona la tecla Enter (Intro), calculamos el resultado
         calculator.compute();
         calculator.updateDisplay();
         } else if (key === 'Escape') {
-        // Si se presiona la tecla Escape, borramos todo
         calculator.clear();
         calculator.updateDisplay();
+        } else if (key === 'Backspace'){
+            calculator.delete()
+            calculator.updateDisplay();
         }
     }
     

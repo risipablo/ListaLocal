@@ -25,8 +25,8 @@ class Datos {
         this.agregarProductos(15,"Excellent","Adulto Grande",1,"1800","Perro","Excellent","Adulto");
         this.agregarProductos(16,"Excellent","Adulto Grande",15,"27000","Perro","Excellent","Adulto");
         this.agregarProductos(17,"Agility","Adulto Grande",20,"2100","Perro","Excellent","Adulto");
-        this.agregarProductos(18,"Biopet","Adulto",1,"700","Perro","Biopet","Adulto");
-        this.agregarProductos(19,"Biopet","Adulto",20,"10400","Perro","Biopet","Adulto");
+        this.agregarProductos(18,"Biopet","Adulto",1,"10500","Perro","Biopet","Adulto");
+        this.agregarProductos(19,"Biopet","Adulto",20,"12000","Perro","Biopet","Adulto");
         this.agregarProductos(20,"Old Prince","Mini Adulto",1,"1700","Perro","Old Prince","Adulto");
         this.agregarProductos(21,"Old Prince","Mini Adulto",15,"21000","Perro","Old Prince","Adulto");
         this.agregarProductos(22,"Old Prince","Derma Small",1,"2200","Perro","Old Prince","Adulto");
@@ -168,8 +168,8 @@ class Datos {
         this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","1200","Gato","Accesorios","Adulto");
         this.agregarProductos(160,"Golocan","Bocaditos","1","650","Perro","Bocados","Adulto");
         this.agregarProductos(161,"Golocan","Galletas","1","650","Perro","Bocados","Adulto");
-        this.agregarProductos(162,"Arroz","Adulto",1,"700","Perro","Arroz","Adulto");
-        this.agregarProductos(163,"Arroz","Adulto",15,"9500","Perro","Arroz","Adulto");
+        this.agregarProductos(162,"Arroz","Adulto",1,"1200","Perro","Arroz","Adulto");
+        this.agregarProductos(163,"Arroz","Adulto",15,"12000","Perro","Arroz","Adulto");
         this.agregarProductos(164,"Biopet","Mini Small",1,"800","Perro","Biopet","Mini Adulto");
         this.agregarProductos(165,"Biopet","Mini Small",15,"9000","Perro","Biopet","Mini Adulto");
         this.agregarProductos(166,"Excellent","Adulto",15,"45000","Gato","Excellent","Adulto");
@@ -188,15 +188,15 @@ class Datos {
         this.agregarProductos(179,"Excellent","Adulto Senior",1,"2000","Perro","Excellent","Senior");
         this.agregarProductos(180,"Excellent","Adulto Senior",15,"28000","Perro","Excellent","Senior");
         this.agregarProductos(181,"Maxxium","Adulto",20,"22500","Perro","Nutricare","Adulto");
-        this.agregarProductos(182,"Keiko","Adulto","1","800","Gato","Keiko","Adulto");
-        this.agregarProductos(183,"Keiko","Adulto","10","6800","Gato","Keiko","Adulto");
+        this.agregarProductos(182,"Keiko","Adulto","1","900","Gato","Keiko","Adulto");
+        this.agregarProductos(183,"Keiko","Adulto","10","8000","Gato","Keiko","Adulto");
         this.agregarProductos(184,"Balanced","Derma Adulto",3,"8900","Perro","Balanced","Adulto");
         this.agregarProductos(185,"Cat Chow","Adulto ",8,"17400","Gato","Catchow","Adulto");
         this.agregarProductos(186,"Cat Chow","Kitten ",8,"18600","Gato","Catchow","Cachorro");
         this.agregarProductos(187,"Pro Plan","Adulto ",1,"3400","Perro","Pro Plan","Adulto");
         this.agregarProductos(188,"Pro Plan","Adulto ",3,"13800","Perro","Pro Plan","Adulto");
         this.agregarProductos(189,"Pro Plan","Adulto ",7.5,"25500","Perro","Pro Plan","Adulto");
-        this.agregarProductos(190,"Piedras Blancas","Adulto","2","400","Gato","Piedras","Adulto")
+        this.agregarProductos(190,"Piedras Blancas","Adulto","2","800","Gato","Piedras","Adulto")
         this.agregarProductos(191,"Nutricare","Adulto Grande ",7.5,"5600","Perro","Nutricare","Adulto");
         this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"5600","Perro","Nutricare","Adulto");
         this.agregarProductos(193,"Nutricare","Adulto ",1,"1400","Gato","Nutricare","Adulto");
@@ -225,17 +225,17 @@ class Datos {
         this.agregarProductos(216,"Cardina","Chica","1","1500","Perro","Accesorios","Adulto");
         this.agregarProductos(217,"Cardina","Mediana","1","1800","Perro","Accesorios","Adulto");
         this.agregarProductos(218,"Cardina","Grande","1","2000","Perro","Accesorios","Adulto");
-        this.agregarProductos(219,"Piedras Blancas","Adulto",4,"1100","Gato","Accesorios","Adulto");
+        this.agregarProductos(219,"Piedras Blancas","Adulto",4,"1400","Gato","Accesorios","Adulto");
         this.agregarProductos(49,"Sieger Katze ","Kitten",1,"4700","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Kitten",7.5,"2900","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Adulto",1,"4400","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Adulto",7.5,"22500","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Urinary",1,"4700","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Urinary",7.5,"23700","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Senior",1,"4700","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Senior",7.5,"23700","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Light",1,"4700","Gato","Sieger","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Light",7.5,"23700","Gato","Sieger","Adulto");
+        this.agregarProductos(220,"Sieger Katze ","Kitten",7.5,"2900","Gato","Sieger","Adulto");
+        this.agregarProductos(221,"Sieger Katze ","Adulto",1,"4400","Gato","Sieger","Adulto");
+        this.agregarProductos(222,"Sieger Katze ","Adulto",7.5,"22500","Gato","Sieger","Adulto");
+        this.agregarProductos(223,"Sieger Katze ","Urinary",1,"4700","Gato","Sieger","Adulto");
+        this.agregarProductos(224,"Sieger Katze ","Urinary",7.5,"23700","Gato","Sieger","Adulto");
+        this.agregarProductos(225,"Sieger Katze ","Senior",1,"4700","Gato","Sieger","Adulto");
+        this.agregarProductos(226,"Sieger Katze ","Senior",7.5,"23700","Gato","Sieger","Adulto");
+        this.agregarProductos(227,"Sieger Katze ","Light",1,"4700","Gato","Sieger","Adulto");
+        this.agregarProductos(228,"Sieger Katze ","Light",7.5,"23700","Gato","Sieger","Adulto");
         
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
