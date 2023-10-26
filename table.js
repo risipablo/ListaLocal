@@ -36,7 +36,7 @@ class Datos {
         this.agregarProductos(179,"Excellent","Adulto Senior",1,"2300","Perro","Excellent","Senior");
         this.agregarProductos(180,"Excellent","Adulto Senior",15,"32000","Perro","Excellent","Senior");
         this.agregarProductos(17,"Agility","Adulto Grande",20,"2100","Perro","Excellent","Adulto");
-        this.agregarProductos(18,"Biopet","Adulto",1,"10500","Perro","Biopet","Adulto");
+        this.agregarProductos(18,"Biopet","Adulto",1,"800","Perro","Biopet","Adulto");
         this.agregarProductos(19,"Biopet","Adulto",20,"12000","Perro","Biopet","Adulto");
         this.agregarProductos(20,"Old Prince","Mini Adulto",1,"1800","Perro","Old Prince","Adulto");
         this.agregarProductos(229,"Old Prince","Mini Adulto",7.5,"14000","Perro","Old Prince","Adulto");
