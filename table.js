@@ -186,7 +186,7 @@ class Datos {
         this.agregarProductos(162,"Arroz","Adulto",1,"1200","Perro","Arroz","Adulto");
         this.agregarProductos(163,"Arroz","Adulto",15,"12000","Perro","Arroz","Adulto");
         this.agregarProductos(164,"Biopet","Mini Small",1,"800","Perro","Biopet","Mini Adulto");
-        this.agregarProductos(165,"Biopet","Mini Small",15,"9000","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(165,"Biopet","Mini Small",15,"10500","Perro","Biopet","Mini Adulto");
         this.agregarProductos(167,"Dog Chow","Adulto Light",8,"13400","Perro","Dog Chow","Adulto");
         this.agregarProductos(168,"Dog Chow","Senior",8,"11800","Perro","Dog Chow","Senior");
         this.agregarProductos(169,"Dog Chow","Senior",1,"1500","Perro","Dog Chow","Senior");

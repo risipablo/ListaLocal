@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
 * {
   box-sizing: border-box;
@@ -62,8 +63,18 @@ aside a:hover {
           backdrop-filter: blur(6px);
 }
 
+a:active {
+  font-weight: bold; /* Puedes aplicar otros estilos según tus preferencias */
+  color: red; /* Por ejemplo, cambiar el color del texto */
+}
+
 .volver {
   display: flex;
+}
+
+.volver:hover {
+  transition: 0.7;
+  background-color: #bdb9b9;
 }
 
 /* Buscador */
@@ -237,17 +248,21 @@ section h3 span {
 
 #scroll {
   overflow-y: auto;
-  height: 350px;
+  height: 390px;
 }
 
 /* Filtros */
 .filtros {
-  display: grid;
-  margin: 25px;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  margin: 27px;
   align-items: center;
   text-align: center;
   cursor: pointer;
+}
+
+.filtros p {
+  font-weight: 800;
 }
 
 .filtro {
@@ -258,6 +273,13 @@ section h3 span {
   padding: 8px 4px;
   border-radius: 12px;
   width: 120px;
+  cursor: pointer;
+  transition: background-color 0.6s, opacity 0.6s;
+}
+
+.filtro:hover {
+  background-color: rgba(226, 21, 21, 0.7); /* Cambiar el color y opacidad al hacer hover */
+  opacity: 0.9;
 }
 
 .filtro p {
