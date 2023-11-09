@@ -94,7 +94,7 @@ class Datos2 {
         this.agregarProductos(78,"Agility","Kitten","10","19423","Gato", "Agility","Nutrisur");
         this.agregarProductos(80,"Agility","Urinary","1.5","3873","Gato", "Agility","Nutrisur");
         this.agregarProductos(81,"Agility","Urinary","10","19423","Gato", "Agility","Nutrisur");
-        this.agregarProductos(82,"Maxxium","Adulto","20","20852","Perro","Nutricare","Chubutin");
+        this.agregarProductos(82,"Maxxium","Adulto","20","23146","Perro","Nutricare","Chubutin");
         this.agregarProductos(83,"Agility","Light","1.5","3873","Gato", "Agility","Nutrisur");
         this.agregarProductos(84,"Agility","Light","10","19423","Gato", "Agility","Nutrisur");
         this.agregarProductos(85,"Agility","Lata Perro","1","1164","perro", "Agility","Nutrisur");
