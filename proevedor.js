@@ -128,7 +128,7 @@ class Datos2 {
         this.agregarProductos(112,"Eukanuba","Adulto Mg/lg","15","29064","Perro","Eukanuba","Nutripet");
         this.agregarProductos(113,"Eukanuba","Adulto Senior","3","8421","Perro","Eukanuba","Nutripet");
         this.agregarProductos(114,"Eukanuba","Weight Control","3","9141","Perro","Eukanuba","Nutripet");
-        this.agregarProductos(115,"Felix","Pouch","15","5570","Gato","Catchow","Chubutin");
+        this.agregarProductos(115,"Felix","Pouch","15","6240","Gato","Catchow","Chubutin");
         this.agregarProductos(116,"Kro Line","Pretal Completo","1.5","2035","Perro","Kro Line","Kro Line");
         this.agregarProductos(117,"Kro Line","Pretal Completo","2","2200","Perro","Kro Line","Kro Line");
         this.agregarProductos(118,"Kro Line","Pretal Completo","2.5","2680","Perro","Kro Line","Kro Line");
@@ -145,10 +145,10 @@ class Datos2 {
         this.agregarProductos(129,"Pedigree","Lata","1","760","Perro","Pedigree","Don Tomas");
         this.agregarProductos(130,"Pedigree","Pouch","1","192","Perro","Pedigree","Don Tomas");
         this.agregarProductos(131,"Osspret Pipetas","Adulto","11-20","858","Perro","Pipetas","Amadeo");
-        this.agregarProductos(132,"Osspret Pipetas","Adulto","2-10","786","Perro","Pipetas","Amadeo");
-        this.agregarProductos(133,"Osspret Pipetas","Adulto","21-40","1036","Perro","Pipetas","Amadeo");
+        this.agregarProductos(132,"Osspret Pipetas","Adulto","2-10","1312","Perro","Pipetas","Amadeo");
+        this.agregarProductos(133,"Osspret Pipetas","Adulto","21-40","1730","Perro","Pipetas","Amadeo");
         this.agregarProductos(134,"Osspret Pipetas","Adulto","+ 40","1144","Perro","Pipetas","Amadeo");
-        this.agregarProductos(135,"Osspret Pipetas","Adulto","+ 4","780","Gato","Pipetas","Amadeo");
+        this.agregarProductos(135,"Osspret Pipetas","Adulto","+ 4","1353","Gato","Pipetas","Amadeo");
         this.agregarProductos(136,"Osspret Shampoo","Pelo Blanco","1","1508","Perro","Shampoo","Amadeo");
         this.agregarProductos(137,"Osspret Shampoo","Pelo Negro","1","1508","Perro","Shampoo","Amadeo");
         this.agregarProductos(138,"Osspret Shampoo","Dermatitis","1","1508","Perro","Shampoo","Amadeo");
