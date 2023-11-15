@@ -161,7 +161,7 @@ class Datos2 {
         this.agregarProductos(145,"Pellcats","Adulto","1","793","Gato","Piedras","Can Cid");
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","920","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","479","Perro","Bocados","Can Cid");
-        this.agregarProductos(151,"Nutricare","Adulto","7.5","7965","Gato","Nutricare","Chubutin");
+        this.agregarProductos(151,"Nutricare","Adulto","7.5","9160","Gato","Nutricare","Chubutin");
         this.agregarProductos(152,"Keiko","Adulto","10","6300","Gato","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Adulto","21","9000","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Cachorro","15","9100","Perro","Keiko","Popy");
