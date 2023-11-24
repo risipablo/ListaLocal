@@ -24,8 +24,8 @@ class Datos2 {
         this.agregarProductos(148,"Excellent","Adulto","15","38909","Gato","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","24868","Perro","Excellent","Forastero");
         this.agregarProductos(17,"Agility","Adulto Grande","20","18106","Perro","Excellent","Nutrisur");
-        this.agregarProductos(18,"Biopet","Mini Adulto","15","11900","Perro","Biopet","Popy");
-        this.agregarProductos(19,"Biopet","Adulto","20","10600","Perro","Biopet","Popy");
+        this.agregarProductos(18,"Biopet","Mini Adulto","15","11000","Perro","Biopet","Popy");
+        this.agregarProductos(19,"Biopet","Adulto","20","12900","Perro","Biopet","Popy");
         this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","11043","Perro","Old Prince","Don Tomas");
         this.agregarProductos(21,"Old Prince","Mini Adulto","15","20078","Perro","Old Prince","Don Tomas");
         this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","14963","Perro","Old Prince","Don Tomas");
@@ -162,10 +162,10 @@ class Datos2 {
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","920","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","479","Perro","Bocados","Can Cid");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","9160","Gato","Nutricare","Chubutin");
-        this.agregarProductos(152,"Keiko","Adulto","10","6300","Gato","Keiko","Popy");
-        this.agregarProductos(152,"Keiko","Adulto","21","9000","Perro","Keiko","Popy");
-        this.agregarProductos(152,"Keiko","Cachorro","15","9100","Perro","Keiko","Popy");
-        this.agregarProductos(153,"Arroz","Adulto","15","9700","Perro","Arroz","Popy");
+        this.agregarProductos(152,"Smarty","Adulto","15","7080","Perro","Keiko","Popy");
+        this.agregarProductos(152,"Keiko","Adulto","21","10900","Perro","Keiko","Popy");
+        this.agregarProductos(152,"Keiko","Cachorro","15","11200","Perro","Keiko","Popy");
+        this.agregarProductos(153,"Arroz","Adulto","15","13400","Perro","Arroz","Popy");
         this.agregarProductos(157,"Balanced","Mini Senior ","3","6805","Perro","Balanced","Amadeo");
         this.agregarProductos(158,"Balanced","Mini Senior","7.5","15555","Perro","Balanced","Amadeo");
         this.agregarProductos(159,"Balanced","Grande Senior","3","6805","Perro","Balanced","Amadeo");
@@ -310,6 +310,7 @@ class Carrito {
 
             <h4 class="producto"> ${producto.nombre} </h4>
             <p class="descripcion"> ${producto.tamaño}</p>
+            
             <p class="descripcion"> ${producto.kg}</p>
             <p class="precio"> Precio: $${producto.precio}</p>
             <div class="items">
@@ -365,6 +366,7 @@ function cargarProductos(productos){
             <th> ID </th>
             <th> Marca </th>
             <th> Edad </th>
+            <th> Tipo </th>
             <th> Unidad </th>
             <th> Precio </th>
             <th>  </th>
@@ -380,6 +382,7 @@ function cargarProductos(productos){
             <td>${producto.id} </td>
             <td>${producto.nombre} </td>
             <td>${producto.tamaño}</td>
+            <td>${producto.mascota}</td>
             <td>${producto.kg}</td>
             <td class="precio">$ ${producto.precio}</td>
             <td> <a href="#" class="btnAgregar" data-id="${producto.id}"> Agregar </a></td> 

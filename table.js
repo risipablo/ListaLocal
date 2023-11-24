@@ -1,10 +1,5 @@
 
 
-
-
-/*; */
-
-
 class Datos {
     constructor() {
         this.productos = [];
