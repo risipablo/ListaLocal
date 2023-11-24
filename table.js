@@ -31,10 +31,10 @@ class Datos {
         this.agregarProductos(179,"Excellent","Adulto Senior",1,"2300","Perro","Excellent","Senior");
         this.agregarProductos(180,"Excellent","Adulto Senior",15,"32000","Perro","Excellent","Senior");
         this.agregarProductos(17,"Agility","Adulto Grande",20,"23000","Perro","Excellent","Adulto");
-        this.agregarProductos(18,"Biopet","Adulto",1,"800","Perro","Biopet","Adulto");
-        this.agregarProductos(19,"Biopet","Adulto",20,"14000","Perro","Biopet","Adulto");
+        this.agregarProductos(18,"Biopet","Adulto",1,"1000","Perro","Biopet","Adulto");
+        this.agregarProductos(19,"Biopet","Adulto",20,"16500","Perro","Biopet","Adulto");
         this.agregarProductos(164,"Biopet","Mini Small",1,"1200","Perro","Biopet","Mini Adulto");
-        this.agregarProductos(165,"Biopet","Mini Small",15,"15400","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(165,"Biopet","Mini Small",15,"14500","Perro","Biopet","Mini Adulto");
         this.agregarProductos(20,"Old Prince","Mini Adulto",1,"1800","Perro","Old Prince","Adulto");
         this.agregarProductos(229,"Old Prince","Mini Adulto",7.5,"14000","Perro","Old Prince","Adulto");
         this.agregarProductos(21,"Old Prince","Mini Adulto",15,"25000","Perro","Old Prince","Adulto");
@@ -188,13 +188,13 @@ class Datos {
         this.agregarProductos(160,"Golocan","Bocaditos","1","650","Perro","Bocados","Adulto");
         this.agregarProductos(161,"Golocan","Galletas","1","650","Perro","Bocados","Adulto");
         this.agregarProductos(162,"Arroz","Adulto",1,"1200","Perro","Arroz","Adulto");
-        this.agregarProductos(163,"Arroz","Adulto",15,"12000","Perro","Arroz","Adulto");
+        this.agregarProductos(163,"Arroz","Adulto",15,"17000","Perro","Arroz","Adulto");
         this.agregarProductos(167,"Dog Chow","Adulto Light",8,"13400","Perro","Dog Chow","Adulto");
         this.agregarProductos(168,"Dog Chow","Senior",8,"11800","Perro","Dog Chow","Senior");
         this.agregarProductos(169,"Dog Chow","Senior",1,"1500","Perro","Dog Chow","Senior");
         this.agregarProductos(181,"Maxxium","Adulto",20,"29000","Perro","Nutricare","Adulto");
-        this.agregarProductos(182,"Keiko","Adulto","1","900","Gato","Keiko","Adulto");
-        this.agregarProductos(183,"Keiko","Adulto","10","8000","Gato","Keiko","Adulto");
+        this.agregarProductos(182,"Smarty","Adulto","1","700","Perro","Smarty","Adulto");
+        this.agregarProductos(183,"Smarty","Adulto","15","9000","Perro","Smarty","Adulto");
         this.agregarProductos(184,"Balanced","Derma Adulto",3,"9900","Perro","Balanced","Adulto");
         this.agregarProductos(185,"Cat Chow","Adulto ",8,"1890","Gato","Catchow","Adulto");
         this.agregarProductos(186,"Cat Chow","Kitten ",8,"20400","Gato","Catchow","Cachorro");
@@ -235,10 +235,10 @@ class Datos {
         this.agregarProductos(225,"Sieger Katze ","Senior",1,"5200","Gato","Sieger","Adulto");
         this.agregarProductos(226,"Sieger Katze ","Senior",7.5,"25000","Gato","Sieger","Adulto");
         this.agregarProductos(227,"Sieger Katze ","Light",1,"5200","Gato","Sieger","Adulto");
-        this.agregarProductos(228,"Keiko","Adulto",1,"600","Perro","Keiko","Adulto");
-        this.agregarProductos(229,"Keiko","Adulto",21,"11500","Perro","Keiko","Adulto");
-        this.agregarProductos(230,"Keiko","Cachorro",1,"800","Perro","Keiko","Adulto");
-        this.agregarProductos(231,"Keiko","Cachorro",15,"11800","Perro","Keiko","Adulto");
+        this.agregarProductos(228,"Keiko","Adulto",1,"850","Perro","Keiko","Adulto");
+        this.agregarProductos(229,"Keiko","Adulto",21,"14000","Perro","Keiko","Adulto");
+        this.agregarProductos(230,"Keiko","Cachorro",1,"1000","Perro","Keiko","Adulto");
+        this.agregarProductos(231,"Keiko","Cachorro",15,"14000","Perro","Keiko","Adulto");
         
         
 }

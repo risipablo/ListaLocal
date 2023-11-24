@@ -24,7 +24,7 @@ class Datos2 {
         this.agregarProductos(148,"Excellent","Adulto","15","38909","Gato","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","24868","Perro","Excellent","Forastero");
         this.agregarProductos(17,"Agility","Adulto Grande","20","18106","Perro","Excellent","Nutrisur");
-        this.agregarProductos(18,"Biopet","Mini Adulto","15","11000","Perro","Biopet","Popy");
+        this.agregarProductos(18,"Biopet","Mini Adulto","15","11200","Perro","Biopet","Popy");
         this.agregarProductos(19,"Biopet","Adulto","20","12900","Perro","Biopet","Popy");
         this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","11043","Perro","Old Prince","Don Tomas");
         this.agregarProductos(21,"Old Prince","Mini Adulto","15","20078","Perro","Old Prince","Don Tomas");
