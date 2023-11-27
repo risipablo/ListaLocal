@@ -239,6 +239,10 @@ class Datos {
         this.agregarProductos(229,"Keiko","Adulto",21,"14000","Perro","Keiko","Adulto");
         this.agregarProductos(230,"Keiko","Cachorro",1,"1000","Perro","Keiko","Adulto");
         this.agregarProductos(231,"Keiko","Cachorro",15,"14000","Perro","Keiko","Adulto");
+        this.agregarProductos(232,"Kro Line","Iglu","Mini","6900","Gato","Kro Line","Adulto");
+        this.agregarProductos(233,"Kro Line","Iglu ","Chico","7900","Gato","Kro Line","Adulto");
+        this.agregarProductos(234,"Kro Line","Iglu ","Mediano","8900","Gato","Kro Line","Adulto");
+        this.agregarProductos(235,"Kro Line","Iglu ","Grande","9900","Gato","Kro Line","Adulto");
         
         
 }
