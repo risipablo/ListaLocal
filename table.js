@@ -94,9 +94,9 @@ class Datos {
         this.agregarProductos(233,"Bocato","Adulto ",20,"12500","Perro","Bocato","Adulto");
         this.agregarProductos(68,"Optimun","Adulto",1,"2500","Gato","Optimun","Adulto");
         this.agregarProductos(69,"Optimun","Adulto ",10,"22000","Gato","Optimun","Adulto");
-        this.agregarProductos(70,"Optimun","Adulto",3,"7200","Gato","Optimun","Adulto");
-        this.agregarProductos(71,"Optimun","Mini Adulto ",15,"17000","Perro","Optimun","Adulto");
-        this.agregarProductos(72,"Optimun","Mini Adulto",1,"1300","Perro","Optimun","Adulto");
+        this.agregarProductos(70,"Optimun","Adulto",3,"7900","Gato","Optimun","Adulto");
+        this.agregarProductos(71,"Optimun","Mini Adulto ",15,"19000","Perro","Optimun","Adulto");
+        this.agregarProductos(72,"Optimun","Mini Adulto",1,"1500","Perro","Optimun","Adulto");
         this.agregarProductos(73,"Pedigree","Mini Adulto",1,"1700","Perro","Pedigree","Adulto");
         this.agregarProductos(74,"Pedigree","Mini Adulto",15,"21000","Perro","Pedigree","Adulto");
         this.agregarProductos(75,"Dog Chow","Mini Adulto",1,"1500","Perro","Dog Chow","Adulto");

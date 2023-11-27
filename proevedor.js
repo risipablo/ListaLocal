@@ -70,11 +70,11 @@ class Datos2 {
         this.agregarProductos(56,"Wishka","Adulto ","10","16759","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","9745","Perro","Bocato","Chubutin");
         this.agregarProductos(58,"Bocato","Adulto ","10","7085","Gato","Bocato","Chubutin");
-        this.agregarProductos(59,"Optimun","Adulto","1","2200","Gato","Optimun","Chubutin");
+        this.agregarProductos(59,"Optimun","Adulto","1","2400","Gato","Optimun","Chubutin");
         this.agregarProductos(184,"Optimun","Adulto ","10","17420","Gato","Optimun","Chubutin");
-        this.agregarProductos(185,"Optimun","Adulto","3","5600","Gato","Optimun","Chubutin");
-        this.agregarProductos(186,"Optimun","Mini Adulto ","15","13780","Perro","Optimun","Chubutin");
-        this.agregarProductos(187,"Optimun","Mini Adulto","3","3785","Perro","Optimun","Chubutin");
+        this.agregarProductos(185,"Optimun","Adulto","3","6100","Gato","Optimun","Chubutin");
+        this.agregarProductos(186,"Optimun","Mini Adulto ","15","15020","Perro","Optimun","Chubutin");
+        this.agregarProductos(187,"Optimun","Mini Adulto","3","4125","Perro","Optimun","Chubutin");
         this.agregarProductos(61,"Pedigree","Mini Adulto","15","16503","Perro","Pedigree","Don Tomas");
         this.agregarProductos(62,"Dog Chow","Adulto Senior","8","9118","Perro","Dog Chow","Forastero");
         this.agregarProductos(63,"Dog Chow","Mini Adulto","21","23866","Perro","Dog Chow","Forastero");
