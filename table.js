@@ -79,7 +79,7 @@ class Datos {
         this.agregarProductos(59,"Nutricare","Mini Adulto ",20,"22000","Perro","Nutricare","Adulto");
         this.agregarProductos(60,"Nutricare","Adulto Grande",1,"1200","Perro","Nutricare","Adulto");
         this.agregarProductos(61,"Nutricare","Adulto Grande ",20,"22000","Perro","Nutricare","Adulto");
-        this.agregarProductos(62,"Nutricare","Cachorro ",1,"1400s","Perro","Nutricare","Cachorro");
+        this.agregarProductos(62,"Nutricare","Cachorro ",1,"1400","Perro","Nutricare","Cachorro");
         this.agregarProductos(63,"Nutricare","Cachorro",15,"18000","Perro","Nutricare","Cachorro");
         this.agregarProductos(190,"Piedras Blancas","Adulto","2","800","Gato","Piedras","Adulto")
         this.agregarProductos(191,"Nutricare","Adulto Grande ",7.5,"8000","Perro","Nutricare","Adulto");

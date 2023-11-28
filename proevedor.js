@@ -25,7 +25,7 @@ class Datos2 {
         this.agregarProductos(150,"Excellent","Senior","15","27140","Perro","Excellent","Forastero");
         this.agregarProductos(17,"Agility","Adulto Grande","20","18106","Perro","Excellent","Nutrisur");
         this.agregarProductos(18,"Biopet","Mini Adulto","15","11200","Perro","Biopet","Popy");
-        this.agregarProductos(19,"Biopet","Adulto","20","12900","Perro","Biopet","Popy");
+        this.agregarProductos(19,"Biopet","Adulto","20","12700","Perro","Biopet","Popy");
         this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","11043","Perro","Old Prince","Don Tomas");
         this.agregarProductos(21,"Old Prince","Mini Adulto","15","20078","Perro","Old Prince","Don Tomas");
         this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","14963","Perro","Old Prince","Don Tomas");
@@ -66,7 +66,7 @@ class Datos2 {
         this.agregarProductos(52,"Nutricare","Adulto Grande ","20","16985","Perro","Nutricare","Chubutin");
         this.agregarProductos(53,"Optimun ","Pouch ","12","4230","Gato/Perro","Optimun","Chubutin");
         this.agregarProductos(54,"Nutricare","Cachorro","15","14085","Perro","Nutricare","Chubutin");
-        this.agregarProductos(55,"Piedras Blancas","Adulto","Pack x 4","4300","Gato","-","Popy");
+        this.agregarProductos(55,"Piedras Blancas","Adulto","Pack x 4","4000","Gato","-","Popy");
         this.agregarProductos(56,"Wishka","Adulto ","10","16759","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","9745","Perro","Bocato","Chubutin");
         this.agregarProductos(58,"Bocato","Adulto ","10","7085","Gato","Bocato","Chubutin");
@@ -163,10 +163,10 @@ class Datos2 {
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","920","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","479","Perro","Bocados","Can Cid");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","11085","Gato","Nutricare","Chubutin");
-        this.agregarProductos(152,"Smarty","Adulto","15","7080","Perro","Keiko","Popy");
+        this.agregarProductos(152,"Smarty","Adulto","15","6900","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Adulto","21","10900","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Cachorro","15","11200","Perro","Keiko","Popy");
-        this.agregarProductos(153,"Arroz","Adulto","15","13400","Perro","Arroz","Popy");
+        this.agregarProductos(153,"Arroz","Adulto","15","13000","Perro","Arroz","Popy");
         this.agregarProductos(157,"Balanced","Mini Senior ","3","6805","Perro","Balanced","Amadeo");
         this.agregarProductos(158,"Balanced","Mini Senior","7.5","15555","Perro","Balanced","Amadeo");
         this.agregarProductos(159,"Balanced","Grande Senior","3","6805","Perro","Balanced","Amadeo");
