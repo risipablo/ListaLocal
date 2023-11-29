@@ -159,9 +159,9 @@ class Datos2 {
         this.agregarProductos(141,"Osspret Shampoo","Extra Brillo","1","1870","Perro","Shampoo","Amadeo");
         this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","6800","Perro","Kro Line","Kro Line");
         this.agregarProductos(144,"Stone Cat","Adulto","1","1899","Gato","Piedras","Can Cid");
-        this.agregarProductos(145,"Pellcats","Adulto","1","793","Gato","Piedras","Can Cid");
-        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","920","Gato","Piedras","Can Cid");
-        this.agregarProductos(147,"Golocan","Adulto","1","479","Perro","Bocados","Can Cid");
+        this.agregarProductos(145,"Pellcats","Adulto","1","966","Gato","Piedras","Can Cid");
+        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1337","Gato","Piedras","Can Cid");
+        this.agregarProductos(147,"Golocan","Adulto","1","630","Perro","Bocados","Can Cid");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","11085","Gato","Nutricare","Chubutin");
         this.agregarProductos(152,"Smarty","Adulto","15","6900","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Adulto","21","10900","Perro","Keiko","Popy");
@@ -180,8 +180,8 @@ class Datos2 {
         this.agregarProductos(167,"Kro Line","Collar Pitbull","4","2560","Perro","Kro Line","Kro Line");
         this.agregarProductos(168,"Kro Line","Collar Pitbull","5","2900","Perro","Kro Line","Kro Line");
         this.agregarProductos(169,"Stone Cat","Adulto","5","9498","Gato","Piedras","Can Cid");
-        this.agregarProductos(170,"Pellcats","Adulto","5","3965","Gato","Piedras","Can Cid");
-        this.agregarProductos(171,"Golocan","Adulto","20","9571","Perro","Bocados","Can Cid");
+        this.agregarProductos(170,"Pellcats","Adulto","5","4830","Gato","Piedras","Can Cid");
+        this.agregarProductos(171,"Golocan","Adulto","20","12698","Perro","Bocados","Can Cid");
         this.agregarProductos(93,"Piedras Blancas","Adulto","2","4400","Gato","-","Popy")
         this.agregarProductos(173,"Sieger Katze","Kitten","1","4075","Gato","Sieger","Nutrisur");
         this.agregarProductos(174,"Sieger Katze","Kitten","7.5","20434","Gato","Sieger","Nutrisur");
@@ -193,6 +193,13 @@ class Datos2 {
         this.agregarProductos(180,"Sieger Katze","Senior","7.5","20434","Gato","Sieger","Nutrisur");
         this.agregarProductos(181,"Sieger Katze","Light","1","4075","Gato","Sieger","Nutrisur");
         this.agregarProductos(182,"Sieger Katze","Light","7.5","20434","Gato","Sieger","Nutrisur");
+        this.agregarProductos(183,"Comedero Doble","Adulto","1","2848","Perro","Accesorio","Can Cid");
+        this.agregarProductos(184,"Comedero Plastico Chico","Adulto","1","214","Perro","Accesorio","Can Cid");
+        this.agregarProductos(185,"Comedero Chico Inoxidable","Adulto","1","2294","Perro","Accesorio","Can Cid");
+        this.agregarProductos(186,"Comedero Doble Europe","Adulto","1","764","Perro","Accesorio","Can Cid");
+        this.agregarProductos(187,"Comedero Huella","Adulto","1","630","Perro","Accesorio","Can Cid");
+        this.agregarProductos(188,"Comedero Grande Inoxidable","Adulto","1","8668","Perro","Accesorio","Can Cid");
+
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){

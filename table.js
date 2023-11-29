@@ -183,9 +183,9 @@ class Datos {
         this.agregarProductos(155,"Agility","Lata Gato",1,"1500","Gato", "Agility","Adulto");
         this.agregarProductos(156,"Kro Line","Pechera Pitbul","5 cm","11000","Perro","Kro Line","Adulto");
         this.agregarProductos(157,"Stone Cat","Adulto","4","2400","Gato","Piedras","Adulto");
-        this.agregarProductos(158,"Pellcats","Adulto","4","1200","Gato","Piedras","Adulto");
-        this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","1200","Gato","Accesorios","Adulto");
-        this.agregarProductos(160,"Golocan","Bocaditos","1","650","Perro","Bocados","Adulto");
+        this.agregarProductos(158,"Pellcats","Adulto","4","1400","Gato","Piedras","Adulto");
+        this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","2000","Gato","Accesorios","Adulto");
+        this.agregarProductos(160,"Golocan","Bocaditos","1","800","Perro","Bocados","Adulto");
         this.agregarProductos(161,"Golocan","Galletas","1","650","Perro","Bocados","Adulto");
         this.agregarProductos(162,"Arroz","Adulto",1,"1200","Perro","Arroz","Adulto");
         this.agregarProductos(163,"Arroz","Adulto",15,"17000","Perro","Arroz","Adulto");
@@ -243,6 +243,12 @@ class Datos {
         this.agregarProductos(233,"Kro Line","Iglu ","Chico","7900","Gato","Kro Line","Adulto");
         this.agregarProductos(234,"Kro Line","Iglu ","Mediano","8900","Gato","Kro Line","Adulto");
         this.agregarProductos(235,"Kro Line","Iglu ","Grande","9900","Gato","Kro Line","Adulto");
+        this.agregarProductos(183,"Comedero Doble","Adulto","1","3800","Perro","Accesorios");
+        this.agregarProductos(184,"Comedero Plastico Chico","Adulto","1","600","Perro","Accesorios");
+        this.agregarProductos(185,"Comedero Chico Inoxidable","Adulto","1","3200","Perro","Accesorios");
+        this.agregarProductos(186,"Comedero Doble Europe","Adulto","1","1200","Perro","Accesorios");
+        this.agregarProductos(187,"Comedero Huella","Adulto","1","900","Perro","Accesorios");
+        this.agregarProductos(188,"Comedero Grande Inoxidable","Adulto","1","12000","Perro","Accesorios");
         
         
 }
