@@ -262,7 +262,6 @@ class Datos {
     }
 
     /* buscador con espacios incluidos */ 
-    
     BuscadorDeNombre(palabra){
         const palabras = palabra.toLowerCase().split(" ");
         return this.productos.filter((producto) => {
@@ -271,11 +270,12 @@ class Datos {
                 producto.tamaño.toLowerCase().includes(p) ||
                 producto.mascota.toLowerCase().includes(p) ||
                 producto.precio.toLowerCase().includes(p) ||
-                producto.edad.toLowerCase().includes(p) ||
                 producto.kg.toString().toLowerCase(). includes(p)
             );
         });
     }
+
+
 
     registroPorEdad(edad){
         return this.productos.filter((producto)=> producto.edad == edad);

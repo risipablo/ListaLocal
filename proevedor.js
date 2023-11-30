@@ -259,6 +259,8 @@ const spanTotalCarrito = document.querySelector("#totalCarrito");
 
 
 
+// Seccion de carrito
+
 class Carrito {
     constructor(){
         const carritoLocal = JSON.parse(localStorage.getItem("carrito"))
