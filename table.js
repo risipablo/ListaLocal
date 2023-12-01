@@ -164,8 +164,8 @@ class Datos {
         this.agregarProductos(136,"Kro Line","Correa Sola",3,"3300","Perro","Kro Line","Adulto");
         this.agregarProductos(137,"Hueso","Corbata","6 cm" ,"300","Perro","Hueso","Adulto");
         this.agregarProductos(138,"Hueso","Corbata","13 cm","700","Perro","Hueso","Adulto");
-        this.agregarProductos(139,"Hueso","Hueso Grande","34 cm","3300","Perro","Hueso","Adulto");
-        this.agregarProductos(140,"Hueso","Palito Grising","20 cm","250","Perro","Hueso","Adulto");
+        this.agregarProductos(139,"Hueso","Hueso Grande","34 cm","4000","Perro","Hueso","Adulto");
+        this.agregarProductos(140,"Hueso","Palito Grising","20 cm","300","Perro","Hueso","Adulto");
         this.agregarProductos(141,"Hueso","Orejas","","300","Perro","Hueso","Adulto");
         this.agregarProductos(142,"Pedigree","Lata",1,"1000","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
         this.agregarProductos(143,"Pedigree","Pouch",1,"350","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
