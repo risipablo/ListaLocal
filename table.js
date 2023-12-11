@@ -46,8 +46,8 @@ class Datos {
         this.agregarProductos(26,"Old Prince","Derma Adulto",1,"2100","Perro","Old Prince","Adulto");
         this.agregarProductos(231,"Old Prince","Derma Adulto",7.5,"1750","Perro","Old Prince","Adulto");
         this.agregarProductos(27,"Old Prince","Derma Adulto",15,"30000","Perro","Old Prince","Adulto");
-        this.agregarProductos(28,"Balanced","Derma Adulto",1,"2400","Perro","Balanced","Adulto");
-        this.agregarProductos(29,"Balanced","Derma Adulto",15,"33000","Perro","Balanced","Adulto");
+        this.agregarProductos(28,"Balanced","Derma Adulto",1,"27000","Perro","Balanced","Adulto");
+        this.agregarProductos(29,"Balanced","Derma Adulto",15,"38500","Perro","Balanced","Adulto");
         this.agregarProductos(30,"Sieger","Mini Puppy",1,"3700","Perro","Sieger","Cachorro");
         this.agregarProductos(31,"Sieger","Mini Puppy",3,"8500","Perro","Sieger","Cachorro");
         this.agregarProductos(32,"Sieger","Mini Puppy",12,"27500","Perro","Sieger","Cachorro");
@@ -195,7 +195,7 @@ class Datos {
         this.agregarProductos(181,"Maxxium","Adulto",20,"29000","Perro","Nutricare","Adulto");
         this.agregarProductos(182,"Smarty","Adulto","1","700","Perro","Smarty","Adulto");
         this.agregarProductos(183,"Smarty","Adulto","15","9000","Perro","Smarty","Adulto");
-        this.agregarProductos(184,"Balanced","Derma Adulto",3,"9900","Perro","Balanced","Adulto");
+        this.agregarProductos(184,"Balanced","Derma Adulto",3,"11300","Perro","Balanced","Adulto");
         this.agregarProductos(185,"Cat Chow","Adulto ",8,"20500","Gato","Catchow","Adulto");
         this.agregarProductos(186,"Cat Chow","Kitten ",8,"22000","Gato","Catchow","Cachorro");
         this.agregarProductos(187,"Pro Plan","Adulto ",1,"4200","Perro","Pro Plan","Adulto");
@@ -204,12 +204,12 @@ class Datos {
         this.agregarProductos(195,"Collar Antipulgas","Cachorro ",1,"4800","Perro","Pipetas","Cachorro");
         this.agregarProductos(196,"Collar Antipulgas","Mini Adulto ",1,"4800","Perro","Pipetas","Adulto");
         this.agregarProductos(197,"Collar Antipulgas","Adulto Grande ",1,"4800","Perro","Pipetas","Adulto");
-        this.agregarProductos(198,"Balanced","Mini Senior",1,"2900","Perro","Balanced","Senior");
-        this.agregarProductos(199,"Balanced","Mini Senior",3,"8800","Perro","Balanced","Senior");
-        this.agregarProductos(200,"Balanced","Mini Senior",7.5,"20000","Perro","Balanced","Senior");
-        this.agregarProductos(201,"Balanced","Grande Senior",1,"2500","Perro","Balanced","Senior");
-        this.agregarProductos(202,"Balanced","Grande Senior",3,"8800","Perro","Balanced","Senior");
-        this.agregarProductos(203,"Balanced","Grande Senior",15,"3200","Perro","Balanced","Senior");
+        this.agregarProductos(198,"Balanced","Mini Senior",3,"10000","Perro","Balanced","Senior");
+        this.agregarProductos(199,"Balanced","Mini Senior",7.5,"22800","Perro","Balanced","Senior");
+        this.agregarProductos(200,"Balanced","Grande Senior",3,"10000","Perro","Balanced","Senior");
+        this.agregarProductos(201,"Balanced","Grande Senior",15,"36600","Perro","Balanced","Senior");
+        this.agregarProductos(202);
+        this.agregarProductos(203);
         this.agregarProductos(204,"Kro Line","Correa Ancha","4","6000","Perro","Kro Line","Adulto");
         this.agregarProductos(205,"Kro Line","Pretal Solo","1.5","3200","Perro","Kro Line","Adulto");
         this.agregarProductos(206,"Kro Line","Pretal Solo","2","3400","Perro","Kro Line","Adulto");
@@ -222,9 +222,9 @@ class Datos {
         this.agregarProductos(213,"Pechera Animadas","Pechera","M","5300","Perro","Accesorios","Adulto");
         this.agregarProductos(214,"Pechera Animadas","Pechera","L","5900","Perro","Accesorios","Adulto");
         this.agregarProductos(215,"Pechera Animadas ","Pechera","XL","6400","Perro","Accesorios","Adulto");
-        this.agregarProductos(216,"Cardina","Chica","1","1500","Perro","Accesorios","Adulto");
-        this.agregarProductos(217,"Cardina","Mediana","1","1800","Perro","Accesorios","Adulto");
-        this.agregarProductos(218,"Cardina","Grande","1","2000","Perro","Accesorios","Adulto");
+        this.agregarProductos(216,"Cardina","Chica","1","2300","Perro","Accesorios","Adulto");
+        this.agregarProductos(217,"Cardina","Mediana","1","2900","Perro","Accesorios","Adulto");
+        this.agregarProductos(218,"Cardina","Grande","1","4700","Perro","Accesorios","Adulto");
         this.agregarProductos(219,"Piedras Blancas","Adulto",4,"1400","Gato","Accesorios","Adulto");
         this.agregarProductos(49,"Sieger Katze ","Kitten",1,"5200","Gato","Sieger","Adulto");
         this.agregarProductos(220,"Sieger Katze ","Kitten",7.5,"26000","Gato","Sieger","Adulto");
@@ -243,12 +243,12 @@ class Datos {
         this.agregarProductos(233,"Kro Line","Iglu ","Chico","7900","Gato","Kro Line","Adulto");
         this.agregarProductos(234,"Kro Line","Iglu ","Mediano","8900","Gato","Kro Line","Adulto");
         this.agregarProductos(235,"Kro Line","Iglu ","Grande","9900","Gato","Kro Line","Adulto");
-        this.agregarProductos(183,"Comedero Doble","Adulto","1","3800","Perro","Accesorios");
-        this.agregarProductos(184,"Comedero Plastico Chico","Adulto","1","600","Perro","Accesorios");
-        this.agregarProductos(185,"Comedero Chico Inoxidable","Adulto","1","3200","Perro","Accesorios");
-        this.agregarProductos(186,"Comedero Doble Europe","Adulto","1","1200","Perro","Accesorios");
-        this.agregarProductos(187,"Comedero Huella","Adulto","1","900","Perro","Accesorios");
-        this.agregarProductos(188,"Comedero Grande Inoxidable","Adulto","1","12000","Perro","Accesorios");
+        this.agregarProductos(236,"Comedero Doble","Adulto","1","3800","Perro","Accesorios");
+        this.agregarProductos(237,"Comedero Plastico Chico","Adulto","1","600","Perro","Accesorios");
+        this.agregarProductos(238,"Comedero Chico Inoxidable","Adulto","1","3200","Perro","Accesorios");
+        this.agregarProductos(239,"Comedero Doble Europe","Adulto","1","1200","Perro","Accesorios");
+        this.agregarProductos(240,"Comedero Huella","Adulto","1","900","Perro","Accesorios");
+        this.agregarProductos(241,"Comedero Grande Inoxidable","Adulto","1","12000","Perro","Accesorios");
         
         
 }
@@ -334,6 +334,7 @@ function cargarProductos(productos){
         <tr>
             <td>${producto.id} </td>
             <td>${producto.nombre} </td>
+            <td>${producto.tamaño}</td>
             <td>${producto.tamaño}</td>
             <td>${producto.kg}</td>
             <td>$ ${producto.precio}</td>
