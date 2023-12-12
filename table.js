@@ -30,7 +30,7 @@ class Datos {
         this.agregarProductos(16,"Excellent","Adulto Grande",15,"31000","Perro","Excellent","Adulto");
         this.agregarProductos(179,"Excellent","Adulto Senior",1,"2500","Perro","Excellent","Senior");
         this.agregarProductos(180,"Excellent","Adulto Senior",15,"34000","Perro","Excellent","Senior");
-        this.agregarProductos(17,"Agility","Adulto Grande",20,"23000","Perro","Agility","Adulto");
+        this.agregarProductos(17,"Agility","Adulto Grande",20,"25000","Perro","Agility","Adulto");
         this.agregarProductos(18,"Biopet","Adulto",1,"1000","Perro","Biopet","Adulto");
         this.agregarProductos(19,"Biopet","Adulto",20,"16500","Perro","Biopet","Adulto");
         this.agregarProductos(164,"Biopet","Mini Small",1,"1200","Perro","Biopet","Mini Adulto");
@@ -46,27 +46,27 @@ class Datos {
         this.agregarProductos(26,"Old Prince","Derma Adulto",1,"2100","Perro","Old Prince","Adulto");
         this.agregarProductos(231,"Old Prince","Derma Adulto",7.5,"1750","Perro","Old Prince","Adulto");
         this.agregarProductos(27,"Old Prince","Derma Adulto",15,"30000","Perro","Old Prince","Adulto");
-        this.agregarProductos(28,"Balanced","Derma Adulto",1,"27000","Perro","Balanced","Adulto");
+        this.agregarProductos(28,"Balanced","Derma Adulto",1,"2700","Perro","Balanced","Adulto");
         this.agregarProductos(29,"Balanced","Derma Adulto",15,"38500","Perro","Balanced","Adulto");
-        this.agregarProductos(30,"Sieger","Mini Puppy",1,"3700","Perro","Sieger","Cachorro");
-        this.agregarProductos(31,"Sieger","Mini Puppy",3,"8500","Perro","Sieger","Cachorro");
-        this.agregarProductos(32,"Sieger","Mini Puppy",12,"27500","Perro","Sieger","Cachorro");
-        this.agregarProductos(33,"Sieger","Cachorro",1,"3300","Perro","Sieger","Cachorro");
-        this.agregarProductos(34,"Sieger ","Cachorro",3,"8000","Perro","Sieger","Cachorro");
-        this.agregarProductos(35,"Sieger","Cachorro",15,"29000","Perro","Sieger","Cachorro");
-        this.agregarProductos(36,"Sieger","Adulto Grande",1,"2200","Perro","Sieger","Adulto");
+        this.agregarProductos(30,"Sieger","Mini Puppy",1,"4550.5","Perro","Sieger","Cachorro");
+        this.agregarProductos(31,"Sieger","Mini Puppy",3,"10550","Perro","Sieger","Cachorro");
+        this.agregarProductos(32,"Sieger","Mini Puppy",12,"34000","Perro","Sieger","Cachorro");
+        this.agregarProductos(33,"Sieger","Cachorro",1,"4150","Perro","Sieger","Cachorro");
+        this.agregarProductos(34,"Sieger ","Cachorro",3,"10000","Perro","Sieger","Cachorro");
+        this.agregarProductos(35,"Sieger","Cachorro",15,"39700","Perro","Sieger","Cachorro");
+        this.agregarProductos(36,"Sieger","Adulto Grande",1,"2400","Perro","Sieger","Adulto");
         this.agregarProductos(37,"Sieger","Adulto Grande",3,"7000","Perro","Sieger","Adulto");
         this.agregarProductos(38,"Sieger","Adulto Grande",15,"32000","Perro","Sieger","Adulto");
-        this.agregarProductos(39,"Sieger","Mini Adulto",1,"3300","Perro","Sieger","Adulto");
+        this.agregarProductos(39,"Sieger","Mini Adulto",1,"2500","Perro","Sieger","Adulto");
         this.agregarProductos(40,"Sieger ","Mini Adulto",3,"7900","Perro","Sieger","Adulto");
         this.agregarProductos(41,"Sieger","Mini Adulto",12,"25500","Perro","Sieger","Adulto");
-        this.agregarProductos(42,"Sieger","Senior Mini",3,"8300","Perro","Sieger","Senior");
-        this.agregarProductos(43,"Sieger ","Senior Mini",1,"3600","Perro","Sieger","Senior");
-        this.agregarProductos(44,"Sieger","Reduce",3,"8000","Perro","Sieger","Adulto");
-        this.agregarProductos(45,"Sieger","Derma",3,"9100","Perro","Sieger","Adulto");
-        this.agregarProductos(46,"Sieger","Derma",12,"28000","Perro","Sieger","Adulto");
-        this.agregarProductos(47,"Sieger","Derma",1,"2500","Perro","Sieger","Adulto");
-        this.agregarProductos(48,"Sieger","Criadores",20,"32000","Perro","Sieger","Adulto");
+        this.agregarProductos(42,"Sieger","Senior Mini",3,"9700","Perro","Sieger","Senior");
+        this.agregarProductos(43,"Sieger ","Senior Grande",3,"9600","Perro","Sieger","Senior");
+        this.agregarProductos(44,"Sieger","Reduce",3,"9900","Perro","Sieger","Adulto");
+        this.agregarProductos(45,"Sieger","Derma",3,"11200","Perro","Sieger","Adulto");
+        this.agregarProductos(46,"Sieger","Derma",12,"36000","Perro","Sieger","Adulto");
+        this.agregarProductos(47,"Sieger","Derma",1,"3200","Perro","Sieger","Adulto");
+        this.agregarProductos(48,"Sieger","Criadores",20,"40000","Perro","Sieger","Adulto");
         this.agregarProductos(50,"Cat Chow","Adulto ",1,"2500","Gato","Catchow","Adulto");
         this.agregarProductos(51,"Cat Chow","Adulto ",15,"35000","Gato","Catchow","Adulto");
         this.agregarProductos(52,"Cat Chow","Kitten ",1,"2700","Gato","Catchow","Cachorro");
@@ -103,25 +103,25 @@ class Datos {
         this.agregarProductos(76,"Dog Chow","Mini Adulto",21,"32000","Perro","Dog Chow","Adulto");
         this.agregarProductos(77,"Dog Chow","Adulto Light",1,"1900","Perro","Dog Chow","Adulto");
         this.agregarProductos(78,"Dog Chow","Adulto Light",21,"35000","Perro","Dog Chow","Adulto");
-        this.agregarProductos(79,"Agility","Adulto Grande",1,"1300","Perro", "Agility","Adulto");
-        this.agregarProductos(80,"Agility","Mini Adulto",1,"1700","Perro", "Agility","Adulto");
-        this.agregarProductos(81,"Agility","Mini Adulto",15,"22000","Perro", "Agility","Adulto");
-        this.agregarProductos(82,"Agility","Adulto Derma",1,"1800","Perro", "Agility","Adulto");
-        this.agregarProductos(83,"Agility","Adulto Derma",15,"23000","Perro", "Agility","Adulto");
-        this.agregarProductos(84,"Agility","Cachorro",1,"1600","Perro", "Agility","Adulto");
-        this.agregarProductos(85,"Agility","Cahorro",20,"27000","Perro", "Agility","Adulto");
-        this.agregarProductos(86,"Agility","Adulto",1,"2400","Gato", "Agility","Adulto");
-        this.agregarProductos(87,"Agility","Adulto",1.5,"4700","Gato", "Agility","Adulto");
-        this.agregarProductos(88,"Agility","Adulto",10,"22000","Gato", "Agility","Adulto");
-        this.agregarProductos(89,"Agility","Kitten",1,"2700","Gato", "Agility","Cachorro");
-        this.agregarProductos(90,"Agility","Kitten",1.5,"5000","Gato", "Agility","Cachorro");
-        this.agregarProductos(91,"Agility","Kitten",10,"23000","Gato", "Agility","Cachoro");
-        this.agregarProductos(92,"Agility","Urinary",1,"2700","Gato", "Agility","Adulto");
-        this.agregarProductos(93,"Agility","Urinary",1.5,"5000","Gato", "Agility","Adulto");
-        this.agregarProductos(94,"Agility","Urinary",10,"23000","Gato", "Agility","Adulto");
-        this.agregarProductos(95,"Agility","Light",1,"2700","Gato", "Agility","Adulto");
-        this.agregarProductos(96,"Agility","Light",1.5,"5000","Gato", "Agility","Adulto");
-        this.agregarProductos(97,"Agility","Light",10,"23000","Gato", "Agility","Adulto");
+        this.agregarProductos(79,"Agility","Adulto Grande",1,"1500","Perro", "Agility","Adulto");
+        this.agregarProductos(80,"Agility","Mini Adulto",1,"1800","Perro", "Agility","Adulto");
+        this.agregarProductos(81,"Agility","Mini Adulto",15,"24000","Perro", "Agility","Adulto");
+        this.agregarProductos(82,"Agility","Adulto Derma",1,"2000","Perro", "Agility","Adulto");
+        this.agregarProductos(83,"Agility","Adulto Derma",15,"25000","Perro", "Agility","Adulto");
+        this.agregarProductos(84,"Agility","Cachorro",1,"1800","Perro", "Agility","Adulto");
+        this.agregarProductos(85,"Agility","Cahorro",20,"30000","Perro", "Agility","Adulto");
+        this.agregarProductos(86,"Agility","Adulto",1,"2700","Gato", "Agility","Adulto");
+        this.agregarProductos(87,"Agility","Adulto",1.5,"5200","Gato", "Agility","Adulto");
+        this.agregarProductos(88,"Agility","Adulto",10,"26000","Gato", "Agility","Adulto");
+        this.agregarProductos(89,"Agility","Kitten",1,"2900","Gato", "Agility","Cachorro");
+        this.agregarProductos(90,"Agility","Kitten",1.5,"5600","Gato", "Agility","Cachorro");
+        this.agregarProductos(91,"Agility","Kitten",10,"27000","Gato", "Agility","Cachoro");
+        this.agregarProductos(92,"Agility","Urinary",1,"2900","Gato", "Agility","Adulto");
+        this.agregarProductos(93,"Agility","Urinary",1.5,"5600","Gato", "Agility","Adulto");
+        this.agregarProductos(94,"Agility","Urinary",10,"27000","Gato", "Agility","Adulto");
+        this.agregarProductos(95,"Agility","Light",1,"2900","Gato", "Agility","Adulto");
+        this.agregarProductos(96,"Agility","Light",1.5,"5600","Gato", "Agility","Adulto");
+        this.agregarProductos(97,"Agility","Light",10,"27000","Gato", "Agility","Adulto");
         this.agregarProductos(98,"Agility","Lata Perro",1,"1500","Gato", "Agility","Adulto");
         this.agregarProductos(99,"Royal Canin","Mini Puppy",1,"5600","Perro","Royal Canin","Cachorro");
         this.agregarProductos(100,"Royal Canin","Mini Puppy",3,"15000","Perro","Royal Canin","Cachorro");
@@ -208,8 +208,6 @@ class Datos {
         this.agregarProductos(199,"Balanced","Mini Senior",7.5,"22800","Perro","Balanced","Senior");
         this.agregarProductos(200,"Balanced","Grande Senior",3,"10000","Perro","Balanced","Senior");
         this.agregarProductos(201,"Balanced","Grande Senior",15,"36600","Perro","Balanced","Senior");
-        this.agregarProductos(202);
-        this.agregarProductos(203);
         this.agregarProductos(204,"Kro Line","Correa Ancha","4","6000","Perro","Kro Line","Adulto");
         this.agregarProductos(205,"Kro Line","Pretal Solo","1.5","3200","Perro","Kro Line","Adulto");
         this.agregarProductos(206,"Kro Line","Pretal Solo","2","3400","Perro","Kro Line","Adulto");
@@ -226,15 +224,17 @@ class Datos {
         this.agregarProductos(217,"Cardina","Mediana","1","2900","Perro","Accesorios","Adulto");
         this.agregarProductos(218,"Cardina","Grande","1","4700","Perro","Accesorios","Adulto");
         this.agregarProductos(219,"Piedras Blancas","Adulto",4,"1400","Gato","Accesorios","Adulto");
-        this.agregarProductos(49,"Sieger Katze ","Kitten",1,"5200","Gato","Sieger","Adulto");
-        this.agregarProductos(220,"Sieger Katze ","Kitten",7.5,"26000","Gato","Sieger","Adulto");
-        this.agregarProductos(221,"Sieger Katze ","Adulto",1,"5000","Gato","Sieger","Adulto");
-        this.agregarProductos(222,"Sieger Katze ","Adulto",7.5,"24000","Gato","Sieger","Adulto");
-        this.agregarProductos(223,"Sieger Katze ","Urinary",1,"5200","Gato","Sieger","Adulto");
-        this.agregarProductos(224,"Sieger Katze ","Urinary",7.5,"25000","Gato","Sieger","Adulto");
-        this.agregarProductos(225,"Sieger Katze ","Senior",1,"5200","Gato","Sieger","Adulto");
-        this.agregarProductos(226,"Sieger Katze ","Senior",7.5,"25000","Gato","Sieger","Adulto");
-        this.agregarProductos(227,"Sieger Katze ","Light",1,"5200","Gato","Sieger","Adulto");
+        this.agregarProductos(49,"Sieger Katze ","Kitten",1,"5900","Gato","Sieger","Adulto");
+        this.agregarProductos(220,"Sieger Katze ","Kitten",7.5,"29700","Gato","Sieger","Adulto");
+        this.agregarProductos(221,"Sieger Katze ","Adulto",1,"5900","Gato","Sieger","Adulto");
+        this.agregarProductos(222,"Sieger Katze ","Adulto",7.5,"29700","Gato","Sieger","Adulto");
+        this.agregarProductos(223,"Sieger Katze ","Urinary",1,"5900","Gato","Sieger","Adulto");
+        this.agregarProductos(224,"Sieger Katze ","Urinary",7.5,"29700","Gato","Sieger","Adulto");
+        this.agregarProductos(225,"Sieger Katze ","Senior",1,"5900","Gato","Sieger","Adulto");
+        this.agregarProductos(226,"Sieger Katze ","Senior",7.5,"29700","Gato","Sieger","Adulto");
+        this.agregarProductos(227,"Sieger Katze ","Light",1,"5900","Gato","Sieger","Adulto");
+        this.agregarProductos(202,"Sieger Katze ","Stress Control",1,"5900","Gato","Sieger","Adulto");
+        this.agregarProductos(203,"Sieger Katze ","Stress Control",7.5,"29700","Gato","Sieger","Adulto");
         this.agregarProductos(228,"Keiko","Adulto",1,"850","Perro","Keiko","Adulto");
         this.agregarProductos(229,"Keiko","Adulto",21,"14000","Perro","Keiko","Adulto");
         this.agregarProductos(230,"Keiko","Cachorro",1,"1000","Perro","Keiko","Adulto");
@@ -243,13 +243,13 @@ class Datos {
         this.agregarProductos(233,"Kro Line","Iglu ","Chico","7900","Gato","Kro Line","Adulto");
         this.agregarProductos(234,"Kro Line","Iglu ","Mediano","8900","Gato","Kro Line","Adulto");
         this.agregarProductos(235,"Kro Line","Iglu ","Grande","9900","Gato","Kro Line","Adulto");
-        this.agregarProductos(236,"Comedero Doble","Adulto","1","3800","Perro","Accesorios");
+        this.agregarProductos(236,"Comedero Doble","Adulto","1","5700","Perro","Accesorios");
         this.agregarProductos(237,"Comedero Plastico Chico","Adulto","1","600","Perro","Accesorios");
         this.agregarProductos(238,"Comedero Chico Inoxidable","Adulto","1","3200","Perro","Accesorios");
         this.agregarProductos(239,"Comedero Doble Europe","Adulto","1","1200","Perro","Accesorios");
         this.agregarProductos(240,"Comedero Huella","Adulto","1","900","Perro","Accesorios");
         this.agregarProductos(241,"Comedero Grande Inoxidable","Adulto","1","12000","Perro","Accesorios");
-        
+        this.agregarProductos(242,"Comedero Plastico Grande","Adulto","1","1800","Perro","Accesorios");
         
 }
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
@@ -262,15 +262,15 @@ class Datos {
     }
 
     /* buscador con espacios incluidos */ 
-    BuscadorDeNombre(palabra){
+    BuscadorDeNombre(palabra) {    
         const palabras = palabra.toLowerCase().split(" ");
         return this.productos.filter((producto) => {
-            return palabras.every((p) => 
+            return palabras.every((p) =>
                 producto.nombre.toLowerCase().includes(p) ||
                 producto.tamaño.toLowerCase().includes(p) ||
                 producto.mascota.toLowerCase().includes(p) ||
                 producto.precio.toLowerCase().includes(p) ||
-                producto.kg.toString().toLowerCase(). includes(p)
+                producto.kg.toString().toLowerCase().includes(p)
             );
         });
     }
@@ -291,6 +291,18 @@ class Datos {
     
     
 }
+
+/* buscador de productos */
+
+const Buscador = document.querySelector ("#inputBusqueda");
+Buscador.addEventListener("keyup",(event) =>{
+    event.preventDefault();
+    const palabra = Buscador.value.toLowerCase();
+    const productos = bd.BuscadorDeNombre(palabra); /*se llama a la variable ya declarada anteriormente */
+    cargarProductos(productos);
+})
+
+
 
 
 
@@ -320,8 +332,9 @@ function cargarProductos(productos){
             <tr class="nombres">
                 <th> ID </th>
                 <th> Marca </th>
+                <th> Tipo </th>
                 <th> Edad </th>
-                <th> Unidad </th>
+                <th> Kg </th>
                 <th> Precio </th>
             </tr>
         </table>
@@ -334,7 +347,7 @@ function cargarProductos(productos){
         <tr>
             <td>${producto.id} </td>
             <td>${producto.nombre} </td>
-            <td>${producto.tamaño}</td>
+            <td>${producto.mascota}</td>
             <td>${producto.tamaño}</td>
             <td>${producto.kg}</td>
             <td>$ ${producto.precio}</td>
@@ -343,17 +356,23 @@ function cargarProductos(productos){
     }
 }
 
-/* buscador de productos */
 
-const Buscador = document.querySelector (".buscar_texto");
 
-Buscador.addEventListener("keyup",(event) =>{
-    event.preventDefault();
-    const palabra = Buscador.value.toLowerCase();
-    const productos = bd.BuscadorDeNombre(palabra); /*se llama a la variable ya declarada anteriormente */
-    cargarProductos(productos);
-})
+// Lista con anotaciones
 
+const open = document.getElementById('anotaciones')
+const close = document.querySelector('.close')
+const contenido2 = document.querySelector ('.contenido2')
+
+
+open.addEventListener('click', function(){
+    contenido2.classList.add ('show');
+} )
+
+
+close.addEventListener('click', function(){
+    contenido2.classList.remove ('show');
+}) 
 
 
 // Menu de filtros
@@ -422,3 +441,4 @@ botonEdad.forEach((boton) => {
         cargarProductos(edad);
     })
 })
+

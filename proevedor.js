@@ -96,8 +96,8 @@ class Datos2 {
         this.agregarProductos(82,"Maxxium","Adulto","20","27780","Perro","Nutricare","Chubutin");
         this.agregarProductos(83,"Agility","Light","1.5","4337","Gato", "Agility","Nutrisur");
         this.agregarProductos(84,"Agility","Light","10","21753","Gato", "Agility","Nutrisur");
-        this.agregarProductos(85,"Agility","Lata Perro","1","1164","perro", "Agility","Nutrisur");
-        this.agregarProductos(172,"Agility","Pack de lata"," 1 (x12) ","15642","perro", "Agility","Nutrisur");
+        this.agregarProductos(85,"Agility","Lata Perro","1","1164","Perro", "Agility","Nutrisur");
+        this.agregarProductos(172,"Agility","Pack de lata"," 1 (x12) ","15642","Perro/Gato", "Agility","Nutrisur");
         this.agregarProductos(142,"Agility","Lata Gato",1,"1164","Gato", "Agility","Nutrisur");
         this.agregarProductos(86,"Royal Canin","Mini Puppy","1","4300","Perro","Royal Canin","Nutripet");
         this.agregarProductos(87,"Royal Canin","Mini Puppy","3","11583","Perro","Royal Canin","Nutripet");
@@ -195,13 +195,13 @@ class Datos2 {
         this.agregarProductos(182,"Sieger Katze","Light","7.5","22886","Gato","Sieger","Nutrisur");
         this.agregarProductos(183,"Sieger Katze","Stress Control","1","4564","Gato","Sieger","Nutrisur");
         this.agregarProductos(184,"Sieger Katze","Stress Control","7.5","22886","Gato","Sieger","Nutrisur");
-        this.agregarProductos(185,"Comedero Doble","Adulto","1","2848","Perro","Accesorio","Can Cid");
+        this.agregarProductos(185,"Comedero Doble","Adulto","1","3446","Perro","Accesorio","Can Cid");
         this.agregarProductos(186,"Comedero Plastico Chico","Adulto","1","214","Perro","Accesorio","Can Cid");
         this.agregarProductos(187,"Comedero Chico Inoxidable","Adulto","1","2294","Perro","Accesorio","Can Cid");
         this.agregarProductos(188,"Comedero Doble Europe","Adulto","1","764","Perro","Accesorio","Can Cid");
         this.agregarProductos(189,"Comedero Huella","Adulto","1","630","Perro","Accesorio","Can Cid");
         this.agregarProductos(190,"Comedero Grande Inoxidable","Adulto","1","8668","Perro","Accesorio","Can Cid");
-
+        this.agregarProductos(191,"Comedero Plastico Grande","Adulto","1","1005","Perro","Accesorio","Can Cid");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
@@ -435,6 +435,8 @@ Buscador.addEventListener("keyup", (event) => {
 })
 
 
+
+
 // filtros 
 
 const abrir = document.querySelector('.filtro');
@@ -502,6 +504,28 @@ botonCarrito.addEventListener("click", (event) => {
 closebtn.addEventListener("click" , (event) => {
     document.querySelector("section").classList.toggle ("ocultar");
 });
+
+
+// Recordatorio 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const fechaActual = new Date();
+
+    const fechaEmision = fechaActual.getFullYear()
+
+    const año = 2023
+
+    if(fechaEmision === año) {
+        const recordatorio = document.getElementById("recordatorio");
+        recordatorio.style.display = "block";
+    
+        // Ocultar el recordatorio después de 5 segundos
+        setTimeout(function () {
+        recordatorio.style.display = "none";
+        }, 7000);
+    }
+})
+
 
 const carrito = new Carrito();
 
