@@ -442,3 +442,19 @@ botonEdad.forEach((boton) => {
     })
 })
 
+document.addEventListener("DOMContentLoaded",function() {
+
+    const FechadeHoy = new Date();
+
+    const FechadeDuracion = FechadeHoy.getFullYear();
+
+    const año = 2023
+
+    if( FechadeDuracion === año) {
+        const recordatorio = document.getElementById("recordatorio");
+        recordatorio.style.display = "block";
+    } 
+    setTimeout(function(){
+        recordatorio.style.display = "none"
+    },7000)
+})

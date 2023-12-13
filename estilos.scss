@@ -688,17 +688,19 @@ button:hover{
         position: fixed;
         bottom: 10px;
         left: 10px;
-        background-color: #ffcc00; /* Color de fondo amarillo, puedes cambiarlo según tu preferencia */
+        background-color: #ffcc00; 
         padding: 10px;
         border-radius: 5px;
         display: none;
+        box-shadow: #0b0b0b;
     }
     
     #recordatorio p {
         margin: 0;
+        font-weight: 700;
         font-size: 1rem;
         letter-spacing: 1px;
-        color: #222222; /* Color del texto, puedes cambiarlo según tu preferencia */
+        color: #1d1d1d;
     }
 
 
