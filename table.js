@@ -31,10 +31,10 @@ class Datos {
         this.agregarProductos(179,"Excellent","Adulto Senior",1,"2500","Perro","Excellent","Senior");
         this.agregarProductos(180,"Excellent","Adulto Senior",15,"34000","Perro","Excellent","Senior");
         this.agregarProductos(17,"Agility","Adulto Grande",20,"25000","Perro","Agility","Adulto");
-        this.agregarProductos(18,"Biopet","Adulto",1,"1000","Perro","Biopet","Adulto");
-        this.agregarProductos(19,"Biopet","Adulto",20,"16500","Perro","Biopet","Adulto");
-        this.agregarProductos(164,"Biopet","Mini Small",1,"1200","Perro","Biopet","Mini Adulto");
-        this.agregarProductos(165,"Biopet","Mini Small",15,"14500","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(18,"Biopet","Adulto",1,"1200","Perro","Biopet","Adulto");
+        this.agregarProductos(19,"Biopet","Adulto",20,"20500","Perro","Biopet","Adulto");
+        this.agregarProductos(164,"Biopet","Mini Small",1,"1500","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(165,"Biopet","Mini Small",15,"18000","Perro","Biopet","Mini Adulto");
         this.agregarProductos(20,"Old Prince","Mini Adulto",1,"1800","Perro","Old Prince","Adulto");
         this.agregarProductos(229,"Old Prince","Mini Adulto",7.5,"14000","Perro","Old Prince","Adulto");
         this.agregarProductos(21,"Old Prince","Mini Adulto",15,"25000","Perro","Old Prince","Adulto");
@@ -46,8 +46,8 @@ class Datos {
         this.agregarProductos(26,"Old Prince","Derma Adulto",1,"2100","Perro","Old Prince","Adulto");
         this.agregarProductos(231,"Old Prince","Derma Adulto",7.5,"1750","Perro","Old Prince","Adulto");
         this.agregarProductos(27,"Old Prince","Derma Adulto",15,"30000","Perro","Old Prince","Adulto");
-        this.agregarProductos(28,"Balanced","Derma Adulto",1,"2700","Perro","Balanced","Adulto");
-        this.agregarProductos(29,"Balanced","Derma Adulto",15,"38500","Perro","Balanced","Adulto");
+        this.agregarProductos(28,"Balanced","Derma Adulto",1,"3300","Perro","Balanced","Adulto");
+        this.agregarProductos(29,"Balanced","Derma Adulto",15,"46000","Perro","Balanced","Adulto");
         this.agregarProductos(30,"Sieger","Mini Puppy",1,"4550.5","Perro","Sieger","Cachorro");
         this.agregarProductos(31,"Sieger","Mini Puppy",3,"10550","Perro","Sieger","Cachorro");
         this.agregarProductos(32,"Sieger","Mini Puppy",12,"34000","Perro","Sieger","Cachorro");
@@ -193,9 +193,9 @@ class Datos {
         this.agregarProductos(168,"Dog Chow","Senior",8,"14000","Perro","Dog Chow","Senior");
         this.agregarProductos(169,"Dog Chow","Senior",1,"1900","Perro","Dog Chow","Senior");
         this.agregarProductos(181,"Maxxium","Adulto",20,"29000","Perro","Nutricare","Adulto");
-        this.agregarProductos(182,"Smarty","Adulto","1","700","Perro","Smarty","Adulto");
-        this.agregarProductos(183,"Smarty","Adulto","15","9000","Perro","Smarty","Adulto");
-        this.agregarProductos(184,"Balanced","Derma Adulto",3,"11300","Perro","Balanced","Adulto");
+        this.agregarProductos(182,"Smarty","Adulto","1","900","Perro","Smarty","Adulto");
+        this.agregarProductos(183,"Smarty","Adulto","15","11500","Perro","Smarty","Adulto");
+        this.agregarProductos(184,"Balanced","Derma Adulto",3,"13600","Perro","Balanced","Adulto");
         this.agregarProductos(185,"Cat Chow","Adulto ",8,"20500","Gato","Catchow","Adulto");
         this.agregarProductos(186,"Cat Chow","Kitten ",8,"22000","Gato","Catchow","Cachorro");
         this.agregarProductos(187,"Pro Plan","Adulto ",1,"4200","Perro","Pro Plan","Adulto");
@@ -204,10 +204,10 @@ class Datos {
         this.agregarProductos(195,"Collar Antipulgas","Cachorro ",1,"4800","Perro","Pipetas","Cachorro");
         this.agregarProductos(196,"Collar Antipulgas","Mini Adulto ",1,"4800","Perro","Pipetas","Adulto");
         this.agregarProductos(197,"Collar Antipulgas","Adulto Grande ",1,"4800","Perro","Pipetas","Adulto");
-        this.agregarProductos(198,"Balanced","Mini Senior",3,"10000","Perro","Balanced","Senior");
-        this.agregarProductos(199,"Balanced","Mini Senior",7.5,"22800","Perro","Balanced","Senior");
-        this.agregarProductos(200,"Balanced","Grande Senior",3,"10000","Perro","Balanced","Senior");
-        this.agregarProductos(201,"Balanced","Grande Senior",15,"36600","Perro","Balanced","Senior");
+        this.agregarProductos(198,"Balanced","Mini Senior",3,"12000","Perro","Balanced","Senior");
+        this.agregarProductos(199,"Balanced","Mini Senior",7.5,"27800","Perro","Balanced","Senior");
+        this.agregarProductos(200,"Balanced","Grande Senior",3,"12000","Perro","Balanced","Senior");
+        this.agregarProductos(201,"Balanced","Grande Senior",15,"45200","Perro","Balanced","Senior");
         this.agregarProductos(204,"Kro Line","Correa Ancha","4","6000","Perro","Kro Line","Adulto");
         this.agregarProductos(205,"Kro Line","Pretal Solo","1.5","3200","Perro","Kro Line","Adulto");
         this.agregarProductos(206,"Kro Line","Pretal Solo","2","3400","Perro","Kro Line","Adulto");
@@ -250,8 +250,15 @@ class Datos {
         this.agregarProductos(240,"Comedero Huella","Adulto","1","900","Perro","Accesorios");
         this.agregarProductos(241,"Comedero Grande Inoxidable","Adulto","1","12000","Perro","Accesorios");
         this.agregarProductos(242,"Comedero Plastico Grande","Adulto","1","1800","Perro","Accesorios");
-        
+        this.agregarProductos(243,"Colchoneta Desenfundable Chica","Adulto","60x70","9100","Perro","Accesorios");
+        this.agregarProductos(244,"Colchoneta Desenfundable Mediana","Adulto","70x80","11100","Perro","Accesorios");
+        this.agregarProductos(245,"Colchoneta Desenfundable Grande","Adulto","80x90","14000","Perro","Accesorios");
+        this.agregarProductos(246,"Colchoneta Desenfundable Extra Grande","Adulto","90x100","18000","Perro","Accesorios");
+        this.agregarProductos(247,"Colchonetas Anti Desgaro Medianas","Adulto","1","8500","Perro","Accesorios");
+        this.agregarProductos(248,"Nidos","Adulto","1","114000","Gtao","Accesorios");
+        this.agregarProductos(249,"Moises de Jean","Adulto","1","16000","Gato","Accesorios");
 }
+
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
         const producto = new Producto (id,nombre,tamaño,kg,precio,mascota,marca,edad);/* este const se vincula con la class Producto */
         this.productos.push(producto); 
@@ -458,3 +465,18 @@ document.addEventListener("DOMContentLoaded",function() {
         recordatorio.style.display = "none"
     },7000)
 })
+
+
+// Descuento 
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    const hoy = new Date ();
+    const promo = hoy.getDay();
+
+    if (promo === 25){
+        const promocion = document.getElementById("descuento");
+        promocion.style.display = "block"
+        }
+    }
+)

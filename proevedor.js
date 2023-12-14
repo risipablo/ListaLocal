@@ -24,8 +24,8 @@ class Datos2 {
         this.agregarProductos(148,"Excellent","Adulto","15","42800","Gato","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","27140","Perro","Excellent","Forastero");
         this.agregarProductos(17,"Agility","Adulto Grande","20","20279","Perro","Excellent","Nutrisur");
-        this.agregarProductos(18,"Biopet","Mini Adulto","15","11200","Perro","Biopet","Popy");
-        this.agregarProductos(19,"Biopet","Adulto","20","12700","Perro","Biopet","Popy");
+        this.agregarProductos(18,"Biopet","Mini Adulto","15","13900","Perro","Biopet","Popy");
+        this.agregarProductos(19,"Biopet","Adulto","20","16000","Perro","Biopet","Popy");
         this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","11043","Perro","Old Prince","Don Tomas");
         this.agregarProductos(21,"Old Prince","Mini Adulto","15","20078","Perro","Old Prince","Don Tomas");
         this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","14963","Perro","Old Prince","Don Tomas");
@@ -33,8 +33,8 @@ class Datos2 {
         this.agregarProductos(25,"Old Prince","Cachorro Small","7.5","11383","Perro","Old Prince","Don Tomas");
         this.agregarProductos(26,"Old Prince","Derma Adulto","7.5","13602","Perro","Old Prince","Don Tomas");
         this.agregarProductos(27,"Old Prince","Derma Adulto","15","25910","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(28,"Balanced","Derma Adulto","3","7687","Perro","Balanced","Amadeo");
-        this.agregarProductos(29,"Balanced","Derma Adulto","15","26587","Perro","Balanced","Amadeo");
+        this.agregarProductos(28,"Balanced","Derma Adulto","3","10609","Perro","Balanced","Amadeo");
+        this.agregarProductos(29,"Balanced","Derma Adulto","15","36698","Perro","Balanced","Amadeo");
         this.agregarProductos(30,"Sieger","Mini Puppy","1","3515","Perro","Sieger","Nutrisur");
         this.agregarProductos(31,"Sieger","Mini Puppy","3","8124","Perro","Sieger","Nutrisur");
         this.agregarProductos(32,"Sieger","Mini Puppy","12","26510","Perro","Sieger","Nutrisur");
@@ -163,14 +163,14 @@ class Datos2 {
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1337","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","630","Perro","Bocados","Can Cid");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","11085","Gato","Nutricare","Chubutin");
-        this.agregarProductos(152,"Smarty","Adulto","15","6900","Perro","Keiko","Popy");
+        this.agregarProductos(152,"Smarty","Adulto","15","9100","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Adulto","21","10900","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Cachorro","15","11200","Perro","Keiko","Popy");
         this.agregarProductos(153,"Arroz","Adulto","15","13000","Perro","Arroz","Popy");
-        this.agregarProductos(157,"Balanced","Mini Senior ","3","6805","Perro","Balanced","Amadeo");
-        this.agregarProductos(158,"Balanced","Mini Senior","7.5","15555","Perro","Balanced","Amadeo");
-        this.agregarProductos(159,"Balanced","Grande Senior","3","6805","Perro","Balanced","Amadeo");
-        this.agregarProductos(160,"Balanced","Grande Senior","15","25420","Perro","Balanced","Amadeo");
+        this.agregarProductos(157,"Balanced","Mini Senior ","3","9390","Perro","Balanced","Amadeo");
+        this.agregarProductos(158,"Balanced","Mini Senior","7.5","21468","Perro","Balanced","Amadeo");
+        this.agregarProductos(159,"Balanced","Grande Senior","3","9390","Perro","Balanced","Amadeo");
+        this.agregarProductos(160,"Balanced","Grande Senior","15","35079","Perro","Balanced","Amadeo");
         this.agregarProductos(161,"Kro Line","Correa Ancha","4","3600","Perro","Kro Line","Kro Line");
         this.agregarProductos(162,"Kro Line","Cinturon de seguridad","3","2400","Perro","Kro Line","Kro Line");
         this.agregarProductos(163,"Kro Line","Pretal Solo","1.5","1605","Perro","Kro Line","Kro Line");
@@ -435,7 +435,21 @@ Buscador.addEventListener("keyup", (event) => {
 })
 
 
+// Lista con anotaciones
 
+const open = document.getElementById('anotaciones')
+const close2 = document.getElementById('close2')
+const contenido2 = document.querySelector ('.contenido2')
+
+
+open.addEventListener('click', function(){
+    contenido2.classList.add ('show');
+} )
+
+
+close2.addEventListener('click', function(){
+    contenido2.classList.remove ('show');
+}) 
 
 // filtros 
 
