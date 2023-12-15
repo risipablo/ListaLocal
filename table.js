@@ -75,17 +75,17 @@ class Datos {
         this.agregarProductos(55,"Gati","Adulto ",15,"20000","Gato","Gati","Adulto");
         this.agregarProductos(56,"Infinity","Mini Adulto",1,"1500","Perro","Infinity","Adulto");
         this.agregarProductos(57,"Infinity","Mini Adulto ",15,"19000","Perro","Infinity","Adulto");
-        this.agregarProductos(58,"Nutricare","Mini Adulto",1,"1400","Perro","Nutricare","Adulto");
-        this.agregarProductos(59,"Nutricare","Mini Adulto ",20,"22000","Perro","Nutricare","Adulto");
-        this.agregarProductos(60,"Nutricare","Adulto Grande",1,"1200","Perro","Nutricare","Adulto");
-        this.agregarProductos(61,"Nutricare","Adulto Grande ",20,"22000","Perro","Nutricare","Adulto");
-        this.agregarProductos(62,"Nutricare","Cachorro ",1,"1400","Perro","Nutricare","Cachorro");
-        this.agregarProductos(63,"Nutricare","Cachorro",15,"18000","Perro","Nutricare","Cachorro");
-        this.agregarProductos(190,"Piedras Blancas","Adulto","2","800","Gato","Piedras","Adulto")
-        this.agregarProductos(191,"Nutricare","Adulto Grande ",7.5,"8000","Perro","Nutricare","Adulto");
-        this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"8000","Perro","Nutricare","Adulto");
-        this.agregarProductos(193,"Nutricare","Adulto ",1,"2000","Gato","Nutricare","Adulto");
-        this.agregarProductos(194,"Nutricare","Adulto ",7.5,"14000","Gato","Nutricare","Adulto");
+        this.agregarProductos(58,"Nutricare","Mini Adulto",1,"1600","Perro","Nutricare","Adulto");
+        this.agregarProductos(59,"Nutricare","Mini Adulto ",20,"26000","Perro","Nutricare","Adulto");
+        this.agregarProductos(60,"Nutricare","Adulto Grande",1,"1500","Perro","Nutricare","Adulto");
+        this.agregarProductos(61,"Nutricare","Adulto Grande ",20,"25000","Perro","Nutricare","Adulto");
+        this.agregarProductos(62,"Nutricare","Cachorro ",1,"1600","Perro","Nutricare","Cachorro");
+        this.agregarProductos(63,"Nutricare","Cachorro",15,"21000","Perro","Nutricare","Cachorro");
+        this.agregarProductos(190,"Piedras Blancas","Adulto","2","1400","Gato","Piedras","Adulto")
+        this.agregarProductos(191,"Nutricare","Adulto Grande ",7.5,"9400","Perro","Nutricare","Adulto");
+        this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"9400","Perro","Nutricare","Adulto");
+        this.agregarProductos(193,"Nutricare","Adulto ",1,"2500","Gato","Nutricare","Adulto");
+        this.agregarProductos(194,"Nutricare","Adulto ",7.5,"22000","Gato","Nutricare","Adulto");
         this.agregarProductos(64,"Wishka","Adulto ",1,"2200","Gato","Wishka","Adulto");
         this.agregarProductos(65,"Wishka","Adulto ",10,"21000","Gato","Wishka","Adulto");
         this.agregarProductos(66,"Bocato","Adulto",1,"1100","Gato","Bocato","Adulto");
@@ -169,11 +169,11 @@ class Datos {
         this.agregarProductos(141,"Hueso","Orejas","","300","Perro","Hueso","Adulto");
         this.agregarProductos(142,"Pedigree","Lata",1,"1000","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
         this.agregarProductos(143,"Pedigree","Pouch",1,"350","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
-        this.agregarProductos(144,"Osspret Pipetas","Adulto","11-20","2000","Perro","Pipetas","Adulto");
-        this.agregarProductos(145,"Osspret Pipetas","Adulto","2-10","2000","Perro","Pipetas","Adulto");
-        this.agregarProductos(146,"Osspret Pipetas","Adulto","21-40","2500","Perro","Pipetas","Adulto");
-        this.agregarProductos(147,"Osspret Pipetas","Adulto","+ 40","2500","Perro","Pipetas","Adulto");
-        this.agregarProductos(148,"Osspret Pipetas","Adulto","+ 4","1800","Gato","Pipetas","Adulto");
+        this.agregarProductos(144,"Osspret Pipetas","Adulto","2-10","2200","Perro","Pipetas","Adulto");
+        this.agregarProductos(145,"Osspret Pipetas","Adulto","11-20","2400","Perro","Pipetas","Adulto");
+        this.agregarProductos(146,"Osspret Pipetas","Adulto","21-40","2800","Perro","Pipetas","Adulto");
+        this.agregarProductos(147,"Osspret Pipetas","Adulto","+ 40","3000","Perro","Pipetas","Adulto");
+        this.agregarProductos(148,"Osspret Pipetas","Adulto","+ 4","2200","Gato","Pipetas","Adulto");
         this.agregarProductos(149,"Osspret Shampoo","Pelo Blanco","1","3200","Perro","Shampoo","Adulto");
         this.agregarProductos(150,"Osspret Shampoo","Pelo Negro","1","3200","Perro","Shampoo","Adulto");
         this.agregarProductos(151,"Osspret Shampoo","Dermatitis","1","3000","Perro","Shampoo","Adulto");
@@ -223,7 +223,7 @@ class Datos {
         this.agregarProductos(216,"Cardina","Chica","1","2300","Perro","Accesorios","Adulto");
         this.agregarProductos(217,"Cardina","Mediana","1","2900","Perro","Accesorios","Adulto");
         this.agregarProductos(218,"Cardina","Grande","1","4700","Perro","Accesorios","Adulto");
-        this.agregarProductos(219,"Piedras Blancas","Adulto",4,"1400","Gato","Accesorios","Adulto");
+        this.agregarProductos(219,"Piedras Blancas","Adulto",4,"2200","Gato","Accesorios","Adulto");
         this.agregarProductos(49,"Sieger Katze ","Kitten",1,"5900","Gato","Sieger","Adulto");
         this.agregarProductos(220,"Sieger Katze ","Kitten",7.5,"29700","Gato","Sieger","Adulto");
         this.agregarProductos(221,"Sieger Katze ","Adulto",1,"5900","Gato","Sieger","Adulto");
@@ -257,6 +257,9 @@ class Datos {
         this.agregarProductos(247,"Colchonetas Anti Desgaro Medianas","Adulto","1","8500","Perro","Accesorios");
         this.agregarProductos(248,"Nidos","Adulto","1","114000","Gtao","Accesorios");
         this.agregarProductos(249,"Moises de Jean","Adulto","1","16000","Gato","Accesorios");
+        this.agregarProductos(250,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
+        this.agregarProductos(251,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
+        this.agregarProductos(251,"Bolson Piedras Sanitarias","Adulto","20","6000","Gato","Accesorios");
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){

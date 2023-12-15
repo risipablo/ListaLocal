@@ -58,23 +58,23 @@ class Datos2 {
         this.agregarProductos(45,"Pro Plan","Adulto Small","7.5","23627","Perro", "Pro Plan","Forastero");
         this.agregarProductos(149,"Pro Plan","Adulto Small","3","11297","Perro", "Pro Plan","Forastero");
         this.agregarProductos(46,"Gati","Adulto ","15","15560","Gato","Gati","Forastero");
-        this.agregarProductos(47,"Infinity","Adulto","21","20460","Perro","Infinity","Chubutin");
-        this.agregarProductos(48,"Infinity","Mini Adulto ","15","15330","Perro","Infinity","Chubutin");
-        this.agregarProductos(49,"Nutricare","Mini Adulto","7.5","6195","Perro","Nutricare","Chubutin");
-        this.agregarProductos(50,"Nutricare","Mini Adulto ","20","16985","Perro","Nutricare","Chubutin");
-        this.agregarProductos(51,"Nutricare","Adulto Grande","7.5","6195","Perro","Nutricare","Chubutin");
-        this.agregarProductos(52,"Nutricare","Adulto Grande ","20","16985","Perro","Nutricare","Chubutin");
-        this.agregarProductos(53,"Optimun ","Pouch ","12","4230","Gato/Perro","Optimun","Chubutin");
-        this.agregarProductos(54,"Nutricare","Cachorro","15","14085","Perro","Nutricare","Chubutin");
-        this.agregarProductos(55,"Piedras Blancas","Adulto","Pack x 4","4000","Gato","-","Popy");
+        this.agregarProductos(47,"Infinity","Adulto","21","25600","Perro","Infinity","Chubutin");
+        this.agregarProductos(48,"Infinity","Mini Adulto ","15","19200","Perro","Infinity","Chubutin");
+        this.agregarProductos(49,"Nutricare","Mini Adulto","7.5","7400","Perro","Nutricare","Chubutin");
+        this.agregarProductos(50,"Nutricare","Mini Adulto ","20","20600","Perro","Nutricare","Chubutin");
+        this.agregarProductos(51,"Nutricare","Adulto Grande","7.5","7400","Perro","Nutricare","Chubutin");
+        this.agregarProductos(52,"Nutricare","Adulto Grande ","20","20600","Perro","Nutricare","Chubutin");
+        this.agregarProductos(53,"Optimun ","Pouch ","12","Sin Valor","Gato/Perro","Optimun","Chubutin");
+        this.agregarProductos(54,"Nutricare","Cachorro","15","16900","Perro","Nutricare","Chubutin");
+        this.agregarProductos(55,"Piedras Blancas","Adulto"," 4","6750","Gato","-","Popy");
         this.agregarProductos(56,"Wishka","Adulto ","10","16759","Gato","Wishka","Don Tomas");
-        this.agregarProductos(57,"Bocato","Adulto","20","9745","Perro","Bocato","Chubutin");
-        this.agregarProductos(58,"Bocato","Adulto ","10","7085","Gato","Bocato","Chubutin");
-        this.agregarProductos(59,"Optimun","Adulto","1","2400","Gato","Optimun","Chubutin");
-        this.agregarProductos(184,"Optimun","Adulto ","10","17420","Gato","Optimun","Chubutin");
-        this.agregarProductos(185,"Optimun","Adulto","3","6100","Gato","Optimun","Chubutin");
-        this.agregarProductos(186,"Optimun","Mini Adulto ","15","15020","Perro","Optimun","Chubutin");
-        this.agregarProductos(187,"Optimun","Mini Adulto","3","4125","Perro","Optimun","Chubutin");
+        this.agregarProductos(57,"Bocato","Adulto","20","13650","Perro","Bocato","Chubutin");
+        this.agregarProductos(58,"Bocato","Adulto ","10","9920","Gato","Bocato","Chubutin");
+        this.agregarProductos(59,"Optimun","Adulto","1","2900","Gato","Optimun","Chubutin");
+        this.agregarProductos(184,"Optimun","Adulto ","10","20900","Gato","Optimun","Chubutin");
+        this.agregarProductos(185,"Optimun","Adulto","3","7300","Gato","Optimun","Chubutin");
+        this.agregarProductos(186,"Optimun","Mini Adulto ","15","18000","Perro","Optimun","Chubutin");
+        this.agregarProductos(187,"Optimun","Mini Adulto","3","4900","Perro","Optimun","Chubutin");
         this.agregarProductos(61,"Pedigree","Mini Adulto","15","16503","Perro","Pedigree","Don Tomas");
         this.agregarProductos(62,"Dog Chow","Adulto Senior","8","10932","Perro","Dog Chow","Forastero");
         this.agregarProductos(63,"Dog Chow","Mini Adulto","21","26252","Perro","Dog Chow","Forastero");
@@ -146,11 +146,11 @@ class Datos2 {
         this.agregarProductos(129,"Pedigree","Lata","12","9372","Perro","Pedigree","Don Tomas");
         this.agregarProductos(130,"Pedigree","Pouch","1","243","Perro","Pedigree","Don Tomas");
         this.agregarProductos(183,"Pedigree","Pouch","12","2916","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(131,"Osspret Pipetas","Adulto","11-20","858","Perro","Pipetas","Amadeo");
-        this.agregarProductos(132,"Osspret Pipetas","Adulto","2-10","1312","Perro","Pipetas","Amadeo");
-        this.agregarProductos(133,"Osspret Pipetas","Adulto","21-40","1730","Perro","Pipetas","Amadeo");
-        this.agregarProductos(134,"Osspret Pipetas","Adulto","+ 40","1144","Perro","Pipetas","Amadeo");
-        this.agregarProductos(135,"Osspret Pipetas","Adulto","+ 4","1353","Gato","Pipetas","Amadeo");
+        this.agregarProductos(131,"Osspret Pipetas","Adulto","2.10","1641","Perro","Pipetas","Amadeo");
+        this.agregarProductos(132,"Osspret Pipetas","Adulto","11-20","1791","Perro","Pipetas","Amadeo");
+        this.agregarProductos(133,"Osspret Pipetas","Adulto","21-40","2164","Perro","Pipetas","Amadeo");
+        this.agregarProductos(134,"Osspret Pipetas","Adulto","+ 40","2391","Perro","Pipetas","Amadeo");
+        this.agregarProductos(135,"Osspret Pipetas","Adulto","+ 4","1692","Gato","Pipetas","Amadeo");
         this.agregarProductos(136,"Osspret Shampoo","Pelo Blanco","1","1508","Perro","Shampoo","Amadeo");
         this.agregarProductos(137,"Osspret Shampoo","Pelo Negro","1","1508","Perro","Shampoo","Amadeo");
         this.agregarProductos(138,"Osspret Shampoo","Dermatitis","1","1508","Perro","Shampoo","Amadeo");
@@ -162,7 +162,7 @@ class Datos2 {
         this.agregarProductos(145,"Pellcats","Adulto","1","966","Gato","Piedras","Can Cid");
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1337","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","630","Perro","Bocados","Can Cid");
-        this.agregarProductos(151,"Nutricare","Adulto","7.5","11085","Gato","Nutricare","Chubutin");
+        this.agregarProductos(151,"Nutricare","Adulto","7.5","13300","Gato","Nutricare","Chubutin");
         this.agregarProductos(152,"Smarty","Adulto","15","9100","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Adulto","21","10900","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Cachorro","15","11200","Perro","Keiko","Popy");
@@ -182,7 +182,7 @@ class Datos2 {
         this.agregarProductos(169,"Stone Cat","Adulto","5","9498","Gato","Piedras","Can Cid");
         this.agregarProductos(170,"Pellcats","Adulto","5","4830","Gato","Piedras","Can Cid");
         this.agregarProductos(171,"Golocan","Adulto","20","12698","Perro","Bocados","Can Cid");
-        this.agregarProductos(93,"Piedras Blancas","Adulto","2","4400","Gato","-","Popy")
+        this.agregarProductos(93,"Piedras Blancas","Adulto","2","6300","Gato","-","Popy")
         this.agregarProductos(173,"Sieger Katze","Kitten","1","4564","Gato","Sieger","Nutrisur");
         this.agregarProductos(174,"Sieger Katze","Kitten","7.5","23886","Gato","Sieger","Nutrisur");
         this.agregarProductos(175,"Sieger Katze","Adulto","1","4347","Gato","Sieger","Nutrisur");
@@ -202,6 +202,9 @@ class Datos2 {
         this.agregarProductos(189,"Comedero Huella","Adulto","1","630","Perro","Accesorio","Can Cid");
         this.agregarProductos(190,"Comedero Grande Inoxidable","Adulto","1","8668","Perro","Accesorio","Can Cid");
         this.agregarProductos(191,"Comedero Plastico Grande","Adulto","1","1005","Perro","Accesorio","Can Cid");
+        this.agregarProductos(192,"Piedras Blancas Mascot ","Adulto","2","3200","Gato","Accesorio","Can Cid");
+        this.agregarProductos(193,"Piedras Blancas Mascot ","Adulto","4","3000","Gato","Accesorio","Can Cid");
+        this.agregarProductos(194,"Bolson Piedras ","Adulto","20","4600","Gato","Accesorio","Popy");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
