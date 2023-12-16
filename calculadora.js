@@ -1,164 +1,77 @@
-class Calculator {
-    constructor(previousOperandTextElement, currentOperandTextElement) {
-        this.previousOperandTextElement = previousOperandTextElement;
-        this.currentOperandTextElement = currentOperandTextElement;
-        this.clear();
-    }
 
-    clear() {
-        this.currentOperand = '';
-        this.previousOperand = '';
-        this.operation = undefined;
-    }
+const pantalla = document.querySelector(".pantalla");
+const zero = document.getElementById("zero")
+const equal = document.getElementById("equal")
+const botones = document.querySelectorAll(".btn")
 
-    delete() {
-        this.currentOperand = this.currentOperand.toString().slice(0, -1);
-    }
+//  Primero se debe recorrer los botones 
 
-    appendNumber(number) {
-        if (number === '.' && this.currentOperand.includes('.')) return;
-        this.currentOperand = this.currentOperand.toString() + number.toString();
-    }
+botones.forEach(boton => {
+    boton.addEventListener("click" , () => {
+        const btnApretado = boton.textContent // Se crea una variable nueva para apretar los botones que deseamos para eso se usa "textContext"
 
-    chooseOperation(operation) {
-        if (this.currentOperand === '') return;
-        if (this.previousOperand !== '') {
-            this.compute();
+        // Funcion de borrar todos los numeros
+        if (boton.id === "Esc"){
+            pantalla.textContent = "0";
+            return;
         }
-        this.operation = operation;
-        this.previousOperand = this.currentOperand;
-        this.currentOperand = '';
-    }
-
-    compute() {
-        let computation;
-        const prev = parseFloat(this.previousOperand);
-        const current = parseFloat(this.currentOperand);
-        if (isNaN(prev) || isNaN(current)) return;
-        switch (this.operation) {
-            case '+':
-                computation = prev + current;
-                break;
-            case '-':
-                computation = prev - current;
-                break;
-            case '*':
-                computation = prev * current;
-                break;
-            case '/':
-                if (current === 0) {
-                    computation = 'Error: División por cero';
-                } else {
-                    computation = prev / current;
-                }
-                break;
-            default:
-                return;
-        }
-        this.currentOperand = computation;
-        this.operation = undefined;
-        this.previousOperand = '';
         
-    }
+        // Funcion de borrar numero por numero
+        if(boton.id === "delete") {
+            // Con esta propiedad le decimos que borre el ultimo digito y que muestre 0 
+            if (pantalla.textContent.length === 1 || pantalla.textContent === "Error") {
+                pantalla.textContent = "0"
+            } else {
+                pantalla.textContent = pantalla.textContent.slice( 0 ,-1 )
+            }
+            return;
+        }
 
-    getDisplayNumber(number) {
-        const stringNumber = number.toString();
-        const integerDigits = parseFloat(stringNumber.split('.')[0]);
-        const decimalDigits = stringNumber.split('.')[1];
-        let integerDisplay;
-        if (isNaN(integerDigits)) {
-            integerDisplay = '';
+        // Fucion Equal
+        if (boton.id === "equal") {
+            try{
+                pantalla.textContent = eval(pantalla.textContent)
+            } catch {
+                pantalla.textContent = "Error"
+            }
+            return;
+        }
+
+        // Funcion de apretar botones
+        if (pantalla.textContent === "0"  || pantalla.textContent === "Error" ) {
+            pantalla.textContent = btnApretado
         } else {
-            integerDisplay = integerDigits.toLocaleString('en', { maximumFractionDigits: 0 });
+            pantalla.textContent += btnApretado 
         }
-        if (decimalDigits != null) {
-            return `${integerDisplay}.${decimalDigits}`;
-        } else {
-            return integerDisplay;
+        
+    })
+})
+
+
+document.addEventListener("keydown", (event) => {
+    const key = event.key;
+    const isNumber = !isNaN(parseFloat(key)) && isFinite(key); // numeros
+    const isOperator = ['+', '-', '*', '/','.'].includes(key); // operadores
+    const isEqual = key === 'equal' && key === 'Enter';
+    const boton = Array.from(botones).find((btn) => btn.textContent === key);
+
+    if (isNumber || isOperator || isEqual) {
+        if (boton) {
+            boton.click();
+            event.preventDefault();
+            
         }
-    }
-
-    updateDisplay() {
-        this.currentOperandTextElement.innerText = this.getDisplayNumber(this.currentOperand);
-        if (this.operation != null) {
-            this.previousOperandTextElement.innerText = `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`;
-        } else {
-            this.previousOperandTextElement.innerText = '';
+    } else if (key === 'Escape') //Borrar todo
+        {
+        pantalla.textContent = "0";
+        } else if (key === 'Backspace') //Borrar numero por numero
+        {
+        const content = pantalla.textContent;
+        pantalla.textContent = content.length === 1 || content === "Error" ? "0" : content.slice(0, -1);
         }
-    }
-
-    
-}
-
-
-
-
-const numberButtons = document.querySelectorAll('[data-number]');
-const operationButtons = document.querySelectorAll('[data-operation]');
-const equalsButton = document.querySelector('[data-equals]');
-const deleteButton = document.querySelector('[data-delete]');
-const allClearButton = document.querySelector('[data-all-clear]');
-const previousOperandTextElement = document.querySelector('[data-previous-operand]');
-const currentOperandTextElement = document.querySelector('[data-current-operand]');
-
-const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement);
-
-numberButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        calculator.appendNumber(button.innerText);
-        calculator.updateDisplay();
-    });
-});
-
-operationButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        calculator.chooseOperation(button.innerText);
-        calculator.updateDisplay();
-    });
-});
-
-equalsButton.addEventListener('click', event => {
-    calculator.compute();
-    calculator.updateDisplay();
-});
-
-allClearButton.addEventListener('click', button => {
-    calculator.clear();
-    calculator.updateDisplay();
-});
-
-deleteButton.addEventListener('click', button => {
-    calculator.delete();
-    calculator.updateDisplay();
 });
 
 
-// Función para manejar eventos de teclado
-    function handleKeyboardInput(event) {
-        const key = event.key;
-        if (/^[0-9]$/.test(key)) {
-        // Si se presiona una tecla numérica, la agregamos a la calculadora
-        calculator.appendNumber(key);
-        calculator.updateDisplay();
-        } else if (key === '.' && !calculator.currentOperand.includes('.')) {
-        // Si se presiona el punto decimal y no está presente en el número actual, lo agregamos
-        calculator.appendNumber(key);
-        calculator.updateDisplay();
-        } else if (key === '+' || key === '-'|| key === '*'|| key === '/'){
-        calculator.chooseOperation(key);
-        calculator.updateDisplay();
-        } else if (key === 'Enter') {
-        calculator.compute();
-        calculator.updateDisplay();
-        } else if (key === 'Escape') {
-        calculator.clear();
-        calculator.updateDisplay();
-        } else if (key === 'Backspace'){
-            calculator.delete()
-            calculator.updateDisplay();
-        }
-    }
-    
-    // Agregar un oyente de eventos al documento para escuchar las teclas
-    document.addEventListener('keydown', handleKeyboardInput);
-    
+
+
+
