@@ -260,6 +260,7 @@ class Datos {
         this.agregarProductos(250,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
         this.agregarProductos(251,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
         this.agregarProductos(251,"Bolson Piedras Sanitarias","Adulto","20","6000","Gato","Accesorios");
+        this.agregarProductos(252,"Suertudo","Adulto","20","15000","Perro","Suertudo","Adulto");
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){

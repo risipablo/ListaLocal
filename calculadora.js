@@ -1,35 +1,31 @@
-
 const pantalla = document.querySelector(".pantalla");
 const zero = document.getElementById("zero")
 const equal = document.getElementById("equal")
 const botones = document.querySelectorAll(".btn")
 
-//  Primero se debe recorrer los botones 
-
 botones.forEach(boton => {
-    boton.addEventListener("click" , () => {
-        const btnApretado = boton.textContent // Se crea una variable nueva para apretar los botones que deseamos para eso se usa "textContext"
-
-        // Funcion de borrar todos los numeros
-        if (boton.id === "Esc"){
-            pantalla.textContent = "0";
+    boton.addEventListener('click', () => {
+        const btnAgregar = boton.textContent
+        
+        // Borrar resultado 
+        if (boton.id === "Esc") {
+            pantalla.textContent = "0"
             return;
         }
-        
-        // Funcion de borrar numero por numero
-        if(boton.id === "delete") {
-            // Con esta propiedad le decimos que borre el ultimo digito y que muestre 0 
-            if (pantalla.textContent.length === 1 || pantalla.textContent === "Error") {
+
+        // Borrar numero por numero 
+        if (boton.id === "delete"){
+            if(pantalla.textContent.length === 1 || pantalla.textContent === "Error"){
                 pantalla.textContent = "0"
             } else {
-                pantalla.textContent = pantalla.textContent.slice( 0 ,-1 )
+                pantalla.textContent = pantalla.textContent.slice (0,-1)
             }
             return;
         }
 
-        // Fucion Equal
-        if (boton.id === "equal") {
-            try{
+        // Operadores
+        if (boton.id === "equal"){
+            try {
                 pantalla.textContent = eval(pantalla.textContent)
             } catch {
                 pantalla.textContent = "Error"
@@ -37,27 +33,25 @@ botones.forEach(boton => {
             return;
         }
 
-        // Funcion de apretar botones
-        if (pantalla.textContent === "0"  || pantalla.textContent === "Error" ) {
-            pantalla.textContent = btnApretado
+        // Mostrar numero y error  en la pantalla 
+        if (pantalla.textContent === "0" || pantalla.textContent === "Error") {
+            pantalla.textContent = btnAgregar
         } else {
-            pantalla.textContent += btnApretado 
+            pantalla.textContent += btnAgregar
         }
-        
     })
 })
 
-
-document.addEventListener("keydown", (event) => {
+document.addEventListener('keydown', (event) => {
     const key = event.key;
     const isNumber = !isNaN(parseFloat(key)) && isFinite(key); // numeros
     const isOperator = ['+', '-', '*', '/','.'].includes(key); // operadores
-    const isEqual = key === 'equal' && key === 'Enter';
-    const boton = Array.from(botones).find((btn) => btn.textContent === key);
+    const isEqual = key === 'equal' && key === 'equal'; // solucionar el igual
+    const button = Array.from(botones).find((btn) => btn.textContent === key);
 
     if (isNumber || isOperator || isEqual) {
-        if (boton) {
-            boton.click();
+        if (button) {
+            button.click();
             event.preventDefault();
             
         }

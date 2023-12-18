@@ -145,7 +145,7 @@ class Datos2 {
         this.agregarProductos(60,"Pedigree","Lata","1","781","Perro","Pedigree","Don Tomas");
         this.agregarProductos(129,"Pedigree","Lata","12","9372","Perro","Pedigree","Don Tomas");
         this.agregarProductos(130,"Pedigree","Pouch","1","243","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(183,"Pedigree","Pouch","12","2916","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(195,"Pedigree","Pouch","12","2916","Perro","Pedigree","Don Tomas");
         this.agregarProductos(131,"Osspret Pipetas","Adulto","2.10","1641","Perro","Pipetas","Amadeo");
         this.agregarProductos(132,"Osspret Pipetas","Adulto","11-20","1791","Perro","Pipetas","Amadeo");
         this.agregarProductos(133,"Osspret Pipetas","Adulto","21-40","2164","Perro","Pipetas","Amadeo");
@@ -205,6 +205,7 @@ class Datos2 {
         this.agregarProductos(192,"Piedras Blancas Mascot ","Adulto","2","3200","Gato","Accesorio","Can Cid");
         this.agregarProductos(193,"Piedras Blancas Mascot ","Adulto","4","3000","Gato","Accesorio","Can Cid");
         this.agregarProductos(194,"Bolson Piedras ","Adulto","20","4600","Gato","Accesorio","Popy");
+        this.agregarProductos(196,"Suertudo ","Adulto","20","11500","Perro","Suertudo","Popy");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
