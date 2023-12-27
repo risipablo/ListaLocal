@@ -23,34 +23,34 @@ class Datos2 {
         this.agregarProductos(183,"Excellent","Adulto Grande","20","29304","Perro","Excellent","Forastero");
         this.agregarProductos(148,"Excellent","Adulto","15","42800","Gato","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","27140","Perro","Excellent","Forastero");
-        this.agregarProductos(17,"Agility","Adulto Grande","20","20279","Perro","Excellent","Nutrisur");
+        this.agregarProductos(17,"Agility","Adulto Grande","20","25349","Perro","Excellent","Nutrisur");
         this.agregarProductos(18,"Biopet","Mini Adulto","15","13900","Perro","Biopet","Popy");
         this.agregarProductos(19,"Biopet","Adulto","20","16000","Perro","Biopet","Popy");
-        this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","11043","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(21,"Old Prince","Mini Adulto","15","20078","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","14963","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(23,"Old Prince","Derma Small/Cachorro","15","28501","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(25,"Old Prince","Cachorro Small","7.5","11383","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(26,"Old Prince","Derma Adulto","7.5","13602","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(27,"Old Prince","Derma Adulto","15","25910","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","14577","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(21,"Old Prince","Mini Adulto","15","26503","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","19751","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(23,"Old Prince","Derma Small/Cachorro","15","37621","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(25,"Old Prince","Cachorro Small","7.5","15026","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(26,"Old Prince","Derma Adulto","7.5","17956","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(27,"Old Prince","Derma Adulto","15","34201","Perro","Old Prince","Don Tomas");
         this.agregarProductos(28,"Balanced","Derma Adulto","3","10609","Perro","Balanced","Amadeo");
         this.agregarProductos(29,"Balanced","Derma Adulto","15","36698","Perro","Balanced","Amadeo");
-        this.agregarProductos(30,"Sieger","Mini Puppy","1","3515","Perro","Sieger","Nutrisur");
-        this.agregarProductos(31,"Sieger","Mini Puppy","3","8124","Perro","Sieger","Nutrisur");
-        this.agregarProductos(32,"Sieger","Mini Puppy","12","26510","Perro","Sieger","Nutrisur");
-        this.agregarProductos(33,"Sieger","Cachorro","1","3196","Perro","Sieger","Nutrisur");
-        this.agregarProductos(34,"Sieger ","Cachorro","3","7740","Perro","Sieger","Nutrisur");
-        this.agregarProductos(35,"Sieger","Cachorro","15","30540","Perro","Sieger","Nutrisur");
-        this.agregarProductos(36,"Sieger","Senior","3","7518","Perro","Sieger","Nutrisur");
-        this.agregarProductos(37,"Sieger","Adulto Grande","3","7371","Perro","Sieger","Nutrisur");
-        this.agregarProductos(38,"Sieger","Adulto Grande","15","28009","Perro","Sieger","Nutrisur");
-        this.agregarProductos(39,"Sieger","Mini Adulto","1","3515","Perro","Sieger","Nutrisur");
-        this.agregarProductos(40,"Sieger ","Mini Adulto","3","7960","Perro","Sieger","Nutrisur");
-        this.agregarProductos(155,"Sieger ","Mini Adulto","12","26510","Perro","Sieger","Nutrisur");
-        this.agregarProductos(156,"Sieger ","Reduce Calorie","3","7664","Perro","Sieger","Nutrisur");
-        this.agregarProductos(73,"Sieger ","Derma","12","27818","Perro","Sieger","Nutrisur");
-        this.agregarProductos(76,"Sieger ","Derma","3","8653","Perro","Sieger","Nutrisur");
-        this.agregarProductos(79,"Sieger ","Criadores","20","30977","Perro","Sieger","Nutrisur");
+        this.agregarProductos(30,"Sieger","Mini Puppy","1","Sin Stock","Perro","Sieger","Nutrisur");
+        this.agregarProductos(31,"Sieger","Mini Puppy","3","10155","Perro","Sieger","Nutrisur");
+        this.agregarProductos(32,"Sieger","Mini Puppy","12","33138","Perro","Sieger","Nutrisur");
+        this.agregarProductos(33,"Sieger","Cachorro","1","Sin Stock","Perro","Sieger","Nutrisur");
+        this.agregarProductos(34,"Sieger ","Cachorro","3","9675","Perro","Sieger","Nutrisur");
+        this.agregarProductos(35,"Sieger","Cachorro","15","38174","Perro","Sieger","Nutrisur");
+        this.agregarProductos(36,"Sieger","Senior","3","9949","Perro","Sieger","Nutrisur");
+        this.agregarProductos(37,"Sieger","Adulto Grande","3","9213","Perro","Sieger","Nutrisur");
+        this.agregarProductos(38,"Sieger","Adulto Grande","15","35012","Perro","Sieger","Nutrisur");
+        this.agregarProductos(39,"Sieger","Mini Adulto","1","Sin Stock","Perro","Sieger","Nutrisur");
+        this.agregarProductos(40,"Sieger ","Mini Adulto","3","9397","Perro","Sieger","Nutrisur");
+        this.agregarProductos(155,"Sieger ","Mini Adulto","12","30492","Perro","Sieger","Nutrisur");
+        this.agregarProductos(156,"Sieger ","Reduce Calorie","3","9580","Perro","Sieger","Nutrisur");
+        this.agregarProductos(73,"Sieger ","Derma","12","34772","Perro","Sieger","Nutrisur");
+        this.agregarProductos(76,"Sieger ","Derma","3","10816","Perro","Sieger","Nutrisur");
+        this.agregarProductos(79,"Sieger ","Criadores","20","38722","Perro","Sieger","Nutrisur");
         this.agregarProductos(41,"Cat Chow","Adulto ","8","16044","Gato","Cat Chow","Forastero");
         this.agregarProductos(42,"Cat Chow","Adulto ","15","27600","Gato","Cat Chow","Forastero");
         this.agregarProductos(43,"Cat Chow","Kitten ","8","17265","Gato","Cat Chow","Forastero");
@@ -80,25 +80,25 @@ class Datos2 {
         this.agregarProductos(63,"Dog Chow","Mini Adulto","21","26252","Perro","Dog Chow","Forastero");
         this.agregarProductos(64,"Dog Chow","Adulto Light","8","11398","Perro","Dog Chow","Forastero");
         this.agregarProductos(65,"Dog Chow","Adulto Light","21","27338","Perro","Dog Chow","Forastero");
-        this.agregarProductos(66,"Agility","Adulto Grande","3","4339","Perro", "Agility","Nutrisur");
-        this.agregarProductos(67,"Agility","Mini Adulto","3","5017","Perro", "Agility","Nutrisur");
-        this.agregarProductos(68,"Agility","Mini Adulto","15","19424","Perro", "Agility","Nutrisur");
-        this.agregarProductos(69,"Agility","Adulto Derma","3","5091","Perro", "Agility","Nutrisur");
-        this.agregarProductos(70,"Agility","Adulto Derma","15","20510","Perro", "Agility","Nutrisur");
-        this.agregarProductos(71,"Agility","Cachorro","3","5014","Perro", "Agility","Nutrisur");
-        this.agregarProductos(72,"Agility","Cahorro","20","24105","Perro", "Agility","Nutrisur");
-        this.agregarProductos(74,"Agility","Adulto","1.5","4041","Gato", "Agility","Nutrisur");
-        this.agregarProductos(75,"Agility","Adulto","10","20566","Gato", "Agility","Nutrisur");
-        this.agregarProductos(77,"Agility","Kitten","1.5","4338","Gato", "Agility","Nutrisur");
-        this.agregarProductos(78,"Agility","Kitten","10","21753","Gato", "Agility","Nutrisur");
-        this.agregarProductos(80,"Agility","Urinary","1.5","4337","Gato", "Agility","Nutrisur");
-        this.agregarProductos(81,"Agility","Urinary","10","21753","Gato", "Agility","Nutrisur");
-        this.agregarProductos(82,"Maxxium","Adulto","20","27780","Perro","Nutricare","Chubutin");
-        this.agregarProductos(83,"Agility","Light","1.5","4337","Gato", "Agility","Nutrisur");
-        this.agregarProductos(84,"Agility","Light","10","21753","Gato", "Agility","Nutrisur");
-        this.agregarProductos(85,"Agility","Lata Perro","1","1164","Perro", "Agility","Nutrisur");
-        this.agregarProductos(172,"Agility","Pack de lata"," 1 (x12) ","15642","Perro/Gato", "Agility","Nutrisur");
-        this.agregarProductos(142,"Agility","Lata Gato",1,"1164","Gato", "Agility","Nutrisur");
+        this.agregarProductos(66,"Agility","Adulto Grande","3","-","Perro", "Agility","Nutrisur");
+        this.agregarProductos(67,"Agility","Mini Adulto","3","-","Perro", "Agility","Nutrisur");
+        this.agregarProductos(68,"Agility","Mini Adulto","15","24280","Perro", "Agility","Nutrisur");
+        this.agregarProductos(69,"Agility","Adulto Derma","3","-","Perro", "Agility","Nutrisur");
+        this.agregarProductos(70,"Agility","Adulto Derma","15","25638","Perro", "Agility","Nutrisur");
+        this.agregarProductos(71,"Agility","Cachorro","3","-","Perro", "Agility","Nutrisur");
+        this.agregarProductos(72,"Agility","Cahorro","20","30132","Perro", "Agility","Nutrisur");
+        this.agregarProductos(74,"Agility","Adulto","1.5","5051","Gato", "Agility","Nutrisur");
+        this.agregarProductos(75,"Agility","Adulto","10","25422","Gato", "Agility","Nutrisur");
+        this.agregarProductos(77,"Agility","Kitten","1.5","5422","Gato", "Agility","Nutrisur");
+        this.agregarProductos(78,"Agility","Kitten","10","27192","Gato", "Agility","Nutrisur");
+        this.agregarProductos(80,"Agility","Urinary","1.5","5422","Gato", "Agility","Nutrisur");
+        this.agregarProductos(81,"Agility","Urinary","10","27192","Gato", "Agility","Nutrisur");
+        this.agregarProductos(82,"Maxxium","Adulto","20","32405","Perro","Nutricare","Chubutin");
+        this.agregarProductos(83,"Agility","Light","1.5","5422","Gato", "Agility","Nutrisur");
+        this.agregarProductos(84,"Agility","Light","10","27192","Gato", "Agility","Nutrisur");
+        this.agregarProductos(85,"Agility","Lata Perro","1","1629","Perro", "Agility","Nutrisur");
+        this.agregarProductos(172,"Agility","Pack de lata"," 1 (x12) ","14905","Perro/Gato", "Agility","Nutrisur");
+        this.agregarProductos(142,"Agility","Lata Gato",1,"1629","Gato", "Agility","Nutrisur");
         this.agregarProductos(86,"Royal Canin","Mini Puppy","1","4300","Perro","Royal Canin","Nutripet");
         this.agregarProductos(87,"Royal Canin","Mini Puppy","3","11583","Perro","Royal Canin","Nutripet");
         this.agregarProductos(88,"Royal Canin","Mini Puppy","7.5","22368","Perro","Royal Canin","Nutripet");
@@ -140,7 +140,7 @@ class Datos2 {
         this.agregarProductos(124,"Hueso","Corbata","6 cm" ,"225","Perro","Hueso","Hueso");
         this.agregarProductos(125,"Hueso","Corbata","13 cm","538","Perro","Hueso","Hueso");
         this.agregarProductos(126,"Hueso","Hueso Grande","34 cm","2530","Perro","Hueso","Hueso");
-        this.agregarProductos(127,"Hueso","Palito Grising","20 cm","192","Perro","Hueso","Hueso");
+        this.agregarProductos(127,"Hueso","Palito Grising","20 cm","243","Perro","Hueso","Hueso");
         this.agregarProductos(128,"Hueso","Orejas","","225","Perro","Hueso","Hueso");
         this.agregarProductos(60,"Pedigree","Lata","1","781","Perro","Pedigree","Don Tomas");
         this.agregarProductos(129,"Pedigree","Lata","12","9372","Perro","Pedigree","Don Tomas");
@@ -183,18 +183,18 @@ class Datos2 {
         this.agregarProductos(170,"Pellcats","Adulto","5","4830","Gato","Piedras","Can Cid");
         this.agregarProductos(171,"Golocan","Adulto","20","12698","Perro","Bocados","Can Cid");
         this.agregarProductos(93,"Piedras Blancas","Adulto","2","6300","Gato","-","Popy")
-        this.agregarProductos(173,"Sieger Katze","Kitten","1","4564","Gato","Sieger","Nutrisur");
-        this.agregarProductos(174,"Sieger Katze","Kitten","7.5","23886","Gato","Sieger","Nutrisur");
-        this.agregarProductos(175,"Sieger Katze","Adulto","1","4347","Gato","Sieger","Nutrisur");
-        this.agregarProductos(176,"Sieger Katze","Adulto","7.5","21796","Gato","Sieger","Nutrisur");
-        this.agregarProductos(177,"Sieger Katze","Urinary","1","4564","Gato","Sieger","Nutrisur");
-        this.agregarProductos(178,"Sieger Katze","Urinary","7.5","22886","Gato","Sieger","Nutrisur");
-        this.agregarProductos(179,"Sieger Katze","Senior","1","4564","Gato","Sieger","Nutrisur");
-        this.agregarProductos(180,"Sieger Katze","Senior","7.5","22886","Gato","Sieger","Nutrisur");
-        this.agregarProductos(181,"Sieger Katze","Light","1","4564","Gato","Sieger","Nutrisur");
-        this.agregarProductos(182,"Sieger Katze","Light","7.5","22886","Gato","Sieger","Nutrisur");
-        this.agregarProductos(183,"Sieger Katze","Stress Control","1","4564","Gato","Sieger","Nutrisur");
-        this.agregarProductos(184,"Sieger Katze","Stress Control","7.5","22886","Gato","Sieger","Nutrisur");
+        this.agregarProductos(173,"Sieger Katze","Kitten","1","5076","Gato","Sieger","Nutrisur");
+        this.agregarProductos(174,"Sieger Katze","Kitten","7.5","28608","Gato","Sieger","Nutrisur");
+        this.agregarProductos(175,"Sieger Katze","Adulto","1","5076","Gato","Sieger","Nutrisur");
+        this.agregarProductos(176,"Sieger Katze","Adulto","7.5","27245","Gato","Sieger","Nutrisur");
+        this.agregarProductos(177,"Sieger Katze","Urinary","1","5076","Gato","Sieger","Nutrisur");
+        this.agregarProductos(178,"Sieger Katze","Urinary","7.5","28608","Gato","Sieger","Nutrisur");
+        this.agregarProductos(179,"Sieger Katze","Senior","1","5076","Gato","Sieger","Nutrisur");
+        this.agregarProductos(180,"Sieger Katze","Senior","7.5","28608","Gato","Sieger","Nutrisur");
+        this.agregarProductos(181,"Sieger Katze","Light","1","5076","Gato","Sieger","Nutrisur");
+        this.agregarProductos(182,"Sieger Katze","Light","7.5","28608","Gato","Sieger","Nutrisur");
+        this.agregarProductos(183,"Sieger Katze","Stress Control","1","5076","Gato","Sieger","Nutrisur");
+        this.agregarProductos(184,"Sieger Katze","Stress Control","7.5","28608","Gato","Sieger","Nutrisur");
         this.agregarProductos(185,"Comedero Doble","Adulto","1","3446","Perro","Accesorio","Can Cid");
         this.agregarProductos(186,"Comedero Plastico Chico","Adulto","1","214","Perro","Accesorio","Can Cid");
         this.agregarProductos(187,"Comedero Chico Inoxidable","Adulto","1","2294","Perro","Accesorio","Can Cid");
@@ -447,8 +447,9 @@ const contenido2 = document.querySelector ('.contenido2')
 
 
 open.addEventListener('click', function(){
-    contenido2.classList.add ('show');
-} )
+    contenido2.classList.add ('show')
+})
+
 
 
 close2.addEventListener('click', function(){
@@ -523,26 +524,6 @@ closebtn.addEventListener("click" , (event) => {
     document.querySelector("section").classList.toggle ("ocultar");
 });
 
-
-// Recordatorio 
-
-document.addEventListener("DOMContentLoaded", function() {
-    const fechaActual = new Date();
-
-    const fechaEmision = fechaActual.getFullYear()
-
-    const año = 2023
-
-    if(fechaEmision === año) {
-        const recordatorio = document.getElementById("recordatorio");
-        recordatorio.style.display = "block";
-    
-        // Ocultar el recordatorio después de 5 segundos
-        setTimeout(function () {
-        recordatorio.style.display = "none";
-        }, 7000);
-    }
-})
 
 
 const carrito = new Carrito();
