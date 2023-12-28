@@ -166,7 +166,7 @@ class Datos2 {
         this.agregarProductos(152,"Smarty","Adulto","15","9100","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Adulto","21","10900","Perro","Keiko","Popy");
         this.agregarProductos(152,"Keiko","Cachorro","15","11200","Perro","Keiko","Popy");
-        this.agregarProductos(153,"Arroz","Adulto","15","13000","Perro","Arroz","Popy");
+        this.agregarProductos(153,"Arroz","Adulto","15","15000","Perro","Arroz","Popy");
         this.agregarProductos(157,"Balanced","Mini Senior ","3","9390","Perro","Balanced","Amadeo");
         this.agregarProductos(158,"Balanced","Mini Senior","7.5","21468","Perro","Balanced","Amadeo");
         this.agregarProductos(159,"Balanced","Grande Senior","3","9390","Perro","Balanced","Amadeo");
@@ -205,7 +205,7 @@ class Datos2 {
         this.agregarProductos(192,"Piedras Blancas Mascot ","Adulto","2","3200","Gato","Accesorio","Can Cid");
         this.agregarProductos(193,"Piedras Blancas Mascot ","Adulto","4","3000","Gato","Accesorio","Can Cid");
         this.agregarProductos(194,"Bolson Piedras ","Adulto","20","4600","Gato","Accesorio","Popy");
-        this.agregarProductos(196,"Suertudo ","Adulto","20","11500","Perro","Suertudo","Popy");
+        this.agregarProductos(196,"Suertudo ","Adulto","20","11900","Perro","Suertudo","Popy");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){

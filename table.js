@@ -187,8 +187,8 @@ class Datos {
         this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","2000","Gato","Accesorios","Adulto");
         this.agregarProductos(160,"Golocan","Bocaditos","1","800","Perro","Bocados","Adulto");
         this.agregarProductos(161,"Golocan","Galletas","1","650","Perro","Bocados","Adulto");
-        this.agregarProductos(162,"Arroz","Adulto",1,"1200","Perro","Arroz","Adulto");
-        this.agregarProductos(163,"Arroz","Adulto",15,"17000","Perro","Arroz","Adulto");
+        this.agregarProductos(162,"Arroz","Adulto",1,"1500","Perro","Arroz","Adulto");
+        this.agregarProductos(163,"Arroz","Adulto",15,"19000","Perro","Arroz","Adulto");
         this.agregarProductos(167,"Dog Chow","Adulto Light",8,"14800","Perro","Dog Chow","Adulto");
         this.agregarProductos(168,"Dog Chow","Senior",8,"14000","Perro","Dog Chow","Senior");
         this.agregarProductos(169,"Dog Chow","Senior",1,"1900","Perro","Dog Chow","Senior");
