@@ -111,6 +111,11 @@ a:active {
   color: #0b0b0b;
 }
 
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  margin: 1.2rem 0;
+}
+
 /* carrito */
 section {
   position: fixed;
