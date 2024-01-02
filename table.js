@@ -7,7 +7,7 @@ class Datos {
         this.agregarProductos(170,"Excellent","Adulto",1,"6600","Gato","Excellent","Adulto");
         this.agregarProductos(171,"Excellent","Adulto",3,"18000","Gato","Excellent","Adulto");
         this.agregarProductos(2,"Excellent","Adulto",7.5,"37000","Gato","Excellent","Adulto");
-        this.agregarProductos(166,"Excellent","Adulto",15,"7300","Gato","Excellent","Adulto");
+        this.agregarProductos(166,"Excellent","Adulto",15,"73000","Gato","Excellent","Adulto");
         this.agregarProductos(3,"Excellent","Kitten","suelto","5900","Gato","Excellent","Cachorro");
         this.agregarProductos(172,"Excellent","Kitten",1,"7300","Gato","Excellent","Cachorro");
         this.agregarProductos(4,"Excellent","Kitten",7.5,"41000","Gato","Excellent","Cachorro");
