@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="menu">
+                <aside>
+                    <ul>
+                        <li>
+                            <a href="./index.html"> Lista </a>
+                            <a href="./Convertidor.html"> Conversion </a>
+                            <a href="./Calculadora.html">Calculadora </a>
+                            <a href="#">Gastos</a>
+                            <a href="./Proveedores.html"> Proveedores  </a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+
+            <h2 class="titulo">Gastos Mensuales </h2>
+
+            <div class="buscar">
+                <input type="text" class="buscar_texto" id="inputBusqueda"  placeholder="¿Que estas buscando?">
+                        <i class="fa-solid fa-magnifying-glass" id="buscador"></i>
+            </div>
+
+            </header>
+    </div>
+        <div class="filtros2">
+            <div class="filtro">
+                <p>Filtrar</p>
+                <div class="contenido">
+                    <div class="cerrar" id="cerrar">
+                        <i class="fa-solid fa-close"> </i>
+                        <p id="Todos"> Limpiar </p>
+                    </div>
+
+                    <ul >
+                        <h3>Proovedores</h3>
+                        <li>
+                            <a href="#" class="btnprovedor" >
+                                Amadeo
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Forastero
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Nutrisur
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Can Cid
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Nutripet
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Chubutin
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Don Tomas
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Popy
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Kro Line
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btnprovedor">
+                                Hueso
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="meses">
+                <p class="btnmeses">Enero</p>
+                <p class="btnmeses">Febrero</p>
+                <p class="btnmeses">Marzo</p>
+                <p class="btnmeses">Abril</p>
+                <p class="btnmeses">Mayo</p>
+                <p class="btnmeses">Junio</p>
+                <p class="btnmeses">Julio</p>
+                <p class="btnmeses">Agosto</p>
+                <p class="btnmeses">Septiembre</p>
+                <p class="btnmeses">Octubre</p>
+                <p class="btnmeses">Noviembre</p>
+                <p class="btnmeses">Diciembre</p>
+            </div>
+        </div>
+
+
+        <div class="lista" id="lista"></div>
+
+        <div class="volver">
+            <a href="../index.html" class="volver"> 
+            <i class="fa-solid fa-arrow-rotate-left " id="volver"></i> </a>
+        </div>
+
+        <script src="./JS/gastos.js"></script>
+</body>
+</html>

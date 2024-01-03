@@ -24,8 +24,8 @@ class Datos2 {
         this.agregarProductos(183,"Excellent","Adulto Grande","20","39561","Perro","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","36638","Perro","Excellent","Forastero");
         this.agregarProductos(17,"Agility","Adulto Grande","20","25349","Perro","Excellent","Nutrisur");
-        this.agregarProductos(18,"Biopet","Mini Adulto","15","13900","Perro","Biopet","Popy");
-        this.agregarProductos(19,"Biopet","Adulto","20","16000","Perro","Biopet","Popy");
+        this.agregarProductos(18,"Biopet","Mini Adulto","15","15300","Perro","Biopet","Popy");
+        this.agregarProductos(19,"Biopet","Adulto","20","17700","Perro","Biopet","Popy");
         this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","14577","Perro","Old Prince","Don Tomas");
         this.agregarProductos(21,"Old Prince","Mini Adulto","15","26503","Perro","Old Prince","Don Tomas");
         this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","19751","Perro","Old Prince","Don Tomas");
@@ -206,7 +206,8 @@ class Datos2 {
         this.agregarProductos(192,"Piedras Blancas Mascot ","Adulto","2","3200","Gato","Accesorio","Can Cid");
         this.agregarProductos(193,"Piedras Blancas Mascot ","Adulto","4","3000","Gato","Accesorio","Can Cid");
         this.agregarProductos(194,"Bolson Piedras ","Adulto","20","4600","Gato","Accesorio","Popy");
-        this.agregarProductos(196,"Suertudo ","Adulto","20","11900","Perro","Suertudo","Popy");
+        this.agregarProductos(196,"Suertudo ","Adulto","20","13000","Perro","Suertudo","Popy");
+        this.agregarProductos(197,"Biopet Cordero ","Adulto","20","19000","Perro","Biopet","Popy");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
@@ -369,7 +370,7 @@ class Carrito {
 const bd = new Datos2 (); 
 
 
-/* creacion de tablas de precios */
+// creacion de tablas de precios
 
 const divlista = document.querySelector (".lista");
 const botonComprar = document.querySelector("#botonComprar");

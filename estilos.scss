@@ -1,5 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;&family=Oswald&family=Secular+One&display=swap');
 
 
     *{
@@ -63,7 +64,7 @@ aside{
 
 aside a{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     color: #ffff;
     padding: 6px 24px;
 }
@@ -292,7 +293,7 @@ section h3 span {
         height: 390px;
     }
 
-/* Filtros */
+// Filtros 
 
 .filtros{
     display: flex;
@@ -326,7 +327,6 @@ section h3 span {
 
 .filtro p{
     font-size: 18px;
-    font-weight: 700;
     letter-spacing: 2px;
     color: #fffefe;
 }
@@ -481,6 +481,7 @@ section h3 span {
     padding: 12px 20px;
     font-weight: 700;
     letter-spacing: 1px;
+    
 }
 
 
@@ -494,6 +495,7 @@ td{
     padding: 12px 0px;
     font-weight: 600;
     letter-spacing: 1px;
+    
 }
 
 
@@ -668,7 +670,39 @@ button:hover{
 }
 
 
+// Meses
+.filtros2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 22px 0px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 
+    .meses{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:12px 0px;
+    
+        p{
+            background-color: #c1c3c5;
+            color: #000000;
+            padding: 2px 12px;
+            line-height: 1.8rem;
+            border-radius: 8px;
+            margin-right: 12px;
+
+            &:hover{
+                transition: .7s;
+                background-color: #aca2a2;
+                color: #fff;
+            }
+        }
+    }
+    
+}
 
 
 .volver{

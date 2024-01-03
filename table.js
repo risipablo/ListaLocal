@@ -31,10 +31,10 @@ class Datos {
         this.agregarProductos(179,"Excellent","Adulto Senior",1,"3300","Perro","Excellent","Senior");
         this.agregarProductos(180,"Excellent","Adulto Senior",15,"45000","Perro","Excellent","Senior");
         this.agregarProductos(17,"Agility","Adulto Grande",20,"30000","Perro","Agility","Adulto");
-        this.agregarProductos(18,"Biopet","Adulto",1,"1200","Perro","Biopet","Adulto");
-        this.agregarProductos(19,"Biopet","Adulto",20,"20500","Perro","Biopet","Adulto");
-        this.agregarProductos(164,"Biopet","Mini Small",1,"1500","Perro","Biopet","Mini Adulto");
-        this.agregarProductos(165,"Biopet","Mini Small",15,"18000","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(18,"Biopet","Adulto",1,"1400","Perro","Biopet","Adulto");
+        this.agregarProductos(19,"Biopet","Adulto",20,"22000","Perro","Biopet","Adulto");
+        this.agregarProductos(164,"Biopet","Mini Small",1,"1600","Perro","Biopet","Mini Adulto");
+        this.agregarProductos(165,"Biopet","Mini Small",15,"19000","Perro","Biopet","Mini Adulto");
         this.agregarProductos(20,"Old Prince","Mini Adulto",1,"1800","Perro","Old Prince","Adulto");
         this.agregarProductos(229,"Old Prince","Mini Adulto",7.5,"14000","Perro","Old Prince","Adulto");
         this.agregarProductos(21,"Old Prince","Mini Adulto",15,"25000","Perro","Old Prince","Adulto");
@@ -262,8 +262,10 @@ class Datos {
         this.agregarProductos(250,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
         this.agregarProductos(251,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
         this.agregarProductos(251,"Bolson Piedras Sanitarias","Adulto","20","6000","Gato","Accesorios");
-        this.agregarProductos(252,"Suertudo","Adulto","20","1000","Perro","Suertudo","Adulto");
-        this.agregarProductos(253,"Suertudo","Adulto","20","15000","Perro","Suertudo","Adulto");
+        this.agregarProductos(252,"Suertudo","Adulto","1","12000","Perro","Suertudo","Adulto");
+        this.agregarProductos(253,"Suertudo","Adulto","20","19000","Perro","Suertudo","Adulto");
+        this.agregarProductos(254,"Biopet Cordero","Adulto","1","1900","Perro","Biopet","Adulto");
+        this.agregarProductos(255,"Biopet Cordero","Adulto","20","23000","Perro","Biopet","Adulto");
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
@@ -456,13 +458,15 @@ botonEdad.forEach((boton) => {
     })
 })
 
+// Recordatorio 
+
 document.addEventListener("DOMContentLoaded",function() {
 
     const FechadeHoy = new Date();
 
     const FechadeDuracion = FechadeHoy.getFullYear();
 
-    const año = 2023
+    const año = 2024
 
     if( FechadeDuracion === año) {
         const recordatorio = document.getElementById("recordatorio");
