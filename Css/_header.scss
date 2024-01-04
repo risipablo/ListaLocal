@@ -1,0 +1,100 @@
+/* header */
+
+.contenedor-header{
+    z-index: 99;
+    top:0;
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Buscador */
+
+.buscar{
+    display: flex;
+    width: 50%;
+    background-color: rgb(241, 243, 243);
+    margin-bottom: 35px;
+    margin-top: 25px;
+    border-radius: 18px 18px;
+    padding: 0px 6px;
+    border: #474747 solid 1px;
+}
+
+.buscar_texto{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(134, 133, 133);
+    font-size: 16px;
+    float: left;
+    line-height: 30px;
+    margin: 0px 8px;
+}
+
+#buscador{
+    text-decoration: none;
+    float: right;
+    padding: 12px 10px;
+    font-size: 1.6em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #0b0b0b;
+}
+
+
+// Titulo
+
+.titulo{
+    font-family: "Montserrat", sans-serif;
+    margin: 1.8rem 0; 
+    font-size: 1.4rem;
+    justify-content: center center;
+    text-align: center;
+}
+
+
+// Menu
+.menu{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    //background-color: rgba(21, 31, 170, 0.7);
+    background: linear-gradient(to right, #00AAFF, #a919ece1);
+}
+
+aside{
+    width: 100%;
+    margin: 25px 0px;
+}
+
+
+aside a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    padding: 6px 24px;
+}
+aside a:hover{
+    transition: .7s;
+    color: rgb(221, 130, 18);
+    margin: 20px ;
+    backdrop-filter: blur(6px);
+}
+
+a:active {
+    font-weight: bold; /* Puedes aplicar otros estilos según tus preferencias */
+    color: red; /* Por ejemplo, cambiar el color del texto */
+}
+
+@media only screen and (max-width:700px){
+    .buscar{
+        width: 80%;
+    }
+}

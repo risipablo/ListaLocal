@@ -346,9 +346,9 @@ function cargarProductos(productos){
     divProductos.innerHTML = `
             <table>
             <tr class="nombres">
-                <th> ID </th>
+                <th class="id"> ID </th>
                 <th> Marca </th>
-                <th> Tipo </th>
+                <th class="id" > Tipo </th>
                 <th> Edad </th>
                 <th> Kg </th>
                 <th> Precio </th>
@@ -361,9 +361,9 @@ function cargarProductos(productos){
     for (const producto of productos) {
         tabla.innerHTML += `
         <tr>
-            <td>${producto.id} </td>
+            <td class="id" >${producto.id} </td>
             <td>${producto.nombre} </td>
-            <td>${producto.mascota}</td>
+            <td class="id">${producto.mascota}</td>
             <td>${producto.tamaño}</td>
             <td>${producto.kg}</td>
             <td>$ ${producto.precio}</td>
@@ -480,14 +480,14 @@ document.addEventListener("DOMContentLoaded",function() {
 
 // Descuento 
 
-document.addEventListener("DOMContentLoaded", function(){
+// document.addEventListener("DOMContentLoaded", function(){
 
-    const hoy = new Date ();
-    const promo = hoy.getDay();
+//     const hoy = new Date ();
+//     const promo = hoy.getDay();
 
-    if (promo === 25){
-        const promocion = document.getElementById("descuento");
-        promocion.style.display = "block"
-        }
-    }
-)
+//     if (promo === 25){
+//         const promocion = document.getElementById("descuento");
+//         promocion.style.display = "block"
+//         }
+//     }
+// )

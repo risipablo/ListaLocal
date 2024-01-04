@@ -78,10 +78,10 @@ function cargarProductos(productos){
     lista.innerHTML = `
         <table>
         <tr class="nombres">
-            <th> Proveedor </th>
+            <th class="pro"> Proveedor </th>
             <th> Mes </th>
-            <th> Fecha </th>
-            <th> N° Boleta </th>
+            <th class="id"> Fecha </th>
+            <th class="id"> N° Boleta </th>
             <th> Total </th>
             <th> Estado </th>
         </tr>
@@ -94,9 +94,9 @@ function cargarProductos(productos){
         tabla.innerHTML += `
         <tr>
             <td>${producto.proveedor}</td>
-            <td>${producto.mes}</td>
-            <td>${producto.fecha}</td>
-            <td>${producto.boleta}</td>
+            <td >${producto.mes}</td>
+            <td class="id">${producto.fecha}</td>
+            <td class="id">${producto.boleta}</td>
             <td>$ ${producto.monto}</td>
             <td>${producto.estado}</td>
         </tr>
