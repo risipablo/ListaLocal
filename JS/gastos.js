@@ -3,9 +3,10 @@ class Datos{
         this.productos = [];
         this.agregarGastos(1,"Nutrisur","Enero", 81010, "Impago", "1", 1)
         this.agregarGastos(2,"Don Tomas" , "Enero", 40100, "Pagado", "2/01", 357706)
-        this.agregarGastos(3,"Nutrisur","Enero",69000,"Impago","4/01",1)
-        this.agregarGastos(4,"Popy","Enero",115600,"Pagado","3/01", "sin boleta")
+        this.agregarGastos(3,"Nutrisur","Enero",69000,"No tomo pedido","4/01",1)
+        this.agregarGastos(4,"Popy","Enero",115600,"Pagado","3/01", "Sin boleta")
         this.agregarGastos(5,"Don Tommas", "Enero", 12500, "Pagado","8/01", 358575)
+        this.agregarGastos(6,"Chubutin","Enero",70952,"Esperar confirmacion","8/01","Sin Boleta")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
@@ -38,6 +39,7 @@ class Datos{
     FiltarporProveedor(proveedor){
         return this.productos.filter((producto) => producto.proveedor == proveedor)
     }
+
 }
 
 
@@ -74,35 +76,46 @@ const lista = document.querySelector(".lista")
     
     
 cargarProductos(bd.productos);
-
-function cargarProductos(productos){
+function cargarProductos(productos) {
     lista.innerHTML = `
         <table>
         <tr class="nombres">
-            <th class="pro"> Proveedor </th>
-            <th> Mes </th>
-            <th class="id"> Fecha </th>
-            <th class="id"> N° Boleta </th>
-            <th> Total </th>
-            <th> Estado </th>
+            <th class="pro">Proveedor</th>
+            <th>Mes</th>
+            <th class="id">Fecha</th>
+            <th class="id">N° Boleta</th>
+            <th>Monto</th>
+            <th>Estado</th>
         </tr>
         </table>
     `;
 
     const tabla = lista.querySelector("table");
 
-    for (const producto of productos){
+    let total = 0; // Almacener total 
+
+    for (const producto of productos) {
         tabla.innerHTML += `
         <tr>
             <td>${producto.proveedor}</td>
-            <td >${producto.mes}</td>
+            <td>${producto.mes}</td>
             <td class="id">${producto.fecha}</td>
             <td class="id">${producto.boleta}</td>
             <td>$ ${producto.monto}</td>
             <td>${producto.estado}</td>
         </tr>
-        `
+        `;
+
+        total += producto.monto; //Suma de monto total
     }
+
+    // 
+    tabla.innerHTML += `
+        <tr>
+            <td colspan="4"></td>
+            <td class="total"> $ ${total} </>
+        </tr>
+    `;
 }
 
 
@@ -168,3 +181,21 @@ function quitarClase(){
         botonSeleccionado.classList.remove (".seleccionado");
     }
 }
+
+
+function calcularTotalGastos(productos) {
+    let total = 0;
+
+    for (const producto of productos) {
+        total += producto.monto;
+    }
+
+    return total;
+}
+
+
+//  Opcion B
+// calcularMonto(){
+//    return this.productos.reduce((total,productos) => total + productos.monto, 0)
+// }
+//  <td>${bd.calcularMonto()}</td>
