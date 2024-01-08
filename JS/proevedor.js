@@ -26,13 +26,13 @@ class Datos2 {
         this.agregarProductos(17,"Agility","Adulto Grande","20","25349","Perro","Excellent","Nutrisur");
         this.agregarProductos(18,"Biopet","Mini Adulto","15","15300","Perro","Biopet","Popy");
         this.agregarProductos(19,"Biopet","Adulto","20","17700","Perro","Biopet","Popy");
-        this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","14577","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(21,"Old Prince","Mini Adulto","15","26503","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(22,"Old Prince","Derma Small/Cachorro","7.5","19751","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(23,"Old Prince","Derma Small/Cachorro","15","37621","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(25,"Old Prince","Cachorro Small","7.5","15026","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(26,"Old Prince","Derma Adulto","7.5","17956","Perro","Old Prince","Don Tomas");
-        this.agregarProductos(27,"Old Prince","Derma Adulto","15","34201","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","16763","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(21,"Old Prince","Mini Adulto","15","30479","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(22,"Old Prince","Derma Mini Adulto/Cachorro","7.5","22714","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(23,"Old Prince","Derma Mini Adulto/Cachorro","15","43264","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(25,"Old Prince","Cachorro Small","7.5","17280","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(26,"Old Prince","Derma Adulto","7.5","20649","Perro","Old Prince","Don Tomas");
+        this.agregarProductos(27,"Old Prince","Derma Adulto","15","39331","Perro","Old Prince","Don Tomas");
         this.agregarProductos(28,"Balanced","Derma Adulto","3","10609","Perro","Balanced","Amadeo");
         this.agregarProductos(29,"Balanced","Derma Adulto","15","36698","Perro","Balanced","Amadeo");
         this.agregarProductos(30,"Sieger","Mini Puppy","1","Sin Stock","Perro","Sieger","Nutrisur");
@@ -143,10 +143,10 @@ class Datos2 {
         this.agregarProductos(126,"Hueso","Hueso Grande","34 cm","2530","Perro","Hueso","Hueso");
         this.agregarProductos(127,"Hueso","Palito Grising","20 cm","243","Perro","Hueso","Hueso");
         this.agregarProductos(128,"Hueso","Orejas","","225","Perro","Hueso","Hueso");
-        this.agregarProductos(60,"Pedigree","Lata","1","781","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(129,"Pedigree","Lata","12","9372","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(130,"Pedigree","Pouch","1","243","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(195,"Pedigree","Pouch","12","2916","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(60,"Pedigree","Lata","1","1064","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(129,"Pedigree","Lata","12","12760","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(130,"Pedigree","Pouch","1","260","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(195,"Pedigree","Pouch","12","3120","Perro","Pedigree","Don Tomas");
         this.agregarProductos(131,"Osspret Pipetas","Adulto","2.10","1641","Perro","Pipetas","Amadeo");
         this.agregarProductos(132,"Osspret Pipetas","Adulto","11-20","1791","Perro","Pipetas","Amadeo");
         this.agregarProductos(133,"Osspret Pipetas","Adulto","21-40","2164","Perro","Pipetas","Amadeo");
@@ -159,8 +159,8 @@ class Datos2 {
         this.agregarProductos(140,"Osspret Shampoo","Duo","1","1600","Perro","Shampoo","Amadeo");
         this.agregarProductos(141,"Osspret Shampoo","Extra Brillo","1","1870","Perro","Shampoo","Amadeo");
         this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","6800","Perro","Kro Line","Kro Line");
-        this.agregarProductos(144,"Stone Cat","Adulto","1","1899","Gato","Piedras","Can Cid");
-        this.agregarProductos(145,"Pellcats","Adulto","1","966","Gato","Piedras","Can Cid");
+        this.agregarProductos(144,"Stone Cat","Adulto","1 ","3463","Gato","Piedras","Can Cid");
+        this.agregarProductos(145,"Pellcats","Adulto","1","1476","Gato","Piedras","Can Cid");
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1337","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","630","Perro","Bocados","Can Cid");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","13300","Gato","Nutricare","Chubutin");
@@ -180,8 +180,8 @@ class Datos2 {
         this.agregarProductos(166,"Kro Line","Pretal Solo","3","2300","Perro","Kro Line","Kro Line");
         this.agregarProductos(167,"Kro Line","Collar Pitbull","4","2560","Perro","Kro Line","Kro Line");
         this.agregarProductos(168,"Kro Line","Collar Pitbull","5","2900","Perro","Kro Line","Kro Line");
-        this.agregarProductos(169,"Stone Cat","Adulto","5","9498","Gato","Piedras","Can Cid");
-        this.agregarProductos(170,"Pellcats","Adulto","5","4830","Gato","Piedras","Can Cid");
+        this.agregarProductos(169,"Stone Cat","Adulto","Pack 5","17315","Gato","Piedras","Can Cid");
+        this.agregarProductos(170,"Pellcats","Adulto","Pack 5","7381","Gato","Piedras","Can Cid");
         this.agregarProductos(171,"Golocan","Adulto","20","12698","Perro","Bocados","Can Cid");
         this.agregarProductos(93,"Piedras Blancas","Adulto","2","6300","Gato","-","Popy")
         this.agregarProductos(173,"Sieger Katze","Kitten","1","5076","Gato","Sieger","Nutrisur");

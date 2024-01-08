@@ -4,7 +4,8 @@ class Datos{
         this.agregarGastos(1,"Nutrisur","Enero", 81010, "Impago", "1", 1)
         this.agregarGastos(2,"Don Tomas" , "Enero", 40100, "Pagado", "2/01", 357706)
         this.agregarGastos(3,"Nutrisur","Enero",69000,"Impago","4/01",1)
-        this.agregarGastos(4,"Popy","Enero",115600,"Pagado","3/02", "sin boleta")
+        this.agregarGastos(4,"Popy","Enero",115600,"Pagado","3/01", "sin boleta")
+        this.agregarGastos(5,"Don Tommas", "Enero", 12500, "Pagado","8/01", 358575)
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
