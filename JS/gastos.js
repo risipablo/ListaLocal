@@ -3,10 +3,10 @@ class Datos{
         this.productos = [];
         this.agregarGastos(1,"Nutrisur","Enero", 81010, "Impago", "1", 1)
         this.agregarGastos(2,"Don Tomas" , "Enero", 40100, "Pagado", "2/01", 357706)
-        this.agregarGastos(3,"Nutrisur","Enero",69000,"No tomo pedido","4/01",1)
         this.agregarGastos(4,"Popy","Enero",115600,"Pagado","3/01", "Sin boleta")
         this.agregarGastos(5,"Don Tommas", "Enero", 12500, "Pagado","8/01", 358575)
         this.agregarGastos(6,"Chubutin","Enero",70952,"Esperar confirmacion","8/01","Sin Boleta")
+        this.agregarGastos(3,"Nutrisur","Enero",69000,"Impago","9/01",39527)
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
