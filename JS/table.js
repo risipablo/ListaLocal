@@ -164,10 +164,10 @@ class Datos {
         this.agregarProductos(134,"Kro Line","Correa Sola",2,"2700","Perro","Kro Line","Adulto");
         this.agregarProductos(135,"Kro Line","Correa Sola",2.5,"3000","Perro","Kro Line","Adulto");
         this.agregarProductos(136,"Kro Line","Correa Sola",3,"3300","Perro","Kro Line","Adulto");
-        this.agregarProductos(137,"Hueso","Corbata","6 cm" ,"300","Perro","Hueso","Adulto");
-        this.agregarProductos(138,"Hueso","Corbata","13 cm","700","Perro","Hueso","Adulto");
-        this.agregarProductos(139,"Hueso","Hueso Grande","34 cm","4000","Perro","Hueso","Adulto");
-        this.agregarProductos(140,"Hueso","Palito Grising","20 cm","300","Perro","Hueso","Adulto");
+        this.agregarProductos(137,"Hueso","Corbata","6 cm" ,"600","Perro","Hueso","Adulto");
+        this.agregarProductos(138,"Hueso","Corbata","13 cm","1200","Perro","Hueso","Adulto");
+        this.agregarProductos(139,"Hueso","Hueso Grande","34 cm","7000","Perro","Hueso","Adulto");
+        this.agregarProductos(140,"Hueso","Palito Grising","20 cm","500","Perro","Hueso","Adulto");
         this.agregarProductos(141,"Hueso","Orejas","","300","Perro","Hueso","Adulto");
         this.agregarProductos(142,"Pedigree","Lata",1,"1500","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
         this.agregarProductos(143,"Pedigree","Pouch",1,"400","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");

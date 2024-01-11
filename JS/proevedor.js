@@ -138,9 +138,9 @@ class Datos2 {
         this.agregarProductos(121,"Kro Line","Correa Sola","2","1350","Perro","Kro Line","Kro Line");
         this.agregarProductos(122,"Kro Line","Correa Sola","2.5","1540","Perro","Kro Line","Kro Line");
         this.agregarProductos(123,"Kro Line","Correa Sola","3","1650","Perro","Kro Line","Kro Line");
-        this.agregarProductos(124,"Hueso","Corbata","6 cm" ,"225","Perro","Hueso","Hueso");
-        this.agregarProductos(125,"Hueso","Corbata","13 cm","538","Perro","Hueso","Hueso");
-        this.agregarProductos(126,"Hueso","Hueso Grande","34 cm","2530","Perro","Hueso","Hueso");
+        this.agregarProductos(124,"Hueso","Corbata","6 cm" ,"323","Perro","Hueso","Hueso");
+        this.agregarProductos(125,"Hueso","Corbata","13 cm","618","Perro","Hueso","Hueso");
+        this.agregarProductos(126,"Hueso","Hueso Grande","34 cm","3250","Perro","Hueso","Hueso");
         this.agregarProductos(127,"Hueso","Palito Grising","20 cm","243","Perro","Hueso","Hueso");
         this.agregarProductos(128,"Hueso","Orejas","","225","Perro","Hueso","Hueso");
         this.agregarProductos(60,"Pedigree","Lata","1","1064","Perro","Pedigree","Don Tomas");
