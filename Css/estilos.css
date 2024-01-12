@@ -589,14 +589,18 @@ header {
 
 .menu {
   width: 100%;
-  justify-content: center;
-  text-align: center;
   background: linear-gradient(to right, #00AAFF, rgba(169, 25, 236, 0.8823529412));
 }
 
 aside {
   width: 100%;
   margin: 25px 0px;
+  justify-content: center;
+  text-align: center;
+}
+
+.burger {
+  display: none;
 }
 
 aside a {
@@ -622,6 +626,83 @@ a:active {
 @media only screen and (max-width: 700px) {
   .buscar {
     width: 80%;
+  }
+  .menu {
+    justify-content: none;
+    text-align: none;
+  }
+  .burger {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    width: 90px;
+    height: 90px;
+    font-size: 25px;
+    color: #0b0b0b;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  .burger button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  .burger i:last-child {
+    display: none;
+  }
+  body.open .burger i:first-child {
+    display: none;
+  }
+  body.open .burger i:last-child {
+    display: block;
+  }
+  .overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(2, 12, 36, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-backdrop-filter: blur(6px);
+            backdrop-filter: blur(6px);
+    transition: 0.3s;
+  }
+  body.open .overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  aside {
+    position: fixed;
+    flex-wrap: wrap;
+    z-index: 2;
+    top: 0;
+    left: -260px;
+    display: block;
+    flex-direction: column;
+    width: 260px;
+    height: 100%;
+    padding: 40px 30px;
+    background: #0f0f0f;
+    transition: 0.3s;
+  }
+  body.open aside {
+    left: 0;
+  }
+  aside li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  aside a {
+    display: block;
   }
 }
 * {

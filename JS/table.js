@@ -491,3 +491,6 @@ document.addEventListener("DOMContentLoaded",function() {
 //         }
 //     }
 // )
+
+// Menu
+const toggleMenu = () => document.body.classList.toggle("open");
