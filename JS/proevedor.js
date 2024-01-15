@@ -100,21 +100,21 @@ class Datos2 {
         this.agregarProductos(85,"Agility","Lata Perro","1","1629","Perro", "Agility","Nutrisur");
         this.agregarProductos(172,"Agility","Pack de lata"," 1 (x12) ","14905","Perro/Gato", "Agility","Nutrisur");
         this.agregarProductos(142,"Agility","Lata Gato",1,"1629","Gato", "Agility","Nutrisur");
-        this.agregarProductos(86,"Royal Canin","Mini Puppy","1","4940","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(87,"Royal Canin","Mini Puppy","3","13307","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(88,"Royal Canin","Mini Puppy","7.5","25696","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(89,"Royal Canin","Mini Puppy","15","45604","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(90,"Royal Canin","Mini Adulto","1","4500","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(91,"Royal Canin","Mini Adulto","3","12243","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(92,"Royal Canin","Mini Adulto","7.5","25808","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(94,"Royal Canin","X-small Adulto","1","4787","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(95,"Royal Canin","X-small Junior","1","5367","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(96,"Royal Canin","Pocuh Mini Adulto","1","648","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(96,"Royal Canin","Pocuh Mini Adulto","X12","7784","Perro","Royal Canin","Nutripet");
-        this.agregarProductos(97,"Royal Canin","Kitten","1.5","10734","Gato","Royal Canin","Nutripet");
-        this.agregarProductos(98,"Royal Canin","Urinary","1.5","10979","Gato","Royal Canin","Nutripet");
-        this.agregarProductos(100,"Royal Canin","Weight Control","1","10665","Gato","Royal Canin","Nutripet");
-        this.agregarProductos(101,"Royal Canin","Urinary S/O","1","9976","Gato","Royal Canin","Nutripet");
+        this.agregarProductos(86,"Royal Canin","Mini Puppy","1","5977","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(87,"Royal Canin","Mini Puppy","3","16100","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(88,"Royal Canin","Mini Puppy","7.5","31092","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(89,"Royal Canin","Mini Puppy","15","69000","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(90,"Royal Canin","Mini Adulto","1","5800","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(91,"Royal Canin","Mini Adulto","3","14814","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(92,"Royal Canin","Mini Adulto","7.5","31222","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(94,"Royal Canin","X-small Adulto","1","5792","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(95,"Royal Canin","X-small Junior","1","6494","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(96,"Royal Canin","Pocuh Mini Adulto","1","785","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(96,"Royal Canin","Pocuh Mini Adulto","X12","9419","Perro","Royal Canin","Nutripet");
+        this.agregarProductos(97,"Royal Canin","Kitten","1.5","12988","Gato","Royal Canin","Nutripet");
+        this.agregarProductos(98,"Royal Canin","Urinary","1.5","13285","Gato","Royal Canin","Nutripet");
+        this.agregarProductos(100,"Royal Canin","Weight Control","1","12905","Gato","Royal Canin","Nutripet");
+        this.agregarProductos(101,"Royal Canin","Urinary S/O","1","12071","Gato","Royal Canin","Nutripet");
         this.agregarProductos(102,"Eukanuba","Mini Puppy","1","4510","Perro","Eukanuba","Nutripet");
         this.agregarProductos(103,"Eukanuba","Mini Puppy","3","11872","Perro","Eukanuba","Nutripet");
         this.agregarProductos(104,"Eukanuba","Mini Puppy","15","42499","Perro","Eukanuba","Nutripet");
@@ -529,4 +529,5 @@ closebtn.addEventListener("click" , (event) => {
 
 const carrito = new Carrito();
 
-
+// Menu
+const toggleMenu = () => document.body.classList.toggle("open");

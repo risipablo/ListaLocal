@@ -66,6 +66,10 @@ document.addEventListener('keydown', (event) => {
 });
 
 
+// Menu
+
+const toggleMenu = () => document.body.classList.toggle("open");
+
 
 
 
