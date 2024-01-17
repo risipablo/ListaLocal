@@ -266,6 +266,8 @@ class Datos {
         this.agregarProductos(253,"Suertudo","Adulto","20","19000","Perro","Suertudo","Adulto");
         this.agregarProductos(254,"Biopet Cordero","Adulto","1","1900","Perro","Biopet","Adulto");
         this.agregarProductos(255,"Biopet Cordero","Adulto","20","23000","Perro","Biopet","Adulto");
+        this.agregarProductos(256,"Paños Pets", "Adulto","1","850", "Perro", "","Accesorios" );
+        this.agregarProductos(256,"Paños Pets", "Adulto","10","8000", "Perro", "","Accesorios" )
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
@@ -286,6 +288,7 @@ class Datos {
                 producto.tamaño.toLowerCase().includes(p) ||
                 producto.mascota.toLowerCase().includes(p) ||
                 producto.precio.toLowerCase().includes(p) ||
+                producto.edad.toLowerCase().includes(p) ||
                 producto.kg.toString().toLowerCase().includes(p)
             );
         });

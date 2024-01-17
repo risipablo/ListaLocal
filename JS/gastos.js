@@ -8,8 +8,9 @@ class Datos{
         this.agregarGastos(5,"Chubutin","Enero",93350," Pagado","8/01","Sin Boleta")
         this.agregarGastos(6,"Nutrisur","Enero",69000,"Impago","9/01",39527)
         this.agregarGastos(7,"Forastero","Enero",115560,"Impago","11/01",193763)
-        this.agregarGastos(8, "Amadeo","Enero",84412,"Impago","12/01",22222)
-        this.agregarGastos(9, "Amadeo","Enero",11172,"Impago","12/01","Sin Boleta")
+        this.agregarGastos(8, "Amadeo","Enero",84412,"Pagado","12/01",22222)
+        this.agregarGastos(9, "Amadeo","Enero",11172,"Pagado","12/01","Sin Boleta")
+        this.agregarGastos(10,"Nutripet", "Enero", 155941, "Impago", "17/01",69618)
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
@@ -146,17 +147,35 @@ btnMeses.forEach((boton) => {
 })
 
 
-const abrir = document.querySelector(".filtro")
-const cerrar = document.querySelector (".cerrar")
+
+const abrir2 = document.getElementById("filtro");
+const meses2 = document.querySelector(".meses2");
+const cerrar2 = document.getElementById("cerrar2");
+
+abrir2.addEventListener("click", (event) => {
+    meses2.classList.add("show");
+})
+
+cerrar2.addEventListener("click", (event) => {
+    meses2.classList.remove("show");
+})
+
+
+const abrir = document.querySelector(".filtro");
+const cerrar = document.querySelector (".cerrar");
 const contenido = document.querySelector('.contenido');
 
 abrir.addEventListener("click", (event) => {
-    contenido.classList.add ('show')
+    contenido.classList.add("show");
 })
 
 cerrar.addEventListener("click", (event) => {
-    contenido.classList.remove ('show');
-});
+    contenido.classList.remove("show");
+})
+
+
+
+
 
 const provedor = document.querySelectorAll ('.btnprovedor');
 const TodosProductos = document.getElementById("Todos");
@@ -171,6 +190,8 @@ provedor.forEach((boton) => {
     }})
 })
 
+
+// funcion de mostrar todos los productos
 TodosProductos.addEventListener("click", (event) =>{
     event.preventDefault;
     quitarClase();
@@ -179,9 +200,10 @@ TodosProductos.addEventListener("click", (event) =>{
 })
 
 function quitarClase(){
-    const botonSeleccionado = document.querySelector (".seleccionado");
-    if (botonSeleccionado) {
-        botonSeleccionado.classList.remove (".seleccionado");
+    const botonSelecionado = document.querySelector(".seleccionado");
+
+    if(botonSelecionado){
+        botonSelecionado.classList.remove(".seleccionado");
     }
 }
 

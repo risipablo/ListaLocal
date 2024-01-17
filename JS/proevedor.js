@@ -208,6 +208,7 @@ class Datos2 {
         this.agregarProductos(194,"Bolson Piedras ","Adulto","20","4600","Gato","Accesorio","Popy");
         this.agregarProductos(196,"Suertudo ","Adulto","20","13000","Perro","Suertudo","Popy");
         this.agregarProductos(197,"Biopet Cordero ","Adulto","20","19000","Perro","Biopet","Popy");
+        this.agregarProductos(197,"Paños Pet 60x60 ","Adulto","10","6612","Perro","Paños","Nutripet");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){

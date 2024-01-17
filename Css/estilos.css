@@ -303,12 +303,15 @@ td {
 
 .filtros2 {
   display: flex;
-  justify-content: space-evenly;
-  margin: 22px 0px;
+  justify-content: space-between;
+  margin: 22px;
   font-weight: 600;
   align-items: center;
   text-align: center;
   cursor: pointer;
+}
+.filtros2 .filtrosme {
+  display: none;
 }
 .filtros2 .meses {
   display: flex;
@@ -330,6 +333,42 @@ td {
   color: #fff;
 }
 
+@media only screen and (max-width: 1100px) {
+  .filtros2 .meses {
+    display: none;
+  }
+  .filtros2 .filtrosme {
+    display: flex;
+  }
+  .filtros2 .filtrosme .meses2 {
+    display: none;
+    border-radius: 20px 20px;
+    background-color: rgb(248, 247, 247);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+    z-index: 999;
+    margin: 28px 14px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+  }
+  .filtros2 .filtrosme .meses2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 8px 0px;
+    color: #070707;
+  }
+  .filtros2 .filtrosme .meses2 li {
+    color: #070707;
+    font-size: 14px;
+    margin: 12px 0px;
+  }
+  .filtros2 .filtrosme .meses2.show {
+    display: block;
+    right: 0;
+  }
+}
 .anotaciones p:hover {
   color: #00AAFF;
   transition: 0.3s;
@@ -398,9 +437,6 @@ td {
   }
   .btnAgregar {
     padding: 2px 7px;
-  }
-  .filtros2 {
-    display: none;
   }
 }
 section {
