@@ -257,7 +257,7 @@ class Datos {
         this.agregarProductos(245,"Colchoneta Desenfundable Grande","Adulto","80x90","14000","Perro","Accesorios");
         this.agregarProductos(246,"Colchoneta Desenfundable Extra Grande","Adulto","90x100","18000","Perro","Accesorios");
         this.agregarProductos(247,"Colchonetas Anti Desgaro Medianas","Adulto","1","8500","Perro","Accesorios");
-        this.agregarProductos(248,"Nidos","Adulto","1","114000","Gtao","Accesorios");
+        this.agregarProductos(248,"Nidos","Adulto","1","114000","Gato","Accesorios",);
         this.agregarProductos(249,"Moises de Jean","Adulto","1","16000","Gato","Accesorios");
         this.agregarProductos(250,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
         this.agregarProductos(251,"Piedras Blancas Masco","Adulto","2","Sin Valor","Gato","Accesorios");
@@ -266,8 +266,8 @@ class Datos {
         this.agregarProductos(253,"Suertudo","Adulto","20","19000","Perro","Suertudo","Adulto");
         this.agregarProductos(254,"Biopet Cordero","Adulto","1","1900","Perro","Biopet","Adulto");
         this.agregarProductos(255,"Biopet Cordero","Adulto","20","23000","Perro","Biopet","Adulto");
-        this.agregarProductos(256,"Paños Pets", "Adulto","1","850", "Perro", "","Accesorios" );
-        this.agregarProductos(256,"Paños Pets", "Adulto","10","8000", "Perro", "","Accesorios" )
+        this.agregarProductos(256,"Paños Pets", "Adulto","1","850", "Perro", "-","Accesorios" );
+        this.agregarProductos(257,"Paños Pets", "Adulto","10","8000", "Perro", "-","Accesorios" )
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
@@ -288,7 +288,6 @@ class Datos {
                 producto.tamaño.toLowerCase().includes(p) ||
                 producto.mascota.toLowerCase().includes(p) ||
                 producto.precio.toLowerCase().includes(p) ||
-                producto.edad.toLowerCase().includes(p) ||
                 producto.kg.toString().toLowerCase().includes(p)
             );
         });

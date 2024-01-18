@@ -295,6 +295,16 @@ class Carrito {
         localStorage.setItem("carrito", JSON.stringify(this.carrito));
 
         this.listar();
+
+        Toastify({
+            text: `${producto.nombre} ${producto.tamaño} de ${producto.kg}kg fue agregado`,
+            position: "center",
+            className: "info",
+            gravity: "bottom",
+            style: {
+            background: "linear-gradient(to right, violet, red)",
+            },
+        }).showToast();
     }
 
     quitar(id){
