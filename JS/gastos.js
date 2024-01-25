@@ -6,11 +6,15 @@ class Datos{
         this.agregarGastos(3,"Popy","Enero",115600,"Pagado","3/01", "Sin boleta")
         this.agregarGastos(4,"Don Tommas", "Enero", 12500, "Pagado","8/01", 358575)
         this.agregarGastos(5,"Chubutin","Enero",93350," Pagado","8/01","Sin Boleta")
-        this.agregarGastos(6,"Nutrisur","Enero",69000,"Impago","9/01",39527)
-        this.agregarGastos(7,"Forastero","Enero",115560,"Impago","11/01",193763)
+        this.agregarGastos(6,"Nutrisur","Enero",69000,"Pagado","9/01",39527)
+        this.agregarGastos(7,"Forastero","Enero",115560,"Pagado","11/01",193763)
         this.agregarGastos(8, "Amadeo","Enero",84412,"Pagado","12/01",22222)
         this.agregarGastos(9, "Amadeo","Enero",11172,"Pagado","12/01","Sin Boleta")
         this.agregarGastos(10,"Nutripet", "Enero", 155941, "Impago", "17/01",69618)
+        this.agregarGastos(11,"Mercaba","Enero",236500, "Pagado","16/01",13398)
+        this.agregarGastos(12, "Forastero", "Enero",245302,"Impago","23/01",194592)
+        this.agregarGastos(13, "Forastero", "Enero",28520,"Impago", "23/01",194593)
+        this.agregarGastos(14, "Amadeo","Enero", 103302,"Impago", "27/02", "Aproximado el monto")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
@@ -178,8 +182,6 @@ cerrar.addEventListener("click", (event) => {
 
 
 const provedor = document.querySelectorAll ('.btnprovedor');
-const TodosProductos = document.getElementById("Todos");
-
 provedor.forEach((boton) => {
     boton.addEventListener("click", (event) => {{
         event.preventDefault();
@@ -192,6 +194,7 @@ provedor.forEach((boton) => {
 
 
 // funcion de mostrar todos los productos
+const TodosProductos = document.getElementById("Todos");
 TodosProductos.addEventListener("click", (event) =>{
     event.preventDefault;
     quitarClase();
@@ -229,3 +232,4 @@ function calcularTotalGastos(productos) {
 // Menu 
 
 const toggleMenu = () => document.body.classList.toggle("open");
+
