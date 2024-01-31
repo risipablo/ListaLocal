@@ -10,11 +10,13 @@ class Datos{
         this.agregarGastos(7,"Forastero","Enero",115560,"Pagado","11/01",193763)
         this.agregarGastos(8, "Amadeo","Enero",84412,"Pagado","12/01",22222)
         this.agregarGastos(9, "Amadeo","Enero",11172,"Pagado","12/01","Sin Boleta")
-        this.agregarGastos(10,"Nutripet", "Enero", 155941, "Impago", "17/01",69618)
+        this.agregarGastos(10,"Nutripet", "Enero", 155941, "Pagado", "17/01",69618)
         this.agregarGastos(11,"Mercaba","Enero",236500, "Pagado","16/01",13398)
         this.agregarGastos(12, "Forastero", "Enero",245302,"Impago","23/01",194592)
         this.agregarGastos(13, "Forastero", "Enero",28520,"Impago", "23/01",194593)
-        this.agregarGastos(14, "Amadeo","Enero", 103302,"Impago", "27/02", "Aproximado el monto")
+        this.agregarGastos(14, "Amadeo","Enero", 81036,"Pagado", "26/02", 22377)
+        this.agregarGastos(14, "Amadeo","Enero", 24113,"Pagado", "26/02", 53363)
+        this.agregarGastos(15, "Chubutin","Enero",100035,"Pagado","25/01", "Sin Boleta")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
