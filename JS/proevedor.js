@@ -60,12 +60,12 @@ class Datos2 {
         this.agregarProductos(46,"Gati","Adulto ","15","26677","Gato","Gati","Forastero");
         this.agregarProductos(47,"Infinity","Adulto","21","25600","Perro","Infinity","Chubutin");
         this.agregarProductos(48,"Infinity","Mini Adulto ","15","19200","Perro","Infinity","Chubutin");
-        this.agregarProductos(49,"Nutricare","Mini Adulto","7.5","7750","Perro","Nutricare","Chubutin");
-        this.agregarProductos(50,"Nutricare","Mini Adulto ","20","21250","Perro","Nutricare","Chubutin");
-        this.agregarProductos(51,"Nutricare","Adulto Grande","7.5","7750","Perro","Nutricare","Chubutin");
-        this.agregarProductos(52,"Nutricare","Adulto Grande ","20","21250","Perro","Nutricare","Chubutin");
+        this.agregarProductos(49,"Nutricare","Mini Adulto","7.5","9300","Perro","Nutricare","Chubutin");
+        this.agregarProductos(50,"Nutricare","Mini Adulto ","20","25500","Perro","Nutricare","Chubutin");
+        this.agregarProductos(51,"Nutricare","Adulto Grande","7.5","9300","Perro","Nutricare","Chubutin");
+        this.agregarProductos(52,"Nutricare","Adulto Grande ","20","25500","Perro","Nutricare","Chubutin");
         this.agregarProductos(53,"Optimun ","Pouch ","12","","Gato/Perro","Optimun","Chubutin");
-        this.agregarProductos(54,"Nutricare","Cachorro","15","13860","Perro","Nutricare","Chubutin");
+        this.agregarProductos(54,"Nutricare","Cachorro","15","16600","Perro","Nutricare","Chubutin");
         this.agregarProductos(55,"Piedras Blancas","Adulto"," 4","6750","Gato","-","Popy");
         this.agregarProductos(56,"Wishka","Adulto ","10","24765","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","13650","Perro","Bocato","Chubutin");

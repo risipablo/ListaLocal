@@ -77,15 +77,15 @@ class Datos {
         this.agregarProductos(55,"Gati","Adulto ",15,"33000","Gato","Gati","Adulto");
         this.agregarProductos(56,"Infinity","Mini Adulto",1,"1500","Perro","Infinity","Adulto");
         this.agregarProductos(57,"Infinity","Mini Adulto ",15,"19000","Perro","Infinity","Adulto");
-        this.agregarProductos(58,"Nutricare","Mini Adulto",1,"1600","Perro","Nutricare","Adulto");
-        this.agregarProductos(59,"Nutricare","Mini Adulto ",20,"26000","Perro","Nutricare","Adulto");
-        this.agregarProductos(60,"Nutricare","Adulto Grande",1,"1500","Perro","Nutricare","Adulto");
-        this.agregarProductos(61,"Nutricare","Adulto Grande ",20,"25000","Perro","Nutricare","Adulto");
+        this.agregarProductos(58,"Nutricare","Mini Adulto",1,"2000","Perro","Nutricare","Adulto");
+        this.agregarProductos(59,"Nutricare","Mini Adulto ",20,"33000","Perro","Nutricare","Adulto");
+        this.agregarProductos(60,"Nutricare","Adulto Grande",1,"2000","Perro","Nutricare","Adulto");
+        this.agregarProductos(61,"Nutricare","Adulto Grande ",20,"33000","Perro","Nutricare","Adulto");
         this.agregarProductos(62,"Nutricare","Cachorro ",1,"1600","Perro","Nutricare","Cachorro");
-        this.agregarProductos(63,"Nutricare","Cachorro",15,"21000","Perro","Nutricare","Cachorro");
+        this.agregarProductos(63,"Nutricare","Cachorro",15,"21600","Perro","Nutricare","Cachorro");
         this.agregarProductos(190,"Piedras Blancas","Adulto","2","1400","Gato","Piedras","Adulto")
-        this.agregarProductos(191,"Nutricare","Adulto Grande ",7.5,"10000","Perro","Nutricare","Adulto");
-        this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"10000","Perro","Nutricare","Adulto");
+        this.agregarProductos(191,"Nutricare","Adulto Grande ",7.5,"12000","Perro","Nutricare","Adulto");
+        this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"12000","Perro","Nutricare","Adulto");
         this.agregarProductos(193,"Nutricare","Adulto ",1,"2500","Gato","Nutricare","Adulto");
         this.agregarProductos(194,"Nutricare","Adulto ",7.5,"22000","Gato","Nutricare","Adulto");
         this.agregarProductos(64,"Wishka","Adulto ",1,"2200","Gato","Wishka","Adulto");
