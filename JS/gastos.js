@@ -19,6 +19,7 @@ class Datos{
         this.agregarGastos(15, "Chubutin","Enero",100035,"Pagado","25/01", "Sin Boleta")
         this.agregarGastos(16,"Nutrisur","Febrero",111986,"Impago","1/02",399661)
         this.agregarGastos(17,"Chubutin","Febrero",78120,"Pagado","1/02","Sin Boleta")
+        this.agregarGastos(18,"Popy","Febrero",103900,"Pagado","10/02","Sin Boleta")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){

@@ -207,11 +207,11 @@ class Datos2 {
         this.agregarProductos(193,"Piedras Blancas Mascot x5","Adulto","4","5275","Gato","Accesorio","Can Cid");
         this.agregarProductos(194,"Bolson Piedras Mascot ","Adulto","30","6750","Gato","Accesorio","Can Cid");
         this.agregarProductos(196,"Suertudo ","Adulto","20","14500","Perro","Suertudo","Popy");
-        this.agregarProductos(197,"Biopet Cordero ","Adulto","20","21500","Perro","Biopet","Popy");
         this.agregarProductos(198,"Paños Pet 60x60 ","Adulto","10","6612","Perro","Paños","Nutripet");
         this.agregarProductos(199,"Pedigree","Rodeos","Pack x 10","5825","Perro","Pedigree","Don Tomas");
         this.agregarProductos(200,"Pedigree","Rodeos","1","582","Perro","Pedigree","Don Tomas");
         this.agregarProductos(201,"Pro Plan","Active Mind R.Pequeña","3","21148","Perro", "Pro Plan","Forastero");
+        this.agregarProductos(202,"Biopet Cordero ","Adulto","20","21500","Perro","Biopet","Popy");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
