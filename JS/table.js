@@ -75,8 +75,8 @@ class Datos {
         this.agregarProductos(53,"Cat Chow","Kitten ",15,"65000","Gato","Catchow","Cachorro");
         this.agregarProductos(54,"Gati","Adulto ",1,"2500","Gato","Gati","Adulto");
         this.agregarProductos(55,"Gati","Adulto ",15,"33000","Gato","Gati","Adulto");
-        this.agregarProductos(56,"Infinity","Mini Adulto",1,"1500","Perro","Infinity","Adulto");
-        this.agregarProductos(57,"Infinity","Mini Adulto ",15,"19000","Perro","Infinity","Adulto");
+        this.agregarProductos(56,"Infinity","Mini Adulto",1,"2600","Perro","Infinity","Adulto");
+        this.agregarProductos(57,"Infinity","Mini Adulto ",15,"33000","Perro","Infinity","Adulto");
         this.agregarProductos(58,"Nutricare","Mini Adulto",1,"2000","Perro","Nutricare","Adulto");
         this.agregarProductos(59,"Nutricare","Mini Adulto ",20,"33000","Perro","Nutricare","Adulto");
         this.agregarProductos(60,"Nutricare","Adulto Grande",1,"2000","Perro","Nutricare","Adulto");
@@ -90,10 +90,10 @@ class Datos {
         this.agregarProductos(194,"Nutricare","Adulto ",7.5,"22000","Gato","Nutricare","Adulto");
         this.agregarProductos(64,"Wishka","Adulto ",1,"3400","Gato","Wishka","Adulto");
         this.agregarProductos(65,"Wishka","Adulto ",10,"30000","Gato","Wishka","Adulto");
-        this.agregarProductos(66,"Bocato","Adulto",1,"1100","Gato","Bocato","Adulto");
-        this.agregarProductos(67,"Bocato","Adulto ",10,"9000","Gato","Bocato","Adulto");
-        this.agregarProductos(232,"Bocato","Adulto",1,"800","Perro","Bocato","Adulto");
-        this.agregarProductos(233,"Bocato","Adulto ",20,"12500","Perro","Bocato","Adulto");
+        this.agregarProductos(66,"Bocato","Adulto",1,"1800","Gato","Bocato","Adulto");
+        this.agregarProductos(67,"Bocato","Adulto ",10,"14000","Gato","Bocato","Adulto");
+        this.agregarProductos(232,"Bocato","Adulto",1,"1500","Perro","Bocato","Adulto");
+        this.agregarProductos(233,"Bocato","Adulto ",20,"20000","Perro","Bocato","Adulto");
         this.agregarProductos(68,"Optimun","Adulto",1,"3900","Gato","Optimun","Adulto");
         this.agregarProductos(69,"Optimun","Adulto ",10,"36000","Gato","Optimun","Adulto");
         this.agregarProductos(70,"Optimun","Adulto",3,"13400","Gato","Optimun","Adulto");

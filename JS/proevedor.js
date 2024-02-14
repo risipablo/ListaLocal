@@ -58,8 +58,8 @@ class Datos2 {
         this.agregarProductos(45,"Pro Plan","Adulto Small","7.5","40190","Perro", "Pro Plan","Forastero");
         this.agregarProductos(149,"Pro Plan","Adulto Small","3","19216","Perro", "Pro Plan","Forastero");
         this.agregarProductos(46,"Gati","Adulto ","15","26677","Gato","Gati","Forastero");
-        this.agregarProductos(47,"Infinity","Adulto","21","25600","Perro","Infinity","Chubutin");
-        this.agregarProductos(48,"Infinity","Mini Adulto ","15","19200","Perro","Infinity","Chubutin");
+        this.agregarProductos(47,"Infinity","Adulto","21","35080","Perro","Infinity","Chubutin");
+        this.agregarProductos(48,"Infinity","Mini Adulto ","15","26710","Perro","Infinity","Chubutin");
         this.agregarProductos(49,"Nutricare","Mini Adulto","7.5","9300","Perro","Nutricare","Chubutin");
         this.agregarProductos(50,"Nutricare","Mini Adulto ","20","25500","Perro","Nutricare","Chubutin");
         this.agregarProductos(51,"Nutricare","Adulto Grande","7.5","9300","Perro","Nutricare","Chubutin");
@@ -69,8 +69,8 @@ class Datos2 {
         this.agregarProductos(55,"Piedras Blancas Popy","Adulto"," 4","8500","Gato","-","Popy");
         this.agregarProductos(93,"Piedras Blancas Popy","Adulto","2","8000","Gato","-","Popy")
         this.agregarProductos(56,"Wishka","Adulto ","10","24760","Gato","Wishka","Don Tomas");
-        this.agregarProductos(57,"Bocato","Adulto","20","13650","Perro","Bocato","Chubutin");
-        this.agregarProductos(58,"Bocato","Adulto ","10","9920","Gato","Bocato","Chubutin");
+        this.agregarProductos(57,"Bocato","Adulto","20","16525","Perro","Bocato","Chubutin");
+        this.agregarProductos(58,"Bocato","Adulto ","10","11980","Gato","Bocato","Chubutin");
         this.agregarProductos(59,"Optimun","Adulto","1","3991","Gato","Optimun","Nutripet");
         this.agregarProductos(184,"Optimun Nutripet","Adulto ","10","29467","Gato","Optimun","Nutripet");
         this.agregarProductos(197,"Optimun Chubutin","Adulto ","10","31780","Gato","Optimun","Chubutin");
