@@ -24,8 +24,9 @@ class Datos2 {
         this.agregarProductos(183,"Excellent","Adulto Grande","20","49847","Perro","Excellent","Forastero");
         this.agregarProductos(150,"Excellent","Senior","15","46165","Perro","Excellent","Forastero");
         this.agregarProductos(17,"Agility","Adulto Grande","20","32319","Perro","Excellent","Nutrisur");
-        this.agregarProductos(18,"Biopet","Mini Adulto","15","17000","Perro","Biopet","Popy");
-        this.agregarProductos(19,"Biopet","Adulto","20","20300","Perro","Biopet","Popy");
+        this.agregarProductos(18,"Biopet","Mini Adulto","15","16500","Perro","Biopet","Popy");
+        this.agregarProductos(19,"Biopet","Adulto","20","19800","Perro","Biopet","Popy");
+        this.agregarProductos(202,"Biopet Cordero ","Adulto","20","21000","Perro","Biopet","Popy");
         this.agregarProductos(20,"Old Prince","Mini Adulto","7.5","19278","Perro","Old Prince","Don Tomas");
         this.agregarProductos(21,"Old Prince","Mini Adulto","15","35050","Perro","Old Prince","Don Tomas");
         this.agregarProductos(22,"Old Prince","Derma Mini Adulto/Cachorro","7.5","26688","Perro","Old Prince","Don Tomas");
@@ -72,10 +73,10 @@ class Datos2 {
         this.agregarProductos(57,"Bocato","Adulto","20","16525","Perro","Bocato","Chubutin");
         this.agregarProductos(58,"Bocato","Adulto ","10","11980","Gato","Bocato","Chubutin");
         this.agregarProductos(59,"Optimun","Adulto","1","3991","Gato","Optimun","Nutripet");
-        this.agregarProductos(184,"Optimun Nutripet","Adulto ","10","29467","Gato","Optimun","Nutripet");
-        this.agregarProductos(197,"Optimun Chubutin","Adulto ","10","31780","Gato","Optimun","Chubutin");
+        this.agregarProductos(184,"Optimun Nutripet","Adulto ","10","37989","Gato","Optimun","Nutripet");
+        this.agregarProductos(197,"Optimun Chubutin","Adulto ","10","38140","Gato","Optimun","Chubutin");
         this.agregarProductos(185,"Optimun","Adulto","3","10368","Gato","Optimun","Nutripet");
-        this.agregarProductos(186,"Optimun","Mini Adulto ","15","24104","Perro","Optimun","Nutripet");
+        this.agregarProductos(186,"Optimun","Mini Adulto ","15","31076","Perro","Optimun","Nutripet");
         this.agregarProductos(187,"Optimun","Mini Adulto","3","6578","Perro","Optimun","Nutripet");
         this.agregarProductos(61,"Pedigree","Mini Adulto","15","25442","Perro","Pedigree","Don Tomas");
         this.agregarProductos(62,"Dog Chow","Adulto Senior","8","18890","Perro","Dog Chow","Forastero");
@@ -195,10 +196,10 @@ class Datos2 {
         this.agregarProductos(181,"Sieger Katze","Light","1","7189","Gato","Sieger","Nutrisur");
         this.agregarProductos(182,"Sieger Katze","Light","7.5","36046","Gato","Sieger","Nutrisur");
         this.agregarProductos(183,"Sieger Katze","Stress Control","1","7189","Gato","Sieger","Nutrisur");
-        this.agregarProductos(184,"Sieger Katze","Stress Control","7.5","36046","Gato","Sieger","Nutrisur");
-        this.agregarProductos(185,"Comedero Doble","Adulto","1","3446","Perro","Accesorio","Can Cid");
-        this.agregarProductos(186,"Comedero Plastico Chico","Adulto","1","214","Perro","Accesorio","Can Cid");
-        this.agregarProductos(187,"Comedero Chico Inoxidable","Adulto","1","2294","Perro","Accesorio","Can Cid");
+        this.agregarProductos(202,"Sieger Katze","Stress Control","7.5","36046","Gato","Sieger","Nutrisur");
+        this.agregarProductos(203,"Comedero Doble","Adulto","1","3446","Perro","Accesorio","Can Cid");
+        this.agregarProductos(204,"Comedero Plastico Chico","Adulto","1","214","Perro","Accesorio","Can Cid");
+        this.agregarProductos(205,"Comedero Chico Inoxidable","Adulto","1","2294","Perro","Accesorio","Can Cid");
         this.agregarProductos(188,"Comedero Doble Europe","Adulto","1","764","Perro","Accesorio","Can Cid");
         this.agregarProductos(189,"Comedero Huella","Adulto","1","630","Perro","Accesorio","Can Cid");
         this.agregarProductos(190,"Comedero Grande Inoxidable","Adulto","1","8668","Perro","Accesorio","Can Cid");
@@ -211,7 +212,6 @@ class Datos2 {
         this.agregarProductos(199,"Pedigree","Rodeos","Pack x 10","5825","Perro","Pedigree","Don Tomas");
         this.agregarProductos(200,"Pedigree","Rodeos","1","582","Perro","Pedigree","Don Tomas");
         this.agregarProductos(201,"Pro Plan","Active Mind R.Pequeña","3","21148","Perro", "Pro Plan","Forastero");
-        this.agregarProductos(202,"Biopet Cordero ","Adulto","20","21500","Perro","Biopet","Popy");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
