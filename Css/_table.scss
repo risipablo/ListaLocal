@@ -159,6 +159,10 @@ td{
 
 // Meses gastos
 
+.monto{
+    padding: 0px 2px;
+}
+
 .filtros2{
     display: flex;
     justify-content: space-between;
@@ -301,19 +305,16 @@ td{
 
 @media only screen and (max-width:750px){
     .nombres{
-        th{
-            padding: 9px;
-        }
 
         .pro{
             font-size: 18px;
-            padding: 6px;
+            padding: 9px;
         }
         
         .id{
             display: none;
         }
-    
+
 
     }
 

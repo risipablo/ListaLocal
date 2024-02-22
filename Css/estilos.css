@@ -56,7 +56,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
+  grid-template-columns: repeat(3, 3fr);
 }
 
 .conteiner {
@@ -64,7 +64,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin: 25px 0px 30px;
+  margin: 25px 20px 30px;
 }
 
 .conteiner h2 {
@@ -301,6 +301,10 @@ td {
   left: 0;
 }
 
+.monto {
+  padding: 0px 2px;
+}
+
 .filtros2 {
   display: flex;
   justify-content: space-between;
@@ -419,12 +423,9 @@ td {
 }
 
 @media only screen and (max-width: 750px) {
-  .nombres th {
-    padding: 9px;
-  }
   .nombres .pro {
     font-size: 18px;
-    padding: 6px;
+    padding: 9px;
   }
   .nombres .id {
     display: none;

@@ -333,6 +333,7 @@ class Carrito {
 
     listar (){
         this.total = 0;
+        this.subtotal = 0;
         this.totalProductos = 0;
         divCarrito.innerHTML= "";
 
@@ -342,12 +343,12 @@ class Carrito {
 
             <h4 class="producto"> ${producto.nombre} </h4>
             <p class="descripcion"> ${producto.tamaño}</p>
-            
             <p class="descripcion"> ${producto.kg}</p>
             <p class="precio"> Precio: $${producto.precio}</p>
             <div class="items">
             <p class="cantidad">Cantidad: ${producto.cantidad}</p>
             <a href="#" data-id="${producto.id}" class="btnQuitar"><i class="fa-solid fa-trash-can">  </i>  </a>
+            <p class="precio">Subtotal: $${this.subtotal = producto.cantidad * producto.precio}</p>
             </div>
             </div>
             `;
