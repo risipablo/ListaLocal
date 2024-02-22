@@ -183,6 +183,7 @@ class Datos2 {
         this.agregarProductos(167,"Kro Line","Collar Pitbull","4","4300","Perro","Kro Line","Kro Line");
         this.agregarProductos(168,"Kro Line","Collar Pitbull","5","4300","Perro","Kro Line","Kro Line");
         this.agregarProductos(169,"Stone Cat","Adulto","Pack 5","17315","Gato","Piedras","Can Cid");
+        this.agregarProductos(206,"Stone Cat","Adulto","16","11081","Gato","Piedras","Can Cid");
         this.agregarProductos(170,"Pellcats","Adulto","Pack 5","8633","Gato","Piedras","Can Cid");
         this.agregarProductos(171,"Golocan","Adulto","20","15821","Perro","Bocados","Can Cid");
         this.agregarProductos(173,"Sieger Katze","Kitten","1","7189","Gato","Sieger","Nutrisur");
@@ -212,6 +213,7 @@ class Datos2 {
         this.agregarProductos(199,"Pedigree","Rodeos","Pack x 10","5825","Perro","Pedigree","Don Tomas");
         this.agregarProductos(200,"Pedigree","Rodeos","1","582","Perro","Pedigree","Don Tomas");
         this.agregarProductos(201,"Pro Plan","Active Mind R.Pequeña","3","21148","Perro", "Pro Plan","Forastero");
+        
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
