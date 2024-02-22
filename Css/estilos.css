@@ -812,8 +812,9 @@ ul {
   box-shadow: #0b0b0b;
 }
 
-#recordatorio p {
+#recordatorio li {
   margin: 0;
+  padding: 4px 0px;
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 1px;
