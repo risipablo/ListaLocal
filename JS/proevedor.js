@@ -163,7 +163,7 @@ class Datos2 {
         this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","10000","Perro","Kro Line","Kro Line");
         this.agregarProductos(144,"Stone Cat","Adulto","1 ","3463","Gato","Piedras","Can Cid");
         this.agregarProductos(145,"Pellcats","Adulto","1","1727","Gato","Piedras","Can Cid");
-        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1337","Gato","Piedras","Can Cid");
+        this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1876","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","790","Perro","Bocados","Can Cid");
         this.agregarProductos(151,"Nutricare","Adulto","7.5","13300","Gato","Nutricare","Chubutin");
         this.agregarProductos(152,"Smarty","Adulto","15","0","Perro","Keiko","Popy");
@@ -206,7 +206,7 @@ class Datos2 {
         this.agregarProductos(190,"Comedero Grande Inoxidable","Adulto","1","8668","Perro","Accesorio","Can Cid");
         this.agregarProductos(191,"Comedero Plastico Grande","Adulto","1","1005","Perro","Accesorio","Can Cid");
         this.agregarProductos(192,"Piedras Blancas Mascot x10 ","Adulto","2","5662","Gato","Accesorio","Can Cid");
-        this.agregarProductos(193,"Piedras Blancas Mascot x5","Adulto","4","5275","Gato","Accesorio","Can Cid");
+        this.agregarProductos(193,"Piedras Blancas Mascot x5","Adulto","4","5614","Gato","Accesorio","Can Cid");
         this.agregarProductos(194,"Bolson Piedras Mascot ","Adulto","30","6750","Gato","Accesorio","Can Cid");
         this.agregarProductos(196,"Suertudo ","Adulto","20","14500","Perro","Suertudo","Popy");
         this.agregarProductos(198,"Paños Pet 60x60 ","Adulto","10","6612","Perro","Paños","Nutripet");

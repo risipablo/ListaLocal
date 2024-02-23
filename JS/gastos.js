@@ -26,6 +26,8 @@ class Datos{
         this.agregarGastos(22,"Forastero","Febrero",298429,"Impago","21/02","195999")
         this.agregarGastos(23,"Popy","Febrero",121200,"Pagado","22/02","Sin Boleta")
         this.agregarGastos(24,"Nutrisur","Febrero",66581,"Impago","22/02","Sin Boleta")
+        this.agregarGastos(25,"Amadeo","Febrero",101108,"Impago","23/02","22529")
+        this.agregarGastos(26,"Can Cid","Febrero",79739,"Pagado","23/02","16435")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){

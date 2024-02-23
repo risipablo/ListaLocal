@@ -187,7 +187,7 @@ class Datos {
         this.agregarProductos(156,"Kro Line","Pechera Pitbul","5 cm","17000","Perro","Kro Line","Adulto");
         this.agregarProductos(157,"Stone Cat","Adulto","4","4500","Gato","Piedras","Adulto");
         this.agregarProductos(158,"Pellcats","Adulto","4","2300","Gato","Piedras","Adulto");
-        this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","2000","Gato","Accesorios","Adulto");
+        this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","3200","Gato","Accesorios","Adulto");
         this.agregarProductos(160,"Golocan","Bocaditos","1","1150","Perro","Bocados","Adulto");
         this.agregarProductos(161,"Golocan","Galletas","1","1000","Perro","Bocados","Adulto");
         this.agregarProductos(162,"Arroz","Adulto",1,"1700","Perro","Arroz","Adulto");
