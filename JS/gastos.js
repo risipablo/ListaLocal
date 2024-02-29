@@ -17,7 +17,7 @@ class Datos{
         this.agregarGastos(14, "Amadeo","Enero", 81036,"Pagado", "26/01", 22377)
         this.agregarGastos(14, "Amadeo","Enero", 24113,"Pagado", "26/01", 53363)
         this.agregarGastos(15, "Chubutin","Enero",100035,"Pagado","25/01", "Sin Boleta")
-        this.agregarGastos(16,"Nutrisur","Febrero",111986,"Impago","1/02",399661)
+        this.agregarGastos(16,"Nutrisur","Febrero",111986,"Pagado","1/02",399661)
         this.agregarGastos(17,"Chubutin","Febrero",78120,"Pagado","1/02","Sin Boleta")
         this.agregarGastos(18,"Popy","Febrero",103900,"Pagado","10/02","Sin Boleta")
         this.agregarGastos(19,"Chubutin","Febrero",123800,"Pagado","15/02","Sin Boleta")
