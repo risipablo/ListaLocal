@@ -90,8 +90,8 @@ class Datos {
         this.agregarProductos(194,"Nutricare","Adulto ",7.5,"22000","Gato","Nutricare","Adulto");
         this.agregarProductos(64,"Wishka","Adulto ",1,"3400","Gato","Wishka","Adulto");
         this.agregarProductos(65,"Wishka","Adulto ",10,"30000","Gato","Wishka","Adulto");
-        this.agregarProductos(66,"Bocato","Adulto",1,"1800","Gato","Bocato","Adulto");
-        this.agregarProductos(67,"Bocato","Adulto ",10,"14000","Gato","Bocato","Adulto");
+        this.agregarProductos(66,"Bocato","Adulto",1,"2000","Gato","Bocato","Adulto");
+        this.agregarProductos(67,"Bocato","Adulto ",10,"16000","Gato","Bocato","Adulto");
         this.agregarProductos(232,"Bocato","Adulto",1,"1500","Perro","Bocato","Adulto");
         this.agregarProductos(233,"Bocato","Adulto ",20,"20000","Perro","Bocato","Adulto");
         this.agregarProductos(68,"Optimun","Adulto",1,"5000","Gato","Optimun","Adulto");
@@ -177,12 +177,12 @@ class Datos {
         this.agregarProductos(146,"Osspret Pipetas","Adulto","21-40","4200","Perro","Pipetas","Adulto");
         this.agregarProductos(147,"Osspret Pipetas","Adulto","+ 40","4200","Perro","Pipetas","Adulto");
         this.agregarProductos(148,"Osspret Pipetas","Adulto","+ 4","4200","Gato","Pipetas","Adulto");
-        this.agregarProductos(149,"Osspret Shampoo","Pelo Blanco","1","4200","Perro","Shampoo","Adulto");
-        this.agregarProductos(150,"Osspret Shampoo","Pelo Negro","1","4200","Perro","Shampoo","Adulto");
-        this.agregarProductos(151,"Osspret Shampoo","Dermatitis","1","4200","Perro","Shampoo","Adulto");
-        this.agregarProductos(152,"Osspret Shampoo","Algas","1","4200","Perro","Shampoo","Adulto");
-        this.agregarProductos(153,"Osspret Shampoo","Duo","1","4200","Perro","Shampoo","Adulto");
-        this.agregarProductos(154,"Osspret Shampoo","Extra Brillo","1","4200","Perro","Shampoo","Adulto");
+        this.agregarProductos(149,"Osspret Shampoo","Pelo Blanco","1","4800","Perro","Shampoo","Adulto");
+        this.agregarProductos(150,"Osspret Shampoo","Pelo Negro","1","4800","Perro","Shampoo","Adulto");
+        this.agregarProductos(151,"Osspret Shampoo","Dermatitis","1","4800","Perro","Shampoo","Adulto");
+        this.agregarProductos(152,"Osspret Shampoo","Algas","1","4800","Perro","Shampoo","Adulto");
+        this.agregarProductos(153,"Osspret Shampoo","Duo","1","4800","Perro","Shampoo","Adulto");
+        this.agregarProductos(154,"Osspret Shampoo","Extra Brillo","1","4800","Perro","Shampoo","Adulto");
         this.agregarProductos(155,"Agility","Lata Gato",1,"1500","Gato", "Agility","Adulto");
         this.agregarProductos(156,"Kro Line","Pechera Pitbul","5 cm","17000","Perro","Kro Line","Adulto");
         this.agregarProductos(157,"Stone Cat","Adulto","4","4500","Gato","Piedras","Adulto");
@@ -269,6 +269,8 @@ class Datos {
         this.agregarProductos(256,"Paños Pets", "Adulto","1","850", "Perro", "-","Accesorios" );
         this.agregarProductos(257,"Paños Pets", "Adulto","10","8000", "Perro", "-","Accesorios" )
         this.agregarProductos(258,"Pedigree","Rodeos",1,"750","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
+        this.agregarProductos(259,"Nutri Life","Adulto","suelto","3500","Perro","NutriLife","Adulto");
+        this.agregarProductos(260,"Nutri Life","Adulto",15,"48000","Perro","NutriLife","Adulto");
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
