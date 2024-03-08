@@ -190,9 +190,13 @@ button:hover {
   transition: 0.9s;
 }
 
+.nombres {
+  margin: 0 auto;
+}
+
 .nombres th {
   font-size: 22px;
-  padding: 12px 20px;
+  padding: 12px;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -202,10 +206,11 @@ table {
   color: #ffffff;
   width: 100%;
   table-layout: fixed;
+  flex: 1;
 }
 
 td {
-  padding: 12px 0px;
+  padding: 12px 8px;
   font-weight: 600;
   letter-spacing: 1px;
   width: 100%;
@@ -434,7 +439,7 @@ td {
     display: none;
   }
   tr td {
-    padding: 9px;
+    padding: 7px 2px;
   }
   .btnAgregar {
     padding: 2px 4px;
