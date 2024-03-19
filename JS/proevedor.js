@@ -69,7 +69,7 @@ class Datos2 {
         this.agregarProductos(54,"Nutricare","Cachorro","15","16600","Perro","Nutricare","Chubutin");
         this.agregarProductos(55,"Piedras Blancas Popy","Adulto"," 4","8500","Gato","-","Popy");
         this.agregarProductos(93,"Piedras Blancas Popy","Adulto","2","8000","Gato","-","Popy")
-        this.agregarProductos(56,"Wishka","Adulto ","10","24760","Gato","Wishka","Don Tomas");
+        this.agregarProductos(56,"Wishka","Adulto ","10","28480","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","16525","Perro","Bocato","Chubutin");
         this.agregarProductos(58,"Bocato","Adulto ","10","11980","Gato","Bocato","Chubutin");
         this.agregarProductos(59,"Optimun","Adulto","1","3991","Gato","Optimun","Nutripet");
@@ -145,8 +145,8 @@ class Datos2 {
         this.agregarProductos(126,"Hueso","Hueso Grande","34 cm","3250","Perro","Hueso","Hueso");
         this.agregarProductos(127,"Hueso","Palito Grising","20 cm","243","Perro","Hueso","Hueso");
         this.agregarProductos(128,"Hueso","Orejas","","180","Perro","Hueso","Hueso");
-        this.agregarProductos(60,"Pedigree","Lata","1","1152","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(129,"Pedigree","Lata","12","13824","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(60,"Pedigree","Lata","1","1325","Perro","Pedigree","Don Tomas");
+        this.agregarProductos(129,"Pedigree","Lata","24","31800","Perro","Pedigree","Don Tomas");
         this.agregarProductos(130,"Pedigree","Pouch","1","358","Perro","Pedigree","Don Tomas");
         this.agregarProductos(195,"Pedigree","Pouch","12","4296","Perro","Pedigree","Don Tomas");
         this.agregarProductos(131,"Osspret Pipetas","Adulto","2.10","1641","Perro","Pipetas","Amadeo");

@@ -89,8 +89,8 @@ class Datos {
         this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"12000","Perro","Nutricare","Adulto");
         this.agregarProductos(193,"Nutricare","Adulto ",1,"2500","Gato","Nutricare","Adulto");
         this.agregarProductos(194,"Nutricare","Adulto ",7.5,"22000","Gato","Nutricare","Adulto");
-        this.agregarProductos(64,"Wishka","Adulto ",1,"3400","Gato","Wishka","Adulto");
-        this.agregarProductos(65,"Wishka","Adulto ",10,"30000","Gato","Wishka","Adulto");
+        this.agregarProductos(64,"Wishka","Adulto ",1,"4000","Gato","Wishka","Adulto");
+        this.agregarProductos(65,"Wishka","Adulto ",10,"35000","Gato","Wishka","Adulto");
         this.agregarProductos(66,"Bocato","Adulto",1,"2000","Gato","Bocato","Adulto");
         this.agregarProductos(67,"Bocato","Adulto ",10,"16000","Gato","Bocato","Adulto");
         this.agregarProductos(232,"Bocato","Adulto",1,"1500","Perro","Bocato","Adulto");
@@ -171,7 +171,7 @@ class Datos {
         this.agregarProductos(139,"Hueso","Hueso Grande","34 cm","7000","Perro","Hueso","Adulto");
         this.agregarProductos(140,"Hueso","Palito Grising","20 cm","500","Perro","Hueso","Adulto");
         this.agregarProductos(141,"Hueso","Orejas","","300","Perro","Hueso","Adulto");
-        this.agregarProductos(142,"Pedigree","Lata",1,"1500","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
+        this.agregarProductos(142,"Pedigree","Lata",1,"1800","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
         this.agregarProductos(143,"Pedigree","Pouch",1,"450","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
         this.agregarProductos(144,"Osspret Pipetas","Adulto","2-10","4200","Perro","Pipetas","Adulto");
         this.agregarProductos(145,"Osspret Pipetas","Adulto","11-20","4200","Perro","Pipetas","Adulto");
