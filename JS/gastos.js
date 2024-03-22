@@ -36,9 +36,15 @@ class Datos{
         this.agregarGastos(32,"Popy","Marzo",148400,"Pagado","8/03","Sin boleta")
         this.agregarGastos(33,"Popy","Marzo",149000,"Pagado","12/03","Sin boleta")
         this.agregarGastos(34,"Forastero","Marzo",609700,"Impagado","13/03","197251")
-        this.agregarGastos(35,"Nutrisur","Marzo",79506,"Impagado","14/03","85267")
-        this.agregarGastos(36,"Chubutin","Marzo",156840,"Impagado","14/03","9330")
+        this.agregarGastos(35,"Nutrisur","Marzo",79506,"Impago","14/03","85267")
+        this.agregarGastos(36,"Chubutin","Marzo",156840,"Pagado","14/03","9330")
         this.agregarGastos(37,"Don Tomas","Marzo",73930,"Pagado","18/03","370979")
+        this.agregarGastos(38,"Chubutin","Marzo",153500,"Pagado","21/03","9425")
+        this.agregarGastos(39,"Amadeo","Marzo",90250,"Pagado","20/03","22767")
+        this.agregarGastos(40,"Nutripet","Marzo",118564,"Pagado","18/03","71282")
+        this.agregarGastos(41,"Popy","Marzo",89100,"Pagado","21/03","Sin boleta")
+        this.agregarGastos(42,"Forastero","Marzo",210455,"Impago","22/03","197752")
+        this.agregarGastos(43,"Timons","Marzo",13000,"Pagado","22/03","Sin boleta")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
