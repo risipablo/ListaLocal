@@ -74,7 +74,7 @@ class Datos2 {
         this.agregarProductos(58,"Bocato","Adulto ","10","11980","Gato","Bocato","Chubutin");
         this.agregarProductos(59,"Optimun","Adulto","1","3991","Gato","Optimun","Nutripet");
         this.agregarProductos(184,"Optimun Nutripet","Adulto ","10","37989","Gato","Optimun","Nutripet");
-        this.agregarProductos(197,"Optimun Chubutin","Adulto ","10","38140","Gato","Optimun","Chubutin");
+        this.agregarProductos(197,"Optimun Chubutin","Adulto ","10","43860","Gato","Optimun","Chubutin");
         this.agregarProductos(185,"Optimun","Adulto","3","10368","Gato","Optimun","Nutripet");
         this.agregarProductos(186,"Optimun","Mini Adulto ","15","31076","Perro","Optimun","Nutripet");
         this.agregarProductos(187,"Optimun","Mini Adulto","3","6578","Perro","Optimun","Nutripet");
