@@ -5,7 +5,7 @@ class Datos{
         this.agregarGastos(2,"Don Tomas" , "Enero", 40100, "Pagado", "2/01", 357706)
         this.agregarGastos(3,"Popy","Enero",115600,"Pagado","3/01", "Sin boleta")
         this.agregarGastos(4,"Don Tomas", "Enero", 12500, "Pagado","8/01", 358575)
-        this.agregarGastos(5,"Chubutin","Enero",93350," Pagado","8/01","Sin Boleta")
+        this.agregarGastos(5,"Chubutin","Enero",93350,"Pagado","8/01","Sin Boleta")
         this.agregarGastos(6,"Nutrisur","Enero",69000,"Pagado","9/01",39527)
         this.agregarGastos(7,"Forastero","Enero",115560,"Pagado","11/01",193763)
         this.agregarGastos(8, "Amadeo","Enero",84412,"Pagado","12/01",22222)
@@ -85,6 +85,8 @@ class Datos{
         return this.productos.filter((producto) => producto.proveedor == proveedor)
     }
 
+
+
 }
 
 
@@ -140,6 +142,9 @@ function cargarProductos(productos) {
     let total = 0; // Almacener total 
 
     for (const producto of productos) {
+
+        const estadoPago = producto.estado.toLowerCase() === 'pagado' ? '#3FC40B' : '#E80808';
+
         tabla.innerHTML += `
         <tr>
             <td>${producto.proveedor}</td>
@@ -147,7 +152,7 @@ function cargarProductos(productos) {
             <td class="id">${producto.fecha}</td>
             <td  class="id">${producto.boleta}</td>
             <td class="monto">$ ${producto.monto}</td>
-            <td class="estado">${producto.estado}</td>
+            <td class="estado" style="background:${estadoPago}">${producto.estado}</td>
         </tr>
         `;
 
@@ -259,9 +264,11 @@ function calcularTotalGastos(productos) {
 }
 
 
+
+
 //  Opcion B
 // calcularMonto(){
-//    return this.productos.reduce((total,productos) => total + productos.monto, 0)
+//    return this.productos.reduce((total,productos) => total + productos.monto, 0
 // }
 //  <td>${bd.calcularMonto()}</td>
 
