@@ -161,7 +161,6 @@ class Datos2 {
         this.agregarProductos(140,"Osspret Shampoo","Duo","1","3724","Perro","Shampoo","Amadeo");
         this.agregarProductos(141,"Osspret Shampoo","Extra Brillo","1","3724","Perro","Shampoo","Amadeo");
         this.agregarProductos(143,"Kro Line","Pechera Pitbul","5 cm","10000","Perro","Kro Line","Kro Line");
-        this.agregarProductos(144,"Stone Cat","Adulto","1 ","3463","Gato","Piedras","Can Cid");
         this.agregarProductos(145,"Pellcats","Adulto","1","1727","Gato","Piedras","Can Cid");
         this.agregarProductos(146,"Bandejas Sanitarias medianas","Adulto","1","1876","Gato","Piedras","Can Cid");
         this.agregarProductos(147,"Golocan","Adulto","1","790","Perro","Bocados","Can Cid");
@@ -182,8 +181,10 @@ class Datos2 {
         this.agregarProductos(166,"Kro Line","Pretal Solo","3","3400","Perro","Kro Line","Kro Line");
         this.agregarProductos(167,"Kro Line","Collar Pitbull","4","4300","Perro","Kro Line","Kro Line");
         this.agregarProductos(168,"Kro Line","Collar Pitbull","5","4300","Perro","Kro Line","Kro Line");
-        this.agregarProductos(169,"Stone Cat","Adulto","Pack 5","17315","Gato","Piedras","Can Cid");
-        this.agregarProductos(206,"Stone Cat","Adulto","16","11081","Gato","Piedras","Can Cid");
+        this.agregarProductos(144,"Stone Cat","Adulto","4","4120","Gato","Piedras","Can Cid");
+        this.agregarProductos(207,"Stone Cat","Adulto","8","7476","Gato","Piedras","Can Cid");
+        this.agregarProductos(169,"Stone Cat","Adulto","Pack 5","20769","Gato","Piedras","Can Cid");
+        this.agregarProductos(206,"Stone Cat","Adulto","16","13182","Gato","Piedras","Can Cid");
         this.agregarProductos(170,"Pellcats","Adulto","Pack 5","8633","Gato","Piedras","Can Cid");
         this.agregarProductos(171,"Golocan","Adulto","20","15821","Perro","Bocados","Can Cid");
         this.agregarProductos(173,"Sieger Katze","Kitten","1","8267","Gato","Sieger","Nutrisur");
