@@ -34,6 +34,8 @@
         
         <div class="grid">
         <div class="conteiner">
+
+
             <h2>Conversion del 30%</h2>
             <form  class="formulario">
                 <div class="valor">
@@ -50,6 +52,27 @@
                 </div>
             </form>
         </div>
+
+
+
+        <div class="conteiner">
+            <h2>Conversion de IVA</h2>
+            <form id="porcentaje" class="formulario">
+                <div class="valor">
+                    <label for="numero">Ingresar un valor</label>
+                    <input id="iva2" class="valores">
+                </div>
+                <div class="botones">
+                    <button class="boton" type="button" onclick="calculoIva(1.21)"> * </button>
+                </div>
+                <div class="resultado">
+                    <label for="numero">Resultado</label>
+                    <input id="resultadoIva" class="valores">
+                </div>
+            </form>
+        </div>
+
+
     
             <div class="conteiner">
                 <h2> Division por Kg</h2>
@@ -72,11 +95,6 @@
                 </div>
                     </form>
 
-                    <div class="btn2">
-                        <button class="boton2" type="button" onclick="Limpiar()"> Limpiar</button>
-                        
-                    </div>
-                    
             </div>
 
             
@@ -103,7 +121,10 @@
                     </form>
             </div>
 
-            
+        </div>
+
+        <div class="btn2">
+            <button class="boton2" type="button" onclick="Limpiar()"> Limpiar</button>
         </div>
 
     <div class="volver">
@@ -111,7 +132,12 @@
         <i class="fa-solid fa-arrow-rotate-left" id="volver"></i> </a>
     </div>
     
+    <button id="btnVolverArriba" class="btn-volver-arriba" onclick="scrollToTop()">
+        <i class="fa-solid fa-up-long"></i>
+    </button>
+    
+    <script src="./JS/volver.js"></script>
     <script src="./JS/convertidor.js"></script>
-
+    
 </body>
 </html>

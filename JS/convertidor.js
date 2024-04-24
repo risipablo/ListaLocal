@@ -1,16 +1,18 @@
 
 
 
-    function Limpiar() {
 
+    function Limpiar() {
         document.getElementById("numero").value = 0;
         document.getElementById("resultado").value = 0;
         document.getElementById("kilos").value = 0;
         document.getElementById("result").value = 0;
         document.getElementById("kg").value = 0;
         document.getElementById("results").value = 0;
+        document.getElementById("iva2").value = 0;
+        document.getElementById("resultadoIva").value = 0;
     }
-    //llamar a la funcion onclick de html
+
 
 
     function calcular(porcentaje){
@@ -23,14 +25,20 @@
         document.getElementById("resultado").value = result;
     }
 
-    /* variables de kilos */
+    calculoIva(1.21);
+    function calculoIva(){
+        const number = Number(document.getElementById("iva2").value);
 
+        const resultIva = number * 1.21;
+        
+        document.getElementById("resultadoIva").value = resultIva;
+    }
+
+    /* divison por kg */
     CalculosXkilos(20);
     CalculosXkilos(15);
     CalculosXkilos(7.5);
     CalculosXkilos(10);
-
-
     function CalculosXkilos(Kg) { // en el () se le coloca nombre al array
         const kilo = Number(document.getElementById("kilos").value);
 
@@ -40,6 +48,7 @@
     }
 
 
+    /* multiplicacion por kg */
     MultiplicacionXkg(20);
     MultiplicacionXkg(15);
     MultiplicacionXkg(7.5);

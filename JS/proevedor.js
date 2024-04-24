@@ -69,7 +69,7 @@ class Datos2 {
         this.agregarProductos(54,"Nutricare","Cachorro","15","16600","Perro","Nutricare","Chubutin");
         this.agregarProductos(55,"Piedras Blancas Popy","Adulto"," 4","8500","Gato","-","Popy");
         this.agregarProductos(93,"Piedras Blancas Popy","Adulto","2","8000","Gato","-","Popy")
-        this.agregarProductos(56,"Wishka","Adulto ","10","28480","Gato","Wishka","Don Tomas");
+        this.agregarProductos(56,"Wishka","Adulto ","10","29800","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","16525","Perro","Bocato","Chubutin");
         this.agregarProductos(58,"Bocato","Adulto ","10","11980","Gato","Bocato","Chubutin");
         this.agregarProductos(59,"Optimun","Adulto","1","5507","Gato","Optimun","Nutripet");

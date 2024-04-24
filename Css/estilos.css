@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;&family=Oswald&family=Secular+One&display=swap");
 .calculator {
@@ -56,7 +57,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(2, 3fr);
 }
 
 .conteiner {
@@ -137,25 +138,27 @@ button:hover {
 }
 
 .btn2 {
-  margin: 20px 0px;
+  margin: 20px;
+  padding: 12px 0px;
 }
 
 .boton2 {
+  display: block;
   margin: 0 auto;
   border-radius: 12px 12px;
-  padding: 6px 0px;
-  width: 30%;
+  padding: 6px;
+  min-width: 200px;
   cursor: pointer;
   background: rgb(219, 34, 28);
   font-size: 14px;
   color: white;
   font-size: 18px;
-  display: block;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 750px) {
   .grid {
     display: block;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .productos {
@@ -781,29 +784,28 @@ ul {
   list-style: none;
 }
 
-.volver:hover {
-  transition: 0.7s;
-  background-color: #bdb9b9;
-}
-
-.volver {
-  display: flex;
+/* Estilo para el botón de volver arriba */
+.btn-volver-arriba {
   position: fixed;
-  width: 50px;
-  height: 45px;
-  bottom: 30px;
-  border-radius: 12px;
-  right: 30px;
-  background-color: #e4e2e2;
-  text-align: center;
-  z-index: 80;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffe600;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s, transform 0.3s;
 }
 
-#volver {
-  font-size: 1.8rem;
-  margin: 0 auto;
-  padding: 8px 0px;
-  color: #0b0b0b;
+.btn-volver-arriba:hover {
+  opacity: 0.8;
+}
+
+.fa-arrow-rotate-left {
+  margin-right: 5px;
 }
 
 #recordatorio {

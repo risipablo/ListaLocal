@@ -89,7 +89,7 @@ class Datos {
         this.agregarProductos(192,"Nutricare","Mini Adulto ",7.5,"12000","Perro","Nutricare","Adulto");
         this.agregarProductos(193,"Nutricare","Adulto ",1,"2500","Gato","Nutricare","Adulto");
         this.agregarProductos(194,"Nutricare","Adulto ",7.5,"22000","Gato","Nutricare","Adulto");
-        this.agregarProductos(64,"Wishka","Adulto ",1,"4000","Gato","Wishka","Adulto");
+        this.agregarProductos(64,"Wishka","Adulto ",1,"4500","Gato","Wishka","Adulto");
         this.agregarProductos(65,"Wishka","Adulto ",10,"35000","Gato","Wishka","Adulto");
         this.agregarProductos(66,"Bocato","Adulto",1,"2000","Gato","Bocato","Adulto");
         this.agregarProductos(67,"Bocato","Adulto ",10,"16000","Gato","Bocato","Adulto");
@@ -188,7 +188,7 @@ class Datos {
         this.agregarProductos(154,"Osspret Shampoo","Extra Brillo","1","4800","Perro","Shampoo","Adulto");
         this.agregarProductos(155,"Agility","Lata Gato",1,"3200","Gato", "Agility","Adulto");
         this.agregarProductos(156,"Kro Line","Pechera Pitbul","5 cm","17000","Perro","Kro Line","Adulto");
-        this.agregarProductos(157,"Stone Cat","Adulto","4","4500","Gato","Piedras","Adulto");
+        this.agregarProductos(157,"Stone Cat","Adulto","4","5400","Gato","Piedras","Adulto");
         this.agregarProductos(158,"Pellcats","Adulto","4","2300","Gato","Piedras","Adulto");
         this.agregarProductos(159,"Bandejas Sanitarias medianas","Adulto","1","3200","Gato","Accesorios","Adulto");
         this.agregarProductos(160,"Golocan","Bocaditos","1","1150","Perro","Bocados","Adulto");

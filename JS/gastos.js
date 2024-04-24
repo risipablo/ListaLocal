@@ -45,16 +45,19 @@ class Datos{
         this.agregarGastos(41,"Popy","Marzo",89100,"Pagado","21/03","Sin boleta")
         this.agregarGastos(42,"Forastero","Marzo",210455,"Pagado","22/03","197752")
         this.agregarGastos(43,"Timons","Marzo",13000,"Pagado","22/03","Sin boleta")
-        this.agregarGastos(44,"Indumentaria","Abril",126138,"Pagado","3/4 ","Sin boleta")
+        this.agregarGastos(44,"Indumentaria","Abril",126138,"Pagado","3/4 ","-")
         this.agregarGastos(45,"Forastero","Abril",86270,"Pagado","5/4","198313")
         this.agregarGastos(46,"Chubutin","Abril",218500,"Pagado","8/4","9625")
         this.agregarGastos(47,"Don Tomas","Abril",58950,"Pagado","8/4","374818-9")
-        this.agregarGastos(48,"Popy","Abril",232500,"Pagado","9/4","Sin boleta")
+        this.agregarGastos(48,"Popy","Abril",232500,"Pagado","9/4","-")
         this.agregarGastos(49,"Nutripet","Abril",231850,"Impago","9/4","72043")
         this.agregarGastos(50,"Amadeo","Abril",135400,"Pagado","11/4","23023")
         this.agregarGastos(51,"Nutrisur","Abril",246996,"Impago","17/4","86086")
         this.agregarGastos(52,"Forastero","Abril",168286,"Impago","18/4","198973")
-        this.agregarGastos(53,"Chubutin","Abril",85300,"Impago","18/4","9778")
+        this.agregarGastos(53,"Chubutin","Abril",85300,"Pagado","18/4","9778")
+        this.agregarGastos(54,"Popy","Abril",170800,"Pagado","23/4","-")
+        this.agregarGastos(55,"Can Cid","Abril",41540,"Pagado","24/4","5469")
+        this.agregarGastos(56,"Can Cid","Abril",10985,"Pagado","24/4","-")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
@@ -171,6 +174,17 @@ function cargarProductos(productos) {
     `;
 }
 
+function calcularTotalGastos(productos) {
+    let total = 0;
+
+    for (const producto of productos) {
+        total += producto.monto;
+    }
+
+    return total;
+}
+
+
 
 
 // Filtros
@@ -256,15 +270,6 @@ function quitarClase(){
 }
 
 
-function calcularTotalGastos(productos) {
-    let total = 0;
-
-    for (const producto of productos) {
-        total += producto.monto;
-    }
-
-    return total;
-}
 
 
 
