@@ -274,6 +274,7 @@ class Datos {
         this.agregarProductos(258,"Pedigree","Rodeos",1,"750","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
         this.agregarProductos(259,"Nutri Life","Adulto","suelto","3500","Perro","NutriLife","Adulto");
         this.agregarProductos(260,"Nutri Life","Adulto",15,"48000","Perro","NutriLife","Adulto");
+        this.agregarProductos(261,"Stone Cat","Adulto",16,"18000","Gato","Piedras","Adulto");
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
