@@ -1,27 +1,27 @@
 class Datos{
     constructor(){
         this.productos = [];
-        this.agregarGastos(1,"Nutrisur","Enero", 81010, "Pagado", "1", 39190)
-        this.agregarGastos(2,"Don Tomas" , "Enero", 40100, "Pagado", "2/01", 357706)
+        this.agregarGastos(1,"Nutrisur","Enero", 81010, "Pagado", "1", "39190")
+        this.agregarGastos(2,"Don Tomas" , "Enero", 40100, "Pagado", "2/01", "357706")
         this.agregarGastos(3,"Popy","Enero",115600,"Pagado","3/01", "Sin boleta")
-        this.agregarGastos(4,"Don Tomas", "Enero", 12500, "Pagado","8/01", 358575)
+        this.agregarGastos(4,"Don Tomas", "Enero", 12500, "Pagado","8/01", "358575")
         this.agregarGastos(5,"Chubutin","Enero",93350,"Pagado","8/01","Sin Boleta")
-        this.agregarGastos(6,"Nutrisur","Enero",69000,"Pagado","9/01",39527)
-        this.agregarGastos(7,"Forastero","Enero",115560,"Pagado","11/01",193763)
-        this.agregarGastos(8, "Amadeo","Enero",84412,"Pagado","12/01",22222)
+        this.agregarGastos(6,"Nutrisur","Enero",69000,"Pagado","9/01","39527")
+        this.agregarGastos(7,"Forastero","Enero",115560,"Pagado","11/01","193763")
+        this.agregarGastos(8, "Amadeo","Enero",84412,"Pagado","12/01","22222")
         this.agregarGastos(9, "Amadeo","Enero",11172,"Pagado","12/01","Sin Boleta")
-        this.agregarGastos(10,"Nutripet", "Enero", 155941, "Pagado", "17/01",69618)
-        this.agregarGastos(11,"Mercaba","Enero",236500, "Pagado","16/01",13398)
-        this.agregarGastos(12, "Forastero", "Enero",245302,"Pagado","23/01",194592)
-        this.agregarGastos(13, "Forastero", "Enero",28520,"Pagado", "23/01",194593)
-        this.agregarGastos(14, "Amadeo","Enero", 81036,"Pagado", "26/01", 22377)
-        this.agregarGastos(14, "Amadeo","Enero", 24113,"Pagado", "26/01", 53363)
+        this.agregarGastos(10,"Nutripet", "Enero", 155941, "Pagado", "17/01","69618")
+        this.agregarGastos(11,"Mercaba","Enero",236500, "Pagado","16/01","13398")
+        this.agregarGastos(12, "Forastero", "Enero",245302,"Pagado","23/01","194592")
+        this.agregarGastos(13, "Forastero", "Enero",28520,"Pagado", "23/01","194593")
+        this.agregarGastos(14, "Amadeo","Enero", 81036,"Pagado", "26/01", "22377")
+        this.agregarGastos(14, "Amadeo","Enero", 24113,"Pagado", "26/01", "53363")
         this.agregarGastos(15, "Chubutin","Enero",100035,"Pagado","25/01", "Sin Boleta")
-        this.agregarGastos(16,"Nutrisur","Febrero",111986,"Pagado","1/02",399661)
+        this.agregarGastos(16,"Nutrisur","Febrero",111986,"Pagado","1/02","399661")
         this.agregarGastos(17,"Chubutin","Febrero",78120,"Pagado","1/02","Sin Boleta")
         this.agregarGastos(18,"Popy","Febrero",103900,"Pagado","10/02","Sin Boleta")
         this.agregarGastos(19,"Chubutin","Febrero",123800,"Pagado","15/02","Sin Boleta")
-        this.agregarGastos(20,"Nutripet","Febrero",8968,"Pagado","16/02",70415)
+        this.agregarGastos(20,"Nutripet","Febrero",8968,"Pagado","16/02","70415")
         this.agregarGastos(21,"Popy","Febrero",100200,"Pagado","16/02","Sin Boleta")
         this.agregarGastos(22,"Forastero","Febrero",298429,"Pagado","21/02","195999")
         this.agregarGastos(23,"Popy","Febrero",121200,"Pagado","22/02","Sin Boleta")
@@ -76,7 +76,7 @@ class Datos{
     }
 
     BuscadorporGastos(palabra){
-        const palabras = palabra.toLowerCase().split("");
+        const palabras = palabra.toLowerCase().split(" ");
         return this.productos.filter((producto) => {
             return palabras.every((p) => 
             producto.proveedor.toLowerCase().includes(p) ||
@@ -84,7 +84,7 @@ class Datos{
             producto.monto.toString().toLowerCase().includes(p) ||
             producto.estado.toLowerCase().includes(p) ||
             producto.fecha.toLowerCase().includes(p) ||
-            producto.boleta.toString().toLowerCase().includes(p)
+            producto.boleta.toLowerCase().includes(p)
             )
         })
     }

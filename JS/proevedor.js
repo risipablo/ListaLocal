@@ -243,10 +243,11 @@ class Datos2 {
         return this.productos.filter((producto) => {
             return palabras.every((p) =>
                 producto.nombre.toLowerCase().includes (p) || 
+                producto.precio.toLowerCase().includes (p) ||
                 producto.tamaño.toLowerCase().includes (p) || 
                 producto.mascota.toLowerCase().includes(p) ||
                 producto.proveedor.toLowerCase().includes(p) ||
-                producto.kg.toString().toLowerCase(). includes(p)
+                producto.kg.toLowerCase(). includes(p)
             );
         });
     }
