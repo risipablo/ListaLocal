@@ -71,7 +71,7 @@ class Datos2 {
         this.agregarProductos(93,"Piedras Blancas Popy","Adulto","2","8000","Gato","-","Popy")
         this.agregarProductos(56,"Wishka","Adulto ","10","29800","Gato","Wishka","Don Tomas");
         this.agregarProductos(57,"Bocato","Adulto","20","16525","Perro","Bocato","Chubutin");
-        this.agregarProductos(58,"Bocato","Adulto ","10","11980","Gato","Bocato","Chubutin");
+        this.agregarProductos(58,"Bocato","Adulto ","10","12890","Gato","Bocato","Chubutin");
         this.agregarProductos(59,"Optimun","Adulto","1","5507","Gato","Optimun","Nutripet");
         this.agregarProductos(184,"Optimun Nutripet","Adulto ","10","40665","Gato","Optimun","Nutripet");
         this.agregarProductos(197,"Optimun Chubutin","Adulto ","10","43860","Gato","Optimun","Chubutin");
@@ -214,7 +214,7 @@ class Datos2 {
         this.agregarProductos(199,"Pedigree","Rodeos","Pack x 10","5825","Perro","Pedigree","Don Tomas");
         this.agregarProductos(200,"Pedigree","Rodeos","1","582","Perro","Pedigree","Don Tomas");
         this.agregarProductos(201,"Pro Plan","Active Mind R.Pequeña","3","24954","Perro", "Pro Plan","Forastero");
-        this.agregarProductos(202,"Nutri Life","Adulto Cordero y Arroz","15","38400","Perro", "Nutri Life","Chubutin");
+        this.agregarProductos(202,"Nutri Life","Adulto Cordero y Arroz","15","40800","Perro", "Nutri Life","Chubutin");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){

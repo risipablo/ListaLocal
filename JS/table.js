@@ -272,8 +272,8 @@ class Datos {
         this.agregarProductos(256,"Paños Pets", "Adulto","1","850", "Perro", "-","Accesorios" );
         this.agregarProductos(257,"Paños Pets", "Adulto","10","8000", "Perro", "-","Accesorios" )
         this.agregarProductos(258,"Pedigree","Rodeos",1,"750","Perro","Pedigree","Adulto","Perro","Pedigree","Adulto");
-        this.agregarProductos(259,"Nutri Life","Adulto","suelto","3500","Perro","NutriLife","Adulto");
-        this.agregarProductos(260,"Nutri Life","Adulto",15,"48000","Perro","NutriLife","Adulto");
+        this.agregarProductos(259,"Nutri Life","Adulto","suelto","4000","Perro","NutriLife","Adulto");
+        this.agregarProductos(260,"Nutri Life","Adulto",15,"53000","Perro","NutriLife","Adulto");
         this.agregarProductos(261,"Stone Cat","Adulto",16,"18000","Gato","Piedras","Adulto");
 }
 
