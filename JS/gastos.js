@@ -64,10 +64,12 @@ class Datos{
         this.agregarGastos(60,"Can Cid","Mayo",656000,"Pagado","9/5","5556")
         this.agregarGastos(61,"Polares","Mayo",33100,"Pagado","9/5","-")
         this.agregarGastos(62,"Forastero","Mayo",237590,"Pagado","9/5","200179")
-        this.agregarGastos(63,"Nutripet","Mayo",157868,"Impago","14/5","73196")
-        this.agregarGastos(64,"Chubutin","Mayo",183000,"Impago","16/5","10157")
+        this.agregarGastos(63,"Nutripet","Mayo",157868,"Pagado","14/5","73196")
+        this.agregarGastos(64,"Chubutin","Mayo",183000,"Pagado","16/5","10157")
         this.agregarGastos(65,"Don Tomas","Mayo",100600,"Pagado","20/5","382805")
-        this.agregarGastos(64,"Popy","Mayo",99000,"Pagado","20/5","-")
+        this.agregarGastos(66,"Popy","Mayo",99000,"Pagado","20/5","-")
+        this.agregarGastos(67,"Chubutin","Mayo",199000,"Pagado","23/5","10252")
+        this.agregarGastos(68,"Popy","Mayo",108900,"Pagado","24/5","-")
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
@@ -100,8 +102,6 @@ class Datos{
     FiltarporProveedor(proveedor){
         return this.productos.filter((producto) => producto.proveedor == proveedor)
     }
-
-
 
 }
 
