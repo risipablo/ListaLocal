@@ -25,16 +25,20 @@
         document.getElementById("resultado").value = result;
     }
 
-    calculoIva(1.21);
-    function calculoIva(){
-        const number = Number(document.getElementById("iva2").value);
+// funcion de iva
 
-        const resultIva = number * 1.21;
-        
+    function calculoIva(iva){
+        const number = Number(document.getElementById("iva2").value);
+        if (iva === 'multi'){
+            resultIva = number * 1.21
+        } else if (iva === 'div') {
+            resultIva = number / 1.21
+        }        
         document.getElementById("resultadoIva").value = resultIva;
     }
 
-    /* divison por kg */
+
+// divison por kg
     CalculosXkilos(20);
     CalculosXkilos(15);
     CalculosXkilos(7.5);

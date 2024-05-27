@@ -1,6 +1,6 @@
 // Función para mostrar u ocultar el botón de volver arriba
 function toggleBotonVolverArriba() {
-    var botonVolverArriba = document.getElementById("btnVolverArriba");
+    let botonVolverArriba = document.getElementById("btnVolverArriba");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         botonVolverArriba.style.display = "block";
     } else {
@@ -8,7 +8,7 @@ function toggleBotonVolverArriba() {
     }
 }
 
-// Función para desplazar la página al principio
+
 // Función para desplazar la página al principio con animación suave
 function scrollToTop() {
     const scrollStep = -window.scrollY / (500 / 15);

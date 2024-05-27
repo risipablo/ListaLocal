@@ -131,12 +131,6 @@ const bd = new Datos ();
 
 const lista = document.querySelector(".lista")
 
-
-
-    // bd.traerRegistros().then((productos) => {
-    //     cargarProductos(productos);
-    // });
-    
     
 cargarProductos(bd.productos);
 function cargarProductos(productos) {

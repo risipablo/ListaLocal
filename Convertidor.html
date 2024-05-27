@@ -33,9 +33,26 @@
         </div>
         
         <div class="grid">
+            
         <div class="conteiner">
+            <h2>Conversion de IVA</h2>
+            <form id="porcentaje" class="formulario">
+                <div class="valor">
+                    <label for="numero">Ingresar un valor</label>
+                    <input id="iva2" class="valores">
+                </div>
+                <div class="botones">
+                    <button class="boton" type="button" onclick="calculoIva('multi')"> * </button>
+                    <button class="boton" type="button" onclick="calculoIva('div')"> / </button>
+                </div>
+                <div class="resultado">
+                    <label for="numero">Resultado</label>
+                    <input id="resultadoIva" class="valores">
+                </div>
+            </form>
+        </div>
 
-
+        <div class="conteiner">
             <h2>Conversion del 30%</h2>
             <form  class="formulario">
                 <div class="valor">
@@ -54,26 +71,6 @@
         </div>
 
 
-
-        <div class="conteiner">
-            <h2>Conversion de IVA</h2>
-            <form id="porcentaje" class="formulario">
-                <div class="valor">
-                    <label for="numero">Ingresar un valor</label>
-                    <input id="iva2" class="valores">
-                </div>
-                <div class="botones">
-                    <button class="boton" type="button" onclick="calculoIva(1.21)"> * </button>
-                </div>
-                <div class="resultado">
-                    <label for="numero">Resultado</label>
-                    <input id="resultadoIva" class="valores">
-                </div>
-            </form>
-        </div>
-
-
-    
             <div class="conteiner">
                 <h2> Division por Kg</h2>
                 <form id="porcentaje" class="formulario">
