@@ -52,7 +52,7 @@ class Datos{
         this.agregarGastos(48,"Popy","Abril",232500,"Pagado","9/4","-")
         this.agregarGastos(49,"Nutripet","Abril",231850,"Pagado","9/4","72043")
         this.agregarGastos(50,"Amadeo","Abril",135400,"Pagado","11/4","23023")
-        this.agregarGastos(51,"Nutrisur","Abril",246996,"Impago","17/4","86086")
+        this.agregarGastos(51,"Nutrisur","Abril",246996,"Pagado","17/4","86086")
         this.agregarGastos(52,"Forastero","Abril",168286,"Pagado","18/4","198973")
         this.agregarGastos(53,"Chubutin","Abril",85300,"Pagado","18/4","9778")
         this.agregarGastos(54,"Popy","Abril",170800,"Pagado","23/4","-")
@@ -70,8 +70,10 @@ class Datos{
         this.agregarGastos(66,"Popy","Mayo",99000,"Pagado","20/5","-")
         this.agregarGastos(67,"Chubutin","Mayo",199000,"Pagado","23/5","10252")
         this.agregarGastos(68,"Popy","Mayo",108900,"Pagado","24/5","-")
-        this.agregarGastos(68,"Nutrisur","Mayo",56147,"Impago","30/5","41894")
-        this.agregarGastos(68,"Vhubutin","Mayo",73315,"Impago","30/5","10340")
+        this.agregarGastos(69,"Nutrisur","Mayo",56147,"Impago","30/5","41894")
+        this.agregarGastos(70,"Chubutin","Mayo",73315,"Impago","30/5","10340")
+        this.agregarGastos(71,"Forastero","Mayo",156240,"Impago","3/6","201611")
+        this.agregarGastos(72,"Forastero","Mayo",121652,"Impago","4/6",201697)
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){
