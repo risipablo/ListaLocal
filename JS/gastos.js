@@ -74,7 +74,11 @@ class Datos{
         this.agregarGastos(70,"Chubutin","Mayo",73315,"Pagado","30/5","10340")
         this.agregarGastos(71,"Forastero","Junio",156240,"Impago","3/6","201611")
         this.agregarGastos(72,"Forastero","Junio",121652,"Impago","4/6","201697")
-        this.agregarGastos(72,"Chubutin","Junio",66640,"Pagado","4/6","10414")
+        this.agregarGastos(73,"Chubutin","Junio",66640,"Pagado","4/6","10414")
+        this.agregarGastos(74,"Kro Line","Junio",220000,"Pagado","9/6",)
+        this.agregarGastos(75,"Nutripet","Junio",305780,"Impago","11/6",74075)
+        this.agregarGastos(76,"Forastero","Junio",84647,"Impago","11/6",202085)
+        this.agregarGastos(77,"Nutrisur","Junio",223943,"Impago","12/6",42147)
     }
 
     agregarGastos(id,proveedor,mes,monto,estado,fecha,boleta){

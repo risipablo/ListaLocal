@@ -230,7 +230,7 @@ class Datos {
         this.agregarProductos(216,"Cardina","Chica","1","2300","Perro","Accesorios","Adulto");
         this.agregarProductos(217,"Cardina","Mediana","1","2900","Perro","Accesorios","Adulto");
         this.agregarProductos(218,"Cardina","Grande","1","4700","Perro","Accesorios","Adulto");
-        this.agregarProductos(219,"Piedras Blancas","Adulto",4,"2200","Gato","Accesorios","Adulto");
+        this.agregarProductos(219,"Piedras Blancas","Adulto",4,"2200","Gato","Piedras","Adulto");
         this.agregarProductos(49,"Sieger Katze ","Kitten",1,"10700","Gato","Sieger","Adulto");
         this.agregarProductos(220,"Sieger Katze ","Kitten",7.5,"52000","Gato","Sieger","Adulto");
         this.agregarProductos(221,"Sieger Katze ","Adulto",1,"10700","Gato","Sieger","Adulto");
@@ -246,10 +246,10 @@ class Datos {
         this.agregarProductos(229,"Keiko","Adulto",21,"0","Perro","Keiko","Adulto");
         this.agregarProductos(230,"Keiko","Cachorro",1,"0","Perro","Keiko","Adulto");
         this.agregarProductos(231,"Keiko","Cachorro",15,"0","Perro","Keiko","Adulto");
-        this.agregarProductos(232,"Kro Line","Iglu","Mini","6900","Gato","Kro Line","Adulto");
-        this.agregarProductos(233,"Kro Line","Iglu ","Chico","7900","Gato","Kro Line","Adulto");
-        this.agregarProductos(234,"Kro Line","Iglu ","Mediano","8900","Gato","Kro Line","Adulto");
-        this.agregarProductos(235,"Kro Line","Iglu ","Grande","9900","Gato","Kro Line","Adulto");
+        this.agregarProductos(232,"Kro Line","Iglu","Mini","10000","Gato","Kro Line","Adulto");
+        this.agregarProductos(233,"Kro Line","Iglu ","Chico","12000","Gato","Kro Line","Adulto");
+        this.agregarProductos(234,"Kro Line","Iglu ","Mediano","14000","Gato","Kro Line","Adulto");
+        this.agregarProductos(235,"Kro Line","Iglu ","Grande","16000","Gato","Kro Line","Adulto");
         this.agregarProductos(236,"Comedero Doble","Adulto","1","5700","Perro","Accesorios");
         this.agregarProductos(237,"Comedero Plastico Chico","Adulto","1","600","Perro","Accesorios");
         this.agregarProductos(238,"Comedero Chico Inoxidable","Adulto","1","3200","Perro","Accesorios");
@@ -257,14 +257,14 @@ class Datos {
         this.agregarProductos(240,"Comedero Huella","Adulto","1","900","Perro","Accesorios");
         this.agregarProductos(241,"Comedero Grande Inoxidable","Adulto","1","12000","Perro","Accesorios");
         this.agregarProductos(242,"Comedero Plastico Grande","Adulto","1","1800","Perro","Accesorios");
-        this.agregarProductos(243,"Colchoneta Desenfundable Chica","Adulto","60x70","16000","Perro","Accesorios");
-        this.agregarProductos(244,"Colchoneta Desenfundable Mediana","Adulto","70x80","18000","Perro","Accesorios");
-        this.agregarProductos(245,"Colchoneta Desenfundable Grande","Adulto","80x90","21000","Perro","Accesorios");
-        this.agregarProductos(246,"Colchoneta Desenfundable Extra Grande","Adulto","22000","18000","Perro","Accesorios");
-        this.agregarProductos(247,"Nidos Corderito","Adulto","1","16000","Gato","Accesorios");
-        this.agregarProductos(248,"Nidos Impermeable","Adulto","1","21000","Gato","Accesorios",);
-        this.agregarProductos(249,"Moises de Jean","Adulto","1","35000","Gato","Accesorios");
-        this.agregarProductos(251,"Bolson Piedras Sanitarias","Adulto","20","6000","Gato","Accesorios");
+        this.agregarProductos(243,"Colchoneta Desenfundable Chica","Adulto","60x70","16000","Perro","Colchonetas");
+        this.agregarProductos(244,"Colchoneta Desenfundable Mediana","Adulto","70x80","18000","Perro","Colchonetas");
+        this.agregarProductos(245,"Colchoneta Desenfundable Grande","Adulto","80x90","21000","Perro","Colchonetas");
+        this.agregarProductos(246,"Colchoneta Desenfundable Extra Grande","Adulto","90x90","22000","Perro","Colchonetas");
+        this.agregarProductos(247,"Nidos Corderito","Adulto","1","16000","Gato","Colchonetas");
+        this.agregarProductos(248,"Nidos Impermeable","Adulto","1","21000","Gato","Colchonetas",);
+        this.agregarProductos(249,"Moises de Jean","Adulto","1","35000","Gato","Colchonetas");
+        this.agregarProductos(251,"Bolson Piedras Sanitarias","Adulto","20","6000","Gato","Piedras");
         this.agregarProductos(252,"Suertudo","Adulto","1","1200","Perro","Suertudo","Adulto");
         this.agregarProductos(253,"Suertudo","Adulto","20","19000","Perro","Suertudo","Adulto");
         this.agregarProductos(254,"Biopet ","Derma Adulto","1","1900","Perro","Biopet","Adulto");
@@ -275,6 +275,7 @@ class Datos {
         this.agregarProductos(259,"Nutri Life","Adulto","suelto","4000","Perro","NutriLife","Adulto");
         this.agregarProductos(260,"Nutri Life","Adulto",15,"53000","Perro","NutriLife","Adulto");
         this.agregarProductos(261,"Stone Cat","Adulto",16,"18000","Gato","Piedras","Adulto");
+        
 }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,edad){
