@@ -275,6 +275,12 @@ class Datos {
         this.agregarProductos(259,"Nutri Life","Adulto","suelto","4000","Perro","NutriLife","Adulto");
         this.agregarProductos(260,"Nutri Life","Adulto",15,"53000","Perro","NutriLife","Adulto");
         this.agregarProductos(261,"Stone Cat","Adulto",16,"18000","Gato","Piedras","Adulto");
+        this.agregarProductos(262,"Buzo Animado","Kro Line",1,"11000","Perro","Accesorios","Adulto");
+        this.agregarProductos(263,"Buzo Animado","Kro Line",2,"12000","Perro","Accesorios","Adulto");
+        this.agregarProductos(264,"Buzo Animado","Kro Line",3,"13000","Perro","Accesorios","Adulto");
+        this.agregarProductos(265,"Buzo Animado","Kro Line",4,"14000","Perro","Accesorios","Adulto");
+        this.agregarProductos(266,"Buzo Animado","Kro Line",5,"15000","Perro","Accesorios","Adulto");
+        this.agregarProductos(267,"Buzo Animado","Kro Line",6,"16000","Perro","Accesorios","Adulto");
         
 }
 

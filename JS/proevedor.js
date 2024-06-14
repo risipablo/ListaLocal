@@ -213,8 +213,8 @@ class Datos2 {
         this.agregarProductos(198,"Paños Pet 60x60 ","Adulto","10","6612","Perro","Paños","Nutripet");
         this.agregarProductos(199,"Pedigree","Rodeos","Pack x 10","5825","Perro","Pedigree","Don Tomas");
         this.agregarProductos(200,"Pedigree","Rodeos","1","582","Perro","Pedigree","Don Tomas");
-        this.agregarProductos(201,"Pro Plan","Active Mind R.Pequeña","3","24954","Perro", "Pro Plan","Forastero");
-        this.agregarProductos(202,"Nutri Life","Adulto Cordero y Arroz","15","40800","Perro", "Nutri Life","Chubutin");
+        this.agregarProductos(206,"Pro Plan","Active Mind R.Pequeña","3","24954","Perro", "Pro Plan","Forastero");
+        this.agregarProductos(207,"Nutri Life","Adulto Cordero y Arroz","15","40800","Perro", "Nutri Life","Chubutin");
     }
 
     agregarProductos(id,nombre,tamaño,kg,precio,mascota,marca,proveedor){
